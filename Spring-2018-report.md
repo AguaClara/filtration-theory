@@ -7,14 +7,15 @@ Please do not delete my comments. On the next submission I will use them to see 
 </div>
 
 ## Abstract
-Sand filters have historically been used to lower the turbidity of water and are still used in conventional filtration systems. The research in this report is based on the hypothesis that flocs are captured in rings created by filter grains, which implies there is an active filtration zone where empty pores become clogged by the flocs. This active zone moves throughout the bed until there is no remaining space for particles to clog. This research examines the factors that influence the time it takes for the filter to clog, including size and density of flocs.
+Sand filters have historically been used to lower the turbidity of water and are still used in conventional filtration systems. The research in this report is based on the hypothesis that flocs are captured in rings created by filter grains, which implies there is an active filtration zone where empty pores become clogged by the flocs. This active zone moves throughout the bed until there is no remaining space for particles to clog. This research examines the factors that influence the time it takes for the filter to clog.  Several key factors affect the failure time including size and density of flocs and were explored through experiments with different coagulant doses and with a constriction placed before the filter.
+
 
 <div class="alert alert-block alert-danger">
 Add a little about what experiments you will be doing.
 </div>
 
 ## Introduction
-Sand filter have been used since ancient times. One of the most common types of sand filtration is the rapid (gravity) sand filtration, used at AguaClara. This filtration method requires the use of flocculant chemicals to aggregate small particles for filtration. The filter has proven to clean the water below 0.3 NTU, meeting the EPA standards. This can be found from experimentation performed on the model sand filter and sand filters in the water treatment plants built in Honduras.
+Sand filtration has been used since ancient times. One of the most common types of sand filtration is the rapid (gravity) sand filtration, used in  AguaClara water treatment plants. This filtration method requires the use of flocculant chemicals to aggregate small particles for filtration. The filter has proven to clean the water below 0.3 NTU, meeting the EPA standards. This can be found from experimentation performed on the model sand filter and sand filters in the water treatment plants built in Honduras.
 
 <div class="alert alert-block alert-danger">
 Change sand filter to sand filtration in first sentence
@@ -22,7 +23,7 @@ Change sand filter to sand filtration in first sentence
 Change "used at AguaClara" to "used in AguaClara water treatment plants"
 </div>
 
-The goal of the Stacked Rapid Sand (StaRS) Filtration Theory sub-team is to develop a mathematical model describing the interaction of flocs and the filter medium. To do so,  relevant filtration parameters must be determined in order to optimize water filtration, and thus filter performance. The ultimate goal of sand filtration is low effluent turbidity and longest filtration duration. Some examples of filter parameters considered were coagulant dosage, influent flow rate, influent turbidity, and backwash duration. The Spring 2018 team incorporated a new factor, floc size, which could potentially affect the effluent turbidity and failure time of the deep sand filter.
+The goal of the Stacked Rapid Sand (StaRS) Filtration Theory sub-team is to develop a mathematical model describing the interaction of flocs and the filter medium. To do so, the relevant filtration parameters must be determined in order to optimize water filtration, and thus filter performance. The ultimate goal of sand filtration is low effluent turbidity and long filtration duration. Some examples of filter parameters considered were coagulant dosage, influent flow rate, influent turbidity, and backwash duration. The Spring 2018 team incorporated a new factor, floc size, which could potentially affect the effluent turbidity and failure time of the deep bed sand filter.
 
 <div class="alert alert-block alert-danger">
 Change longest to long filtration duration
@@ -30,7 +31,7 @@ Change longest to long filtration duration
 What do you mean by "deep sand filter"?
 </div>
 
-The main goal of the Spring 2018 team was to investigate the idea that the filter has a volume capacity before failure time. The team conducted experiments with a constriction installed; a constriction half the size of the influent tubing was built to reduce the volume of flocs by increasing the shear force felt by the flocs. Further, previous teams have found that experiments at lower PACl dosages saw better filter performance. Thus, the team conducted experiments at lower coagulant dosages, 0.1mg/L, 0.04mg/L and 0.08mg/L, to see confirm this trend. The team sought to determine the effect of flocs volume and low PACl dosage on filter performance after data analysis.
+The main goal of the Spring 2018 team was to investigate the idea that the filter has a volume capacity before failure time. Therefore, the team conducted experiments with a constriction installed inside the tubing of the apparatus. The size of the constriction is  approximately half of the inner diameter of the influent tubing. Its purpose was to reduce the volume of flocs by increasing the shear force felt by the flocs. Additionally, previous teams have found that experiments at lower Polyaluminum Chloride (PACl) dosages saw better filter performance. Thus, the team is conducting experiments at lower coagulant dosages, 0.1mg/L, 0.04mg/L and 0.08mg/L, to confirm this trend. The team seeks to determine the effect of floc volume and low PACl dosage on filter performance after data analysis.
 
 <div class="alert alert-block alert-danger">
 Revise second to last sentence
@@ -40,7 +41,7 @@ Change flocs volume to floc volume in last sentence.
 Define PACl
 </div>
 
-By knowing what parameters affect failure time the effectiveness of the stacked filter could be enhanced. Optimizing the apparatus for longer the failure time and cleaner water will ensure reduced labor work and energy savings since the filter would not need to be backwashed as frequently at the AguaClara plants. Overall, better water filtration achieved via an understanding of filtration physics will lead to more affordable and cleaner water from AguaClara water treatment plants to benefit vulnerable communities worldwide.
+Knowing the parameters affect failure time is the key to enhanced the effectiveness of the stacked filter. In that case the apparatus’ longer failure time and cleaner water, will ensure reduced labor work and energy savings since the filter would not need to be backwashed as frequently at the AguaClara plants. Overall, better water filtration achieved via an understanding of filtration physics will lead to more affordable and cleaner from AguaClara water treatment plants to benefit vulnerable communities worldwide.
 
 <div class="alert alert-block alert-danger">
 Revise for grammar
@@ -52,7 +53,17 @@ Revise for grammar
 Please label "Literature Review and Previous Work"
 </div>
 
-The Fall 2016 StaRS filter conducted several experiments to examine the effect of varying coagulant dosage on the filter’s effluent turbidity and failure time. The team used 6 different coagulant dosages (Figure 1), and concluded that there was no visible relationship between effluent turbidity and PACl dosage from these experiments.
+The team’s literature search revolved around finding failure mechanisms for the filter. Many different theories were explored. However, this section will focus on the theories that make the most sense intuitively and and can be readily tested on the team’s apparatus.
+
+One theory the team explored was that the sand filter had a porosity limit that would induce filter failure when reached. A relation between the size of the flocs and the capacity of the sand grain pores to retain particles lead to the hypothesis that porosity affected filter performance. Przekop & Gradoń (2016) stated that the filter failed with a specific reduction in the porosity of the filter bed. Deeper analysis of this mechanism could be studied by comparing the volume of average flocs with the volume of the pores of the filter medium.
+
+To understand how floc size could be related to porosity, another concept was considered: deposition of particles in the medium filter. In their paper, Tien et al. (1979) modeled a sand filter bed using the constricted tube model instead of the classic straight-capillary model, in which pores within the filter were similar to long straws with a constant width. It was found that the process of filtration could be split into two steps. The first part of the model had a clean bed with no particles attached to the grains; as water was run through the bed, particles began to deposit on the sand grains. The second part of this model sought to account for particle deposition, which changed over time, assuming that the particles coated sand grains uniformly. The model demonstrated that deposited particles increased the volume of solids within the filter. As a result, porosity within the sand bed decreased.
+
+Additionally, it was found that reentrainment of particles also affected filter performance. Tien & Turian (1979) proposed that the redeposition of these aggregates was the main reason for pore blockage and filter clogging. Reentrainment in the context of sand filters is an observed phenomenon that deposited particles would become active in the filter and deposit elsewhere. Reentrainment occurs due to hydrodynamics effects, specifically shear stress. In as much as this effect was observed to clog the filter, reentrainment can lead to the chance that particles become active and escape the filter.
+
+The model proposed by previous StaRS Filter Theory teams aimed to combine the information from previous sand bed research and results from experiments and link the effect of microscopic level physics on macroscopic filter performance. The visual model of constrictions found between the sand grains in the filter was developed by previous StaRS Filter Theory teams from the conclusions of several experimental runs until system failure. Filter failure was defined as the moment when effluent turbidity increases sharply. Kuan-mu Yao (1971) stated that the effectiveness of the filter depended on the size of the flocs. Thus, between experimental runs, the coagulant dosage was varied. Varying coagulant dosage changes the size/volume of flocs, which was theorized to affect filter performance.
+
+The Fall 2016 StaRS filter theory team conducted several experiments to examine the effect of varying coagulant dosage on the effluent turbidity and failure time of the filter. The team used 6 different coagulant dosages (Figure 1). It was concluded that there was no visible relationship between effluent turbidity and PACl dosage from these experiments.
 
 <div class="alert alert-block alert-danger">
 "Fall 2016 StaRS filter theory team"
@@ -62,7 +73,7 @@ The Fall 2016 StaRS filter conducted several experiments to examine the effect o
 
 Figure 1: Data detailing observed filter effluent turbidities over time for the six experiments performed with varying PACl concentrations (0, 0.2, 0.65, 1.1, 1.55, and 2 mg PACl/L.)
 
-The Spring 2017 team’s mathematical and visual model hypothesized that washer-like “dirty” particle built up within the constricted pores of the sand bed in the stacked rapid sand filter(Michael J. Adelman, 2017). It was observed that as the pores were clogged, effluent turbidity increased. In an attempt to confirm the proposed model, the Fall 2017 team conducted experiments to measure the effects of varying coagulant dosages on filter performance.
+The Spring 2017 team’s mathematical and visual model hypothesized that “dirty” particle aggregated within the constricted pores of the sand bed in a washer-like geometry (Adelman, 2017). Additionally, the model predicts that as the pores are clogged, effluent turbidity from the filter would increase. In an attempt to confirm the proposed model, the Fall 2017 team conducted experiments to measure the effects of varying coagulant dosages on filter performance. Despite these predictions, no pattern was found between dosage and optimizing effluent turbidity over time, and no explanation has been offered for this discrepancy between theory and experimental results.
 
 <div class="alert alert-block alert-danger">
 Ensure spacing between words and parathenses i.e. filter (Michael J. Adelman, 2017) - Also the last name should suffice in in-text citations
@@ -70,7 +81,7 @@ Ensure spacing between words and parathenses i.e. filter (Michael J. Adelman, 20
 Consider "The team observed" rather than "It was observed"
 </div>
 
-They also designed experiments to study the effects of shear force between the floc particles and sand medium by changing the flow rate through the filter. From these studies, a pattern was found between dosage and optimizing effluent turbidity over time. Previous AguaClara plants have been built with the assumption that sedimentation processes ought to be designed to achieve the highest particle removal possible, leaving small quantities of floc particles in the effluent water from the sedimentation tanks. However, previous teams hypothesized that leaving some portion of larger flocs in the influent water by controlling the influent flow rate would allow greater aggregation with the smaller flocs. This aggregation of flocs would create larger clumps of particulate matter that would be easier for the filter medium to capture. Further experiments were conducted by previous teams to observe the strength of shear forces on the smaller sized particles, as well as their volume and the overall volume capacity of the sand filter.
+To further these experiments, the Fall 2017 team systematically varied dosages in filter runs to determine the effect of coagulant dose on filter performance and failure time. The team ran the set of experiments twice. The first set was done by gradually increasing PACl dosage, labeled ‘step up’. The second set was obtained by decreasing the PACl dosages, labeled ‘step down’. They also found out that backwashing the filter between filter runs for 20 minutes allowed more consistent results. Their findings are better be understood in the following figure (Figure 2). It was concluded from these experiments that at lower coagulant dosages, failure time was prolonged than that for higher coagulant dosages.
 
 <div class="alert alert-block alert-danger">
 Explain shear force in more detail especially related to flow rate.
@@ -80,7 +91,6 @@ Consider changing the sentence "From these studies...turbidity over time" to inc
 Never gets to the point here. Confusing
 </div>
 
-The Fall 2017 team systematically varied dosages in subsequent filter runs, to determine the effect of coagulant dose on filter performance and failure time. The team ran the set of experiments twice. The first set was done by gradually increasing PACl dosage, ‘step up’, and the second set gradually decreasing the PACl dosages ‘step down’. They also found out that backwashing the filter for 20 minutes allowed more consistent results. Their findings could better be understood in the following figure (Figure 2). It was concluded from these experiments that at lower coagulant dosages, failure time was longer than that for higher coagulant dosages.
 
 <div class="alert alert-block alert-danger">
 remove "subsequent" in first sentence - focus on concise writing
@@ -103,7 +113,11 @@ Avoid words like "could, should, would" - Make declarative statements. In the wo
 </div>
 
 ### Experimental Apparatus
-The laboratory stacked rapid sand filter was created with a 65cm length of PVC filled with sand with a diameter of 0.5 mm to 0.595 mm to a height of 40cm. There was one influent pipe and two effluent pipes, all with a diameter of 9.4 mm and made from copper. A schematic of full system can be seen below, and was designed to replicate a conventional AguaClara water filtration plant after sedimentation.
+The laboratory stacked rapid sand filter was created with a 65cm length of PVC filled with sand run through sieves that have a hole size 0.5 mm and 0.595 mm in diameter to a height of 40cm. There was one influent pipe and two effluent pipes, all with a diameter of 9.4 mm and made from copper. The apparatus is shown in Figure 3, and a schematic of full system can be seen in Figure 4.  The system was designed to replicate a conventional AguaClara water filtration plant after sedimentation.
+
+<img src="https://github.com/AguaClara/stars_filter_theory/blob/master/apparatus.png?raw=true" height=350 width=600>
+
+Figure 3: StaRS Filter Theory experimental apparatus.
 
 <div class="alert alert-block alert-danger">
 Why the variability in the diameter?
@@ -113,7 +127,8 @@ Refer to all graphs/figures by numbers
 Do you have an actual picture of your apparatus?
 </div>
 
-Tap water was pumped into the system and combined with clay and humic acid based on the concentrations calculated by MatLAB, with the stream having an average influent turbidity of 5 NTU. The contaminated water stream then entered the influent turbidimeter before going to the contact chamber, where the contaminated water is mixed with Polyaluminium Chloride (PACl), essentially making the clay particles sticky. After leaving the contact chamber, the water entered the flocculator, a helical coil made of flexible tubing with a diameter of 0.625 mm. The flocculator was designed to increase collisions between clay particles to create flocs that could then be more easily removed in the stacked rapid sand filter. The flocculator was designed with a residence time of 2.67 s for a flow rate of 1.98 mL/s. The energy dissipation rate was 0.27 W/kg, which kept flocs small to simulate influent water for filtration after sedimentation.
+Tap water was pumped into the system and combined with clay and humic acid based on the concentrations calculated by Mathcad, with the stream having an average influent turbidity of 5 NTU to replicate the turbidity of water leaving sedimentation tanks in existing AguaClara plants. The contaminated water stream then entered the influent turbidimeter before going to the contact chamber, where the contaminated water is mixed with PACl, essentially making the clay particles sticky. After leaving the contact chamber, the water entered the flocculator, a helical coil made of flexible tubing with a 0.625 mm diameter. The flocculator was designed to increase collisions between clay particles to create flocs that could then be more easily removed in the stacked rapid sand filter. As determined by previous teams, the flocculator was designed with a residence time of 2.67 s for a flow rate of 1.98 mL/s. The energy dissipation rate was 0.27 W/kg, which kept flocs small to simulate influent water for filtration after sedimentation.
+
 
 <div class="alert alert-block alert-danger">
 Have you converted your MatLAB file into a python file? (Convert it and put it in your manual)
@@ -127,7 +142,8 @@ Consider "0.625 mm diameter" instead of "a diameter of 0.625 mm."
 How did you determine the residence time and the energy disspation rate?
 </div>
 
-Once the water exits the flocculator, it is injected into the stacked filter at an average velocity of 1.8 mm/s. The residence time in the filter was 43.6 seconds on average, after which the water exits the filter through one of the effluent pipes. The two effluent streams mix and then go into the effluent turbidimeter to measure the turbidity of the water. The difference in turbidity between the influent and effluent water can be used to determine filter quality. There is also a 200 kPA pressure sensor immediately before the water enters the filter and immediately after the two effluent pipes combine in order to measure the head loss caused by the rapid filtration.
+Once the water exits the flocculator, it is injected into the stacked filter at an average velocity of 1.8 mm/s as determined by previous teams. The residence time in the filter was 43.6 seconds on average ad determined by previous teams, after which the water exits the filter through one of the effluent pipes. The two effluent streams mix and then go into the effluent turbidimeter to measure the turbidity of the water. The difference in turbidity between the influent and effluent water can be used to determine filter quality. There is also a 200 kPA pressure sensor immediately before the water enters the filter and immediately after the two effluent pipes combine to measure the head loss caused by the rapid filtration. The head loss is the amount of energy lost in the filter due to external forces, and needs to be minimized in order to prevent clogging.
+
 
 <div class="alert alert-block alert-danger">
 How did you determine the velocity and the residence time?
@@ -137,7 +153,7 @@ What is head loss mean here? Why is it important?
 
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/apparatus.jpg?raw=true" height=500 width=1000>
 
-Figure 3: Schematic for the experimental filter apparatus in filter mode showing influent and effluent turbidimeter sampling systems, PACl solution and clay, humic acid solution dosing, pressure sensor to measure filter head loss, and flocculator. Blue connections are used in filter mode. Gray connections are used in backwash mode.
+Figure 3: The schematic for the experimental filter apparatus in filter mode showing influent and effluent turbidimeter sampling systems, PACl solution and clay, humic acid solution dosing, pressure sensor to measure filter head loss, and flocculator. Blue connections are used in filter mode while gray connections are used in backwash mode.
 
 <div class="alert alert-block alert-danger">
 Avoid incomplete sentences in the captions
@@ -148,7 +164,8 @@ It might also be nice to have a picture of your actual set-up along with this.
 </div>
 
 ### Procedure
-The goal of the first set of experiments was to observe if density of particles is the defining factor in filter failure because the flocs would occupy more volume.  A constriction was placed in the influent tubing immediately before the filter. The constriction had half the diameter of the apparatus tubing to create a head loss of approximately 8m in the system. The increased pressure breaks the flocs apart, removing the effect of density and particle size on failure time. This experiment was run with PACl concentration of 2mg/L, 1.55mg/L, 1.1mg/L, 0.65mg/L, 0.2mg/L. All experiments were run with a 1.967mL/s influent flow rate, and the influent turbidity was programmed to stay at 5NTU. The concentration of clay and humic acid in the stock tank was determined by the Mathcad file. The pump speed of the PACl pump and concentration of the PACl stock was calculated based on the team’s Mathcad file to achieve the desired concentration of PACl per liter of water. The runtime of each experiment was 12 hours.
+The goal of the first set of experiments was to observe if density of particles is the defining factor in filter failure because the flocs would occupy more volume.  A constriction was placed in the influent tubing immediately before the filter. The constriction had half the diameter of the apparatus tubing to create a head loss of approximately 8m in the system. The increased shear force breaks the flocs apart, removing the effect of density and particle size on failure time. This experiment was run with PACl concentration of 2mg/L, 1.55mg/L, 1.1mg/L, 0.65mg/L, 0.2mg/L. All experiments were run with a 1.967mL/s influent flow rate, and the influent turbidity was programmed to stay at 5NTU. The concentration of clay and humic acid in the stock tank was determined by the Mathcad file. The pump speed of the PACl pump and concentration of the PACl stock was calculated based on the team’s Mathcad file to achieve the desired concentration of PACl per liter of water. The runtime of each experiment was 12 hours.
+
 
 <div class="alert alert-block alert-danger">
 Does particle density relate to floc size? As flocs get bigger, the density decreases.
@@ -162,6 +179,7 @@ Why run it for 12 hours? Did you backwash at all?
 
 The goal of the second set of experiments confirmed the efficacy of the constriction used in the first experiment. Influent clay particles were mixed with red dye and high definition video footage of the flocs before and after the constriction was filmed. A decrease in the average size of flocs would implicate that the constriction was working as hypothesized. The influent flow rate for this experiment was 1.79mL/s. The clay stock concentration was 1.84g/L, and the pump was set to 13.3RPM. The PACl concentration was 0.025mL/s and 0.0125mL/s. Both PACl doses were run with and without the constriction in place.
 
+
 <div class="alert alert-block alert-danger">
 Revise the first sentence because the word "goal" doesn't make sense There
 
@@ -173,12 +191,14 @@ Did this confirm that the constriction was making smaller particles?
 The purpose of the third set of experiments was to test the hypothesis that there is an optimal PACl dose below 0.2mg/L. At the optimal PACl dose, the filter would have a longer run time than higher doses of PACl without jeopardizing the quality of the effluent water stream. PACl doses of 0.04mg/L and 0.1mg/L were used in two separate experiments.  Both experiments were run with a 1.967mL/s influent flow rate, and the influent turbidity is programmed to stay at 5NTU. The concentration of clay and humic acid in the stock tank was determined by the Mathcad file. The pump speed of the PACl pump and concentration of the PACl stock was calculated based on the team’s Mathcad file to achieve the desired concentration of PACl per liter of water. The runtime of each experiment was 12 hours.
 
 
+
 <div class="alert alert-block alert-danger">
 Why only two PACl doses?
 </div>
 
 ## Results and Analysis
-The team wanted to ensure that the filter performed consistent to previous semesters. Thus, an experiment was performed on the filter with 2 mg/L PACl dosage, chosen arbitrarily. A plot of the effluent turbidity vs. time data can be found below (Figure 4). It was found that the filter failure time was around 1.65 hours. Filter failure time was defined as the time at which the effluent turbidity begins to diverge from the constant, low turbidity observed while the filter was operational. This was consistent with data collected from the previous semester. From this result, the team concluded  that the data collected in subsequent tests would be valid.
+To ensure the filter performance was consistent with previous semesters, an experiment was performed with a 2mg/L PACl dose, chosen arbitrarily. Figure 5 shows the plot of the effluent turbidity versus time data. Filter failure time, defined as the time at which the effluent turbidity diverges from the constant turbidity, was consistent with previous semesters. From this result, it was concluded that subsequent results would be valid.
+
 
 <div class="alert alert-block alert-danger">
 Revise for technical writing.
@@ -186,13 +206,16 @@ Revise for technical writing.
 
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/control%202018.PNG?raw=true" height=350 width=600>
 
-Figure 4: Plot showing effluent filter turbidity vs. time for the test performed to confirm system consistency. It was observed that the filter failure time occured around 1.65 hours.
+Figure 5: Plot showing effluent filter turbidity vs. time for the test performed to confirm system consistency. It was observed that the filter failure time occurred around 1.65 hours, when the effluent turbidity starts to diverge.
+
+
 
 <div class="alert alert-block alert-danger">
 Is the filter time the time at which the turbidity starts to increase or when it increases to a certain amount/percentage?
 </div>
 
-The following filter tests were performed to test the effects of particle size on filter performance. In these filter tests, a constriction was added before the filter influent line. The purpose of this constriction was to increase the flow velocity, hoping to increase the shear force within the line and break up the flocs created in the flocculator. Thus, the size of the particles entering in filter would be smaller, while the density of the floc was unchanged. The range of PACl dosages experimented with were the same used by previous StaRS Filter Theory teams (0.2-2.0 mg/L of PACl). Error bars for the control experiments were determined using the compiled runs from StaRS Filter Theory Spring 2016 and Fall 2017. A summary of the failure times recorded were plotted against the PACl dosage used for both control and constriction experiments (Figure 5). It seemed that stepping down between 1.55 mg/L and 1.1 mg/L of PACl dosage, there was a sudden change in the way the filter performance was affected by the constriction. The team hypothesized that there may be a balance in the constriction between forces that further flocculation and shear forces that break flocs. For the lower-range PACl dosages, the smaller flocs created are a size such that floc destruction dominates over flocculation at the constriction. Thus, the particles actually became smaller prior to entering the filter, causing the filter to fail later, as the smaller particles can be better entrained in the sand pores. On the other hand, for higher the higher-range PACl dosages, the larger flocs are such a size that flocculation dominates floc destruction at the constriction. Thus, the particles actually became larger prior to entering the filter, causing the filter to fail sooner.
+The following filter tests were performed to test the effects of particle size on filter performance. A constriction was added before the filter influent line to break the flocs created in the flocculator. The range of PACl dosages experimented with were the same used by previous StaRS Filter Theory teams (0.2-2.0 mg/L of PACl). Error bars for the control experiments were created from StaRS Filter Theory Spring 2016 and Fall 2017 failure times. Figure 6 shows a summary of the failure times for the various PACl dosages in the control and constriction experiments. It was observed that decreasing the PACl dose from 1.55 mg/L to 1.1 mg/L caused a sudden change in the way the filter performance was affected by the constriction. The team hypothesized that the constriction breaks the flocs apart, but the increased flow rate after the constriction may lead to flocculation. For the lower-range PACl dosages, the flocculation at the constriction is minimal compared to the effect of shear force breaking the flocs apart. Based on this, the particles decrease in size before entering the filter, causing the filter to fail later, as the smaller particles can be better entrained in the sand pores. Conversely, for higher PACl dosages, the effect of flocculation at the constriction contributed more to the size of particles entering the filter. Thus, the particles became larger prior to entering the filter, causing the filter to fail sooner.
+
 
 <div class="alert alert-block alert-danger">
 Lots of repetition from methods, slim down explanation
@@ -206,13 +229,17 @@ Revise paragraph for technical writing and clarity
 
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/constriction%20compiled.png?raw=true" height=350 width=600>
 
-Figure 5: Plot showing failure time as a function of PACl dosage. Compares results for experiments run with a constriction installed before the filter, "Constriction Experiments", and experiments run without a constriction, "Control Experiments", performed in previous semesters.
+Figure 6: The plot shows failure time as a function of PACl dosage. It compares results for experiments run with a constriction installed before the filter, "Constriction Experiments", and experiments run without a constriction, "Control Experiments", performed in previous semesters.
 
-To verify the effectiveness of the created constriction on changing particle size, the Red Dye Experiments were performed. The size of the flocs were visualized with and without the constriction. For the concentration of PACl and red dye used, it was visually determined that the size of the flocs was significantly decreased due to the constriction. Thus, it was determined that the varying filter performance was directly related to the changed particle volume size, as every other parameter was kept constant between experiments with the same PACl dosage. The videos can be found by following the link below:
+
+
+To verify that the constriction did have an effect on floc size, experiments utilizing red dye were performed. The stream of flocs was recorded with and without the constriction. It was visually determined that the size of the flocs was significantly decreased due to the constriction. Thus, it was determined that the varying filter performance was directly related to the changed particle volume size, as every other parameter was kept constant. The videos can be found by following the link below:
+
 
 https://github.com/AguaClara/stars_filter_theory/issues/22
 
-The turbidity difference tests were performed to determine whether or not the size of the particle would have a significant impact on how the turbidimeter read turbidity. It was determined that although there was a consistent different in turbidity between the influent and effluent turbidity, this different was insignificant. The average difference in influent and effluent turbidity was around 4% of the controlled turbidity of the water for the experiments. A graphic with the all the performed experiments compiled can be found below (Figure 6).
+The turbidity difference tests were performed to determine whether the size of the particle would have a significant impact on how the turbidimeter read turbidity. It was determined that although there was a consistent difference in turbidity between the influent and effluent turbidity, this difference was insignificant. The average difference in influent and effluent turbidity was around 4% of the controlled turbidity of the water for the experiments. A graphic with the all the performed experiments compiled can be found below (Figure 7).
+
 
 <div class="alert alert-block alert-danger">
 Revise for spelling
@@ -220,9 +247,10 @@ Revise for spelling
 
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/turbidity%20diff.png?raw=true" height=350 width=600>
 
-Figure 6: Plot showing difference between influent turbidity and effluent turbidity when 5NTU water was run through the influent turbidimeter, into the flocculator, and through the effluent turbiditer.
+Figure 7: Plot showing difference between influent turbidity and effluent turbidity when 5NTU water was run through the influent turbidimeter, into the flocculator, and through the effluent turbiditer.
 
-Next, the low PACl concentration experiments were performed. The team wanted to explore a lower range of PACl concentrations for filter runs because previous teams have found that while turbidity remained similar throughout all PACl dosages tested, the failure time for lower dosages was much longer. This meant that the filter was operational for a longer period of time when lower PACl dosages were used for same performance levels. The range the team planned to test was 0.02-0.10 mg/L PACL. It was found that the filter did not fail within the 12h time period for the 0.10 mg/L PACl dosage, with effluent turbidity staying between 0.10-0.15 NTU. This was the best performance ever seen for this filter. Next, the 0.04 mg/L PACl dosage was tested. The filter failed around 3.6h, a significant decrease from the 0.10 mg/L PACl dosage. However, it was noted that while effluent turbidity diverged from 3.6h, the divergence was less exaggerated as seen in previous tests for higher PACl dosages. The team believed that there may be an optimal PACl dosage around 0.10 mg/L. The data for each of these tests can be found below (Figures 7 & 8).
+Next, the low PACl concentration experiments were performed without the constriction. The team wanted to explore a lower range of PACl concentrations for filter runs because previous teams have found that while turbidity remained similar throughout all PACl dosages tested, the failure time for lower dosages was much longer. This meant that the filter was operational for a longer period of time when lower PACl dosages were used for same performance levels. The range the team planned to test was 0.02-0.10 mg/L PACL. It was found that the filter did not fail within the 12h time period for the 0.10 mg/L PACl dosage, with effluent turbidity staying between 0.10-0.15 NTU. This was the best performance ever seen for this filter. Next, the 0.04 mg/L PACl dosage was tested. The filter failed around 3.6h, a significant decrease from the 0.10 mg/L PACl dosage. However, it was noted that while effluent turbidity diverged from 3.6h, the divergence was less exaggerated as seen in previous tests for higher PACl dosages. The team believed that there may be an optimal PACl dosage around 0.10 mg/L. The data for each of these tests can be found below (Figures 8 & 9).
+
 
 <div class="alert alert-block alert-danger">
 Were these experiments with or without the constriction?
@@ -230,14 +258,14 @@ Were these experiments with or without the constriction?
 
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/0.10mgL%20pacl.png?raw=true" height=350 width=600>
 
-Figure 7: Effluent turbidity vs. time for 0.10 mg/L PACl dosage experiment.
+Figure 8: Effluent turbidity vs. time for 0.10 mg/L PACl dosage experiment.
 
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/0.04mgL%20pacl.png?raw=true" height=350 width=600>
 
-Figure 8: Effluent turbidity vs. time for 0.04 mg/L PACl dosage experiment.
+Figure 9: Effluent turbidity vs. time for 0.04 mg/L PACl dosage experiment.
 
 ## Conclusions
-From the constriction runs, along with visual results from the red dye experiments, it was determined that the size of the particles did effect filter performance. It was known that as PACl dosage changed, the size and density of the flocs also changed as a function of PACl added. Thus, the varying performance of the filter, under a controlled PACl dosage, could only be caused by the placement of the constriction and the resulting change to floc size. However, conflicting results on the effect of the constriction on floc size were found. The constriction seemed to have varying effects on filter performance, as controlled by PACl dosage. At larger PACl concentrations, the filter performed worse. While, at lower PACl concentrations, the filter performed better. The team hypothesized a push/pull relationship between how the constriction can both break flocs and act as a site for further flocculation. This relation was hypothesized to be dependent on particle size entering the constriction.
+From the constriction runs and red-dye experiments, it was determined that the size of the particles did affect filter performance. It was known that as PACl dosage changed, the size and density of the flocs also changed as a function of PACl added. The varying filter performance, under a controlled PACl dosage, could only be caused by the placement of the constriction and the resulting change to floc size. However, conflicting results on the effect of the constriction on floc size were found. The constriction seemed to have varying effects on filter performance, as controlled by PACl dosage. At larger PACl concentrations, the filter performed worse. While, at lower PACl concentrations, the filter performed better. The team hypothesized a push/pull relationship between how the constriction can both break flocs and act as a site for further flocculation. This relation was hypothesized to be dependent on particle size, and thus PACl dosage, entering the constriction.
 
 <div class="alert alert-block alert-danger">
 Focus on revising for concise language - eliminate unnecessary words and sentences
@@ -245,13 +273,13 @@ Focus on revising for concise language - eliminate unnecessary words and sentenc
 In the last sentence relate the particle size entering the constriction with coagulant doses.
 </div>
 
-From the effluent turbidity tests, it was concluded that the turbidimeters used largely accounted for differences in turbidity readings due to particle size/particle density in the cuvette.
+From the effluent turbidity tests, it was concluded that the turbidimeters used largely corrected for potential differences in turbidity readings due to particle size/particle density in the cuvette.
 
 <div class="alert alert-block alert-danger">
 Maybe say this differently because I thought that the conclusion was that the turbidimeter was not sensitive to particle size and density in the water.
 </div>
 
-From the low PACl dosage tests, the team concluded that there seemed to be an optimal PACl dosage for filter performance. That dosage was somewhere near 0.10 mg/L PACl, but further testing needed to be performed to confirm this.1
+From the low PACl dosage tests without the constriction, the team concluded that there seemed to be an optimal PACl dosage for filter performance. That dosage was somewhere near 0.10 mg/L PACl, but further testing needed to be performed to confirm this. These results could change the way that PACl should be dosed at water treatment plants in Honduras.
 
 <div class="alert alert-block alert-danger">
 Was this for constricted or not constricted.
@@ -261,7 +289,7 @@ AguaClara. Does this coagulant dose directly correlate to how it would be used i
 </div>
 
 ## Future Work
-In the following weeks, the team will continue to run the lower PACl dosage experiments: 0.02-0.10 mg/L PACl range. Then, the team will rerun these experiments with the needle valve constriction to replicate the experiments done at higher PACl dosages during the earlier half of the semester.
+The team will continue to run the lower PACl dosage experiments: 0.02 to 0.10 mg/L PACl range. Then, the team will rerun these experiments with the needle valve constriction to replicate the experiments done at the previous PACl dosage range (0.2 to 2 mg/L PACl), during the earlier half of the semester.
 
 <div class="alert alert-block alert-danger">
 Revise first sentence and eliminate collisions
@@ -269,7 +297,7 @@ Revise first sentence and eliminate collisions
 What higher dose experiments are you talking about?
 </div>
 
-In the long term, the team will look to examine the effects of high G flocculation on filter performance. It is hypothesized that the particles that escape the filter are the primary particles that slip past flocculation. This is due to the assumed effect that when particles aggregate into larger flocs, it becomes harder for these larger flocs to continue aggregating with primary particles much smaller than their size (due to shear force and other factors). These primary particles then bypass the filter and exit with the cleaned water. It is believed that high G flocculation will produce a more uniform distribution of smaller flocs, as the high velocity gradient will discourage larger flocs from forming. These smaller flocs will be able to flocculate with isolated primary particles during the flocculation pocess due to the more forgiving size different of the flocs to the primary particles. Further, it has been found that in slow-flocculation, PACl particles tend to stick to flocculator walls, decreasing the expected dosage; in contrast, high G flocculation has been found to fix this problem, resolving the expected PACl dosage (and effectively increasing the PACl dosage from what has been previously observed by the team). This should increase the PACl coverage on the clay particles, making them flocculate and entrain better in the filter.
+In the long term, the team will look to examine the effects of high G flocculation on filter performance. It is hypothesized that the particles that escape the filter are the primary particles that bypassed flocculation. This is due to the assumed effect that when particles aggregate into larger flocs, it becomes harder for these larger flocs to combine with particles smaller than their size (due to shear force and other factors). These primary particles then bypass the filter and exit with the cleaned water. It is believed that high G flocculation will produce a more uniform distribution of smaller flocs, as the steeper velocity gradient will disproportionately-sized flocs from forming. Thus, these smaller flocs will be able to flocculate with isolated primary particles during flocculation. Further, it has been found that in traditional flocculation, PACl particles tend to stick to flocculator walls, decreasing the expected dosage; in contrast, high G flocculation has been found to fix this problem. This should increase the PACl coverage on the clay particles, facilitating better flocculation and entrainment in the filter.
 
 <div class="alert alert-block alert-danger">
 consider "traditional flocculation" rather than "slow-flocculation"
@@ -295,40 +323,42 @@ Include past reports from StaRS and other relevant reports (High G floc)
 
 ## Experimental Methods
 ### Set-up
-Replenishing Clay & PACl Stocks:
-* Set the amount of liters needed for the stock tank
-* Calculate the mass amount necessary for this amount of water.
-* Weigh out the correct amount of clay and humic acid to the thousandths place.
-* Measure the correct amount of tap water in a Volumetric Flask. Use the water to pour any remaining clay or humic acid from the weight balance into the tank.
+Replenishing clay & PACl stocks:
+1. Set the amount of liters needed for the stock tank
+2. Calculate the mass amount necessary for this amount of water.
+3. Weigh out the correct amount of clay and humic acid to the thousandths place.
+4. Measure the correct amount of tap water in a Volumetric Flask. Use the water to pour any remaining clay or humic acid from the weight balance into the tank.
 
 <div class="alert alert-block alert-danger">
 The other list headers are uncapitalized (keep consistent)
 </div>
 
 For PACl stock tank:
-* Use the deionized water in lab to partially fill a 1L  volumetric flask.
-* Pipette the correct volume of PACl needed for 1L of water.
-* Fill the rest of the flask with deionized water.
-* Repeat the process and refill the stock tank.
+1. Use the deionized water in lab to partially fill a 1L  volumetric flask.
+2. Pipette the correct volume of PACl needed for 1L of water.
+3. Fill the rest of the flask with deionized water.
+4. Repeat the process and refill the stock tank.
 
-### Experiment
-* Once a week: Calibrate the water pump by finding the rpm which yields a desired flow rate.
-* Once a week: Calibrate the PAC pump by finding the rpm which yields a desired flow rate.
-* Once a week:  Calibrate the clay pump through ProCoDa.
-* Follow cleaning protocol.
-* State: Filter no clay to ensure there are no air bubbles in the system before the filter.
-* Prime PACl pump to get rid of air bubbles in tubing PACl tank to contact chamber.
-* Backwash if there are air bubbles in the filter.
-* State: Filter no clay. Run until effluent turbidity is below 0.5 NTU, indicating that residual clay and coagulant is minimal.
-* State: Off. Ensure the height of the settled bed remains constant between experimental runs, it necessary, externally agitate the filter to settle the bed.  Ensure there is no sand stuck a the top of the filer by tapping the pipe with the hammer.
-* Ensure the influent water turbidity is as expected for clean tap water.
-* Ensure the mixer for the clay stock tank is on.
-* Ensure the valves to the bed and the PACl stock tank are open, ensure the lid to the PACl stock tank is unscrewed
-* Ensure that there is enough solution the PACl and clay stock tanks for the experiment run. Instructions for replenishing the stock tanks are below.
-* Ensure the data is going to the proper file on the computer to prevent lost data. It should either be automatically uploaded to Google drive or the data should be manually uploaded after the experiment is completed.
-* State: Open Solenoid Valves. Zero pressure sensor in ProCoDA (Click Volts, click Zero). Turn on the Clay pump.
-* State: Filter. Start a new experiment. Manually set PACl pump speed. Turn on Automatic mode. Turn on the clay pump and the start the PACl pump.
-* Ensure that PID control for the clay pump properly adjusts the influent turbidity to target turbidity.
+### Pre-Experiment Checklist
+1. Calibrate the water pump by finding the rpm which yields a desired flow rate once a week.
+2. Calibrate the PAC pump by finding the rpm which yields a desired flow rate once a week..
+3. Calibrate the clay pump through ProCoDa once a week.
+4. Follow cleaning protocol.
+
+### Experiment Steps
+1. Use the filter no clay state to ensure there are no air bubbles in the system before the filter.
+2. Prime PACl pump to get rid of air bubbles in tubing PACl tank to contact chamber.
+3. Backwash again if there are air bubbles in the filter.
+4. Use the filter no clay state to run water until effluent turbidity is below 0.5 NTU, indicating that residual clay and coagulant is minimal.
+5. Use the off state and ensure the height of the settled bed remains constant between experimental runs, if necessary, externally agitate the filter to settle the bed.  Ensure there is no sand stuck a the top of the filer by tapping the pipe with the hammer.
+6. Ensure the influent water turbidity is as expected for clean tap water.
+7. Ensure the mixer for the clay stock tank is on.
+8. Ensure the valves to the bed and the PACl stock tank are open, ensure the lid to the PACl stock tank is unscrewed
+9. Ensure that there is enough solution the PACl and clay stock tanks for the experiment run. Instructions for replenishing the stock tanks are below.
+10. Ensure the data is going to the proper file on the computer to prevent lost data. It should either be automatically uploaded to Google drive or the data should be manually uploaded after the experiment is completed.
+11. State: Open Solenoid Valves. Zero pressure sensor in ProCoDA (Click Volts, click Zero). Turn on the Clay pump.
+12. State: Filter. Start a new experiment. Manually set PACl pump speed. Turn on Automatic mode. Turn on the clay pump and the start the PACl pump.
+13. Ensure that PID control for the clay pump properly adjusts the influent turbidity to target turbidity.
 
 <div class="alert alert-block alert-danger">
 Maybe make this less dense by separating pre-experiment checklist items from experimental steps - unresolved?
@@ -346,29 +376,29 @@ Watch capitalization - unresolved?
 </div>
 
 Clean filter sand
-* State: Filter no clay for 1 minute.
-* State: Backwash Half Flow. Ensure that the filter bed fluidizes.
-* State: Backwash Toggle. Ensure that the filter bed fluidizes at the full flow rate while the solenoid valve controlling influent water for backwash is toggling.
-* State: Backwash. Run for 20 minutes, and continue backwashing if there are visible clay particles in the filter. If the filter sand has not yet fluidized, Off, Backwash Half Flow, Backwash Toggle, and Backwash helps break up the sand column.
-* State: Off.
+1. State: Filter no clay for 1 minute.
+2. State: Backwash Half Flow. Ensure that the filter bed fluidizes.
+3. State: Backwash Toggle. Ensure that the filter bed fluidizes at the full flow rate while the solenoid valve controlling influent water for backwash is toggling.
+4. State: Backwash. Run for 20 minutes, and continue backwashing if there are visible clay particles in the filter. If the filter sand has not yet fluidized, Off, Backwash Half Flow, Backwash Toggle, and Backwash helps break up the sand column.
+5. State: Off.
 
 Clean contact chamber, flocculator, and tubing from PACl stock tank.
-* Close the manual valve after the flocculator. Disconnect the system at the tubing after the flocculator and before the valve. Turn the clay pump off.
-* State: Filter. Place a bucket at the open end of the flocculator to catch influent water.
-* Replace the PACl stock tank with a tank of vinegar (5\% acidity).
-* Run the PACl pump at full speed for 30 s to flush the contact chamber and flocculator with vinegar.
-* Replace tank of vinegar with tank of water. Run the PACl pump at full speed for 30 s to remove vinegar from the system.
-* State: Off.
-* Clean the contact chamber, flocculator, and tubing. Disconnect the system at the tubing before the contact chamber and flush the dirty parts of the system with water.
-* Reconnect all parts leading up to the filter. Ensure the piece of micro-tubing in the contact chamber is approximately half way in the chamber.
+1. Close the manual valve after the flocculator. Disconnect the system at the tubing after the flocculator and before the valve. Turn the clay pump off.
+2. State: Filter. Place a bucket at the open end of the flocculator to catch influent water.
+3. Replace the PACl stock tank with a tank of vinegar (5\% acidity).
+4. Run the PACl pump at full speed for 30 s to flush the contact chamber and flocculator with vinegar.
+5. Replace tank of vinegar with tank of water. Run the PACl pump at full speed for 30 s to remove vinegar from the system.
+6. State: Off.
+7. Clean the contact chamber, flocculator, and tubing. Disconnect the system at the tubing before the contact chamber and flush the dirty parts of the system with water.
+8. Reconnect all parts leading up to the filter. Ensure the piece of micro-tubing in the contact chamber is approximately half way in the chamber.
 
 Clean turbidimeters
-* Empty turbidimeter cuvettes and rinse with DI water.
-* Screw cuvettes back in and wipe outside with a Kimwipe. Do not reassemble turbidimeters yet.
-* State: Filter. Ensure that there are no leaks from the cuvettes.
-* Shake to ensure there are no air bubbles in the system.
-* State: Off. Reconnect system at flocculator.
-* If there are no leaks, put the cuvettes back into the turbidimeter.
+1. Empty turbidimeter cuvettes and rinse with DI water.
+2. Screw cuvettes back in and wipe outside with a Kimwipe. Do not reassemble turbidimeters yet.
+3. State: Filter. Ensure that there are no leaks from the cuvettes.
+4. Shake to ensure there are no air bubbles in the system.
+5. State: Off. Reconnect system at flocculator.
+6. If there are no leaks, put the cuvettes back into the turbidimeter.
 
 <div class="alert alert-block alert-danger">
 I recommend numbered lists.
