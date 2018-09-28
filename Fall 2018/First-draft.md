@@ -2,7 +2,7 @@
 ####Barbara Oramah, Lainey Reed, Emily Spiek
 #####September 28th, 2018
 
-hi
+
 ####Abstract (100 words max)
 Abstracts usually spend
 - 25% of their space on the purpose and importance of the research (Introduction) - state what StaRS is, state the independent variables we will be looking at and why we believe it will improve our filter
