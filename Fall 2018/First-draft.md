@@ -24,13 +24,13 @@ The results of these experiments could hold major significance for filtration me
 
 ### Literature Review
 
-The literature review was focused on finding other research involving changing the grain size and coagulant dosage. Many models of filters take into account resuspension, the process by which precipitated aggregate materials get unstuck from pores and move elsewhere (Tien et al., 1979, Przekop & Gradon, 2016). We are not taking into account resuspension, and instead will be assuming that particles either permanently bind to sand particles or completely pass through the system.
+The literature review was focused on finding other research involving changing the grain size and coagulant dosage. Many models of filters take into account resuspension, the process by which precipitated aggregate materials get unstuck from pores and move elsewhere (Tien et al., 1979, Przekop & Gradon, 2016). We are not taking into account resuspension, and instead will be assuming that particles either permanently bind to sand particles or completely pass through the system. This perspective was stated by Monroe. We will be searching to see the impact of neglecting resuspension in our experiment throughout the semester.
 
 Skouras et. al (2004) does not take into account this reentrainment of particles. In this project, the pressure was kept constant, which led to a decrease in velocity and filter efficiency. Then when velocity is kept constant, the flow only goes through deposit-free pores, which are kept cleared by higher velocities in the pores. We were only able to access the abstract to this paper, and have requested the full paper to understand the results more in-depth.
 
 We will be changing sand grain size to see how it affects ripening time and failure time. We already know that pore size has an effect on ripening time, with smaller pores leading to longer ripening times (Przekop & Gradon, 2016).
 
-Investigations into grain sizes have found that they have less of an effect compared to changes in flocculant doses (Chuang & Li, 1997). Larger doses of flocculant have a shorter ripening time, but also clog pores at a faster rate, and increase the shear force in unclogged pores. However, grain size can have effects based on the flocculant dosage. Larger grains with higher flocculant dosage reduce the rate of pore clogging, because larger aggregates are able to pass through. However, this study used glass beads as filter material. We will be using sand.
+Investigations into grain sizes have found that they have less of an effect compared to changes in coagulant doses (Chuang & Li, 1997). Larger doses of coagulant have a shorter ripening time, but also clog pores at a faster rate, and increase the shear force in unclogged pores. However, grain size can have effects based on the flocculant dosage. Larger grains with higher flocculant dosage reduce the rate of pore clogging, because larger aggregates are able to pass through. However, this study used glass beads as filter material. We will be using sand.
 
 
 
@@ -40,13 +40,13 @@ The previous models proposed by StaRS Filter Theory teams was focused on combini
 
 The Spring 2018 team focused primarily on changing the density of the particle as well as looking at coagulant dosages. By varying the coagulant dosage this in turn increased the size of the floc particles flowing into the filters. In order to see the effects of the varying constrictions, the Spring 2018 team put red dye in order to visualise the floc sizes flowing into the filter. By measuring the different floc sizes, the team was able to deduce that the size of flocs did effect the performance of the filter. Large coagulant dosages proved to make the performance worse.
 
-To further understand the effect of coagulant dosages, the Fall 2017 team systematically varied dosages in filter runs to determine the effect of coagulant dose on filter performance and failure time. The team ran the set of experiments twice. The first set was done by gradually increasing PACl dosage, labeled ‘step up’. The second set was obtained by decreasing the PACl dosages, labeled ‘step down’. They also found out that backwashing the filter between filter runs for 20 minutes allowed more consistent results. Their findings are better be understood in the following figure (Figure 2). It was concluded from these experiments that at lower coagulant dosages, failure time was prolonged than that for higher coagulant dosages.
+To further understand the effect of coagulant dosages, the Fall 2017 team systematically varied dosages in filter runs to determine the effect of coagulant dose on filter performance and failure time. The team ran the set of experiments twice. The first set was done by gradually increasing PACl dosage, labeled ‘step up’. The second set was obtained by decreasing the PACl dosages, labeled ‘step down’. They also found out that backwashing the filter between filter runs for 20 minutes allowed more consistent results. It was concluded from these experiments that at lower coagulant dosages, failure time was prolonged than that for higher coagulant dosages.
 
 The findings of the previous teams are important as the results allow us to choose an accurate range for the coagulant dosages we will use for this semester. Furthermore, it allows us to test different variables to find filter efficiency as well as improving the ripening time of the filters.
 
 ### Works Cited
 
-Chuang, C.-J., & Li, K.-Y. (1997). Effect of coagluant dosage and grain size on the performance of direct filtration. Separation and Purification Technology, 12(3), 229–241. https://doi.org/10.1016/S1383-5866(97)00048-8
+Chuang, C.-J., & Li, K.-Y. (1997). Effect of coagulant dosage and grain size on the performance of direct filtration. Separation and Purification Technology, 12(3), 229–241. https://doi.org/10.1016/S1383-5866(97)00048-8
 
 Przekop, R., & Gradoń, L. (2016). Dynamics of particle loading in deep-bed filter. Transport, deposition and reentrainment. Chemical and Process Engineering, 37(3), 405–417. https://doi.org/10.1515/cpe-2016-0033
 
