@@ -54,4 +54,4 @@ Skouras E. D., Burganos V. N., Paraskeva C. A., & Payatakes A. C. (2004). Simula
 
 Tien, C., Turian, R. M., & Pendse, H. (1979). Simulation of the dynamic behavior of deep bed filters. AIChE Journal, 25(3), 385–395. https://doi.org/10.1002/aic.690250302
 
-Kuan-Mu Yao, Mohammad T. Habibian, and Charles R. O'Melia (1971). Water and waste water filtration. Concepts and applications. ACS publications, 5 (11), 1105-1112 doi: 10.1021/es60058a005.
+Kuan-Mu Yao, Mohammad T. Habibian, and Charles R. O'Melia (1971). Water and waste water filtration. Concepts and applications. ACS publications, 5 (11), 1105-1112 https://doi.org/10.1021/es60058a005.
