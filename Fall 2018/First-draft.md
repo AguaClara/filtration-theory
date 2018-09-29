@@ -35,7 +35,7 @@ Skouras et. al (2004) does not take into account this reentrainment of particles
 
 We will be changing sand grain size to see how it affects ripening time and failure time. We already know that pore size has an effect on ripening time, with smaller pores leading to longer ripening times (Przekop & Gradon, 2016).
 
-Investigations into grain sizes have found that they have less of an effect compared to changes in flocculant doses (Chuang & Li, 1997). Larger doses of flocculant have a shorter ripening time, but also clog pores at a faster rate, and increase the shear force in unclogged pores. However, grain size can have effects based on the flocculant dosage. Larger grains with higher flocculant dosage reduce the rate of pore clogging, because larger aggregates are able to pass through. However, this study used glass beads instead of the sand that we will be using.
+Investigations into grain sizes have found that they have less of an effect compared to changes in flocculant doses (Chuang & Li, 1997). Larger doses of flocculant have a shorter ripening time, but also clog pores at a faster rate, and increase the shear force in unclogged pores. However, grain size can have effects based on the flocculant dosage. Larger grains with higher flocculant dosage reduce the rate of pore clogging, because larger aggregates are able to pass through. However, this study used glass beads as filter material. We will be using sand.
 
 
 
