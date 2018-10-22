@@ -4,7 +4,7 @@
 
 [CEO: Hello StaRS Filter Theory! I will add my comments and suggested edits in with square brackets like this comments!]
 
-[Overall this draft is in a pretty good place! It's very clear what you are working on and what your plan for the semester is. Jsut work on cleaning up the first person pronouns and you' be good to go. Looking forward to your next draft!]
+[Overall this draft is in a pretty good place! It's very clear what you are working on and what your plan for the semester is. Just work on cleaning up the first person pronouns and you' be good to go. Looking forward to your next draft!]
 
 ### Abstract
 
