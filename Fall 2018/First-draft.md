@@ -22,8 +22,9 @@ The main goal of the Fall 2018 team is to investigate variation in sand grain si
 
 The team hypothesizes that the filter with the largest sand grains will have the shortest failure time. The team expects that flocs will be deposited along the sand pores at the same rate in every filter because the rate of the influent stream will be held constant. However, the volume of the filter will be held constant, so when sand grain size increases, the amount of sand grain pores in the filter decreases. Ultimately, this means that for a filter filled with larger sand grains, there will be less fewer sand pores active at one time. This is demonstrated in Figure 1. This is predicted to cause the active filtration zone to move through the filter faster. The team expects the filter to fail faster than for a filter filled with smaller sand grains.
 
-![Sand Pore Diagram]
-(https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/sand%20grain%20diagram.jpg?raw=true)
+
+<img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/sand%20grain%20diagram.jpg?raw=true" height=290 width=512>
+
 Figure 1 demonstrates that when sand grain sizes are larger, there are fewer pores in the filter.
 
 The results of these experiments could hold major significance for filtration methods of AguaClara and other water filtration plants. If it is discovered that sand grain size does impact filter performance, the team can determine the sand grain size that optimizes effluent turbidity and failure time. This parameter could be included to create a mathematical model that accurately describes StaRs filters. Moreover, using the optimum type of sand in future sand filters could increase filter duration; filters would need to be backwashed less often. This would increase efficiency by saving both time and resources.
