@@ -25,7 +25,7 @@ The team hypothesizes that the filter with the largest sand grains will have the
 
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/sand%20grain%20diagram.jpg?raw=true" heights=720 width=1260>
 
-Figure 1 demonstrates that when sand grain sizes are larger, there are fewer pores in the filter.
+**Figure 1** demonstrates that when sand grain sizes are larger, there are fewer pores in the filter.
 
 The results of these experiments could hold major significance for filtration methods of AguaClara and other water filtration plants. If it is discovered that sand grain size does impact filter performance, the team can determine the sand grain size that optimizes effluent turbidity and failure time. This parameter could be included to create a mathematical model that accurately describes StaRs filters. Moreover, using the optimum type of sand in future sand filters could increase filter duration; filters would need to be backwashed less often. This would increase efficiency by saving both time and resources.
 
@@ -34,11 +34,9 @@ The results of these experiments could hold major significance for filtration me
 
 The literature review was focused on finding other research involving changing the grain size and coagulant dosage. Many models of filters include reentrainment, the process by which precipitated aggregate materials get unstuck from pores and move elsewhere (Tien et al., 1979, Przekop & Gradon, 2016). The team will not be taking into account resuspension, and instead will be assuming that particles either permanently bind to sand particles or completely pass through the system. This perspective was suggested by Monroe. The team will be searching to see the impact of neglecting resuspension in our experiment throughout the semester.
 
-Skouras et. al (2004) does not take into account this reentrainment of particles. In this project, the pressure was kept constant, which led to a decrease in velocity and filter efficiency. Then when velocity is kept constant, the flow only goes through deposit-free pores, which are kept cleared by higher velocities in the pores. We {first person, suggestes edit below] were only able to access the abstract to this paper, and have requested the full paper to understand the results more in-depth. [Access to this paper was limited to the abstract, so the team requested the full paper to fully understanad the results]
-
 The team will be changing sand grain size to see how it affects ripening time and failure time. Pore size has an effect on ripening time, with smaller pores leading to longer ripening times (Przekop & Gradon, 2016).
 
-Investigations into grain sizes have found that they have less of an effect compared to changes in coagulant doses (Chuang & Li, 1997). Larger doses of coagulant have a shorter ripening time, but also clog pores at a faster rate, and increase the shear force in unclogged pores. However, grain size can have effects based on the flocculant dosage. Larger grains with higher flocculant dosage reduce the rate of pore clogging, because larger aggregates are able to pass through. However, this study used glass beads as filter material. The team will be using sand as a filter material, as is used in AguaClara plants.
+Investigations into grain sizes of glass beads have found that they have less of an effect compared to changes in coagulant doses (Chuang & Li, 1997). Larger doses of coagulant have a shorter ripening time, but also clog pores at a faster rate, and increase the shear force in unclogged pores. However, grain size can have effects based on the flocculant dosage. Larger grains in addition to higher flocculant dosage reduce the rate of pore clogging, because larger aggregates are able to pass through for the glass beads. The team will be varying both coagulant dosage and grain size, as in this study. However, sand will be used as a filter material, as is used in AguaClara plants.
 
 
 
@@ -52,13 +50,57 @@ To further understand the effect of coagulant dosages, the Fall 2017 team system
 
 The findings of the previous teams are important as the results allow us to choose an accurate range for the coagulant dosages we will use for this semester. Furthermore, it allows us to test different variables to find filter efficiency as well as improving the ripening time of the filters.
 
+### Methods
+
+methods methods methods
+
+#### Experimental Apparatus
+
+#####Schematic
+The schematic below shows the apparatus used by the StaRS Filter Theory Team during Fall 2018.
+
+<img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Apparatus%20Design%20Fall%202018.jpg?raw=true" heights=540 width=960>
+**Figure 2:** The schematic used by the StaRS Filter Theory Team during Spring 2018.
+
+
+Clean water enters the system and is then mixed with a clay-water solution. This mixture enters the influent turbidimeter, where the turbidity is set in ProCoDa to be 5 NTU. This turbidity is meant to mimic the turbidity of the sedimentation effluent stream before it enters filtration.
+
+The stream then enters the contact chamber, where it comes into first contact with the PaCl (coagulant) solution. This is when flocs begin to form. The stream then enters the flocculator, where flocs grow in size. The stream then splits into 3 separate streams, and each stream enters a filter.
+
+The sand grain size in each filter varies. Filter 1, filter 2, and filter 3 contain sand grains that are 25  ${\mu m}$,, 35  ${\mu m}$,, and 45  ${\mu m}$ in diameter, respectively. Each filter is a one-layer StaRS filter. The stream then flows through the filter, and flocs are separated from water.
+
+The water streams exit their respective filters and then enter effluent turbidimeters. By having 3 separate effluent turbidimeters, the team will be able to compare the turbidity and failure time for each filter. The stream then exits the system.
+
+There is a backwash system that pushes water up through the filters and out the top to remove the filters of flocs.
+
+### Manual
+This semester, the StaRS team focused on fabricating three new filters. The filters will hold varying sand grain sizes from 25 ${\mu m}$ , 35 ${\mu m}$  and 45 ${\mu m}$.
+
+The team will also be attaching a pump after the three filter streams in order to ensure a downward flow. The main challenge the teamis how to maintain the three effluent flows through one pump so that they will all flow through their respective turbidimeter.
+
+
+###### Materials
+
+- Sand sieved to three sizes: 25 ${\mu m}$, 35 ${\mu m}$, and 45 ${\mu m}$
+
+
+
+- Explain the purpose and hypothesis of experiments.
+- Provides a materials list that details the materials needed to build and operate the apparatus.
+- Provides a detailed diagram of the apparatus setup.
+- Clearly details steps of the procedure such that future teams can replicate the experiments.
+
+#### Procedure
+**we will include detailed fabrication methods here**
+
+
+
+
 ### Works Cited
 
 Chuang, C.-J., & Li, K.-Y. (1997). Effect of coagulant dosage and grain size on the performance of direct filtration. Separation and Purification Technology, 12(3), 229–241. https://doi.org/10.1016/S1383-5866(97)00048-8
 
 Przekop, R., & Gradoń, L. (2016). Dynamics of particle loading in deep-bed filter. Transport, deposition and reentrainment. Chemical and Process Engineering, 37(3), 405–417. https://doi.org/10.1515/cpe-2016-0033
-
-Skouras E. D., Burganos V. N., Paraskeva C. A., & Payatakes A. C. (2004). Simulation of Downflow and Upflow Depth Filtration of Non-Brownian Particles under Constant Flowrate or Constant Pressure Drop Conditions. Journal of the Chinese Institute of Chemical Engineers, 35(1), 87–100. https://doi.org/10.6967/JCICE.200401.0087
 
 Tien, C., Turian, R. M., & Pendse, H. (1979). Simulation of the dynamic behavior of deep bed filters. AIChE Journal, 25(3), 385–395. https://doi.org/10.1002/aic.690250302
 
