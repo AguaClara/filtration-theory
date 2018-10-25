@@ -36,14 +36,14 @@ The Spring 2017 team’s mathematical and visual model hypothesized that “dirt
 
 To further these experiments, the Fall 2017 team systematically varied dosages in filter runs to determine the effect of coagulant dose on filter performance and failure time. The team ran the set of experiments twice. The first set was done by gradually increasing PACl dosage, labeled ‘step up’. The second set was obtained by decreasing the PACl dosages, labeled ‘step down’. They also found out that backwashing the filter between filter runs for 20 minutes allowed more consistent results. Their findings are better be understood in the following figure (Figure 2). It was concluded from these experiments that at lower coagulant dosages, failure time was prolonged than that for higher coagulant dosages.
 
-<img src="https://github.com/AguaClara/stars_filter_theory/blob/master/failure%20time%20compiled.png?raw=true" height=350 width=600>
+<img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Spring%202018/failure%20time%20compiled.png" height=350 width=600>
 
 Figure 2: Failure time as a function of PACl at different dosages.
 
 ### Experimental Apparatus
 The laboratory stacked rapid sand filter was created with a 65cm length of PVC filled with sand run through sieves that have a hole size 0.5 mm and 0.595 mm in diameter to a height of 40cm. There was one influent pipe and two effluent pipes, all with a diameter of 9.4 mm and made from copper. The apparatus is shown in Figure 3, and a schematic of full system can be seen in Figure 4.  The system was designed to replicate a conventional AguaClara water filtration plant after sedimentation.
 
-<img src="https://github.com/AguaClara/stars_filter_theory/blob/master/apparatus.png?raw=true" height=350 width=600>
+<img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Spring%202018/apparatus.png" height=350 width=600>
 
 Figure 3: StaRS Filter Theory experimental apparatus.
 
@@ -51,7 +51,7 @@ Tap water was pumped into the system and combined with clay and humic acid based
 
 Once the water exits the flocculator, it is injected into the stacked filter at an average velocity of 1.8 mm/s as determined by previous teams. The residence time in the filter was 43.6 seconds on average ad determined by previous teams, after which the water exits the filter through one of the effluent pipes. The two effluent streams mix and then go into the effluent turbidimeter to measure the turbidity of the water. The difference in turbidity between the influent and effluent water can be used to determine filter quality. There is also a 200 kPA pressure sensor immediately before the water enters the filter and immediately after the two effluent pipes combine to measure the head loss caused by the rapid filtration. The head loss is the amount of energy lost in the filter due to external forces, and needs to be minimized in order to prevent clogging.
 
-<img src="https://github.com/AguaClara/stars_filter_theory/blob/master/apparatus.jpg?raw=true" height=500 width=1000>
+<img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Spring%202018/apparatus.jpg" height=500 width=1000>
 
 Figure 3: The schematic for the experimental filter apparatus in filter mode showing influent and effluent turbidimeter sampling systems, PACl solution and clay, humic acid solution dosing, pressure sensor to measure filter head loss, and flocculator. Blue connections are used in filter mode while gray connections are used in backwash mode.
 
