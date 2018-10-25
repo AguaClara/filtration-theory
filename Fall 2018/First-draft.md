@@ -56,7 +56,7 @@ methods methods methods
 
 #### Experimental Apparatus
 
-#####Schematic
+##### Schematic
 The schematic below shows the apparatus used by the StaRS Filter Theory Team during Fall 2018.
 
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Apparatus%20Design%20Fall%202018.jpg?raw=true" heights=540 width=960>
