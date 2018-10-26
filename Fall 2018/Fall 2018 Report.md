@@ -55,14 +55,14 @@ The findings of the previous teams are important as the results allow us to choo
 The schematic below shows the apparatus used by the StaRS Filter Theory Team during Fall 2018.
 
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/Apparatus%20Design.jpg" heights=540 width=960>
-**Figure 2:** The schematic used by the StaRS Filter Theory Team during Spring 2018.
 
+**Figure 2:** The schematic used by the StaRS Filter Theory Team during Spring 2018.
 
 Clean water enters the system and is then mixed with a clay-water solution. This mixture enters the influent turbidimeter, where the turbidity is set in ProCoDa to be 5 NTU. This turbidity is meant to mimic the turbidity of the sedimentation effluent stream before it enters filtration.
 
 The stream then enters the contact chamber, where it comes into first contact with the PaCl (coagulant) solution. This is when flocs begin to form. The stream then enters the flocculator, where flocs grow in size. The stream then splits into 3 separate streams, and each stream enters a filter.
 
-The sand grain size in each filter varies. Filter 1, filter 2, and filter 3 contain sand grains that are 25  ${\mu m}$,, 35  ${\mu m}$,, and 45  ${\mu m}$ in diameter, respectively. Each filter is a one-layer StaRS filter. The stream then flows through the filter, and flocs are separated from water. There will be pressure sensors present between the influent and effluent stream for each of the filters. This will be to measure the headloss and note if there will be greater headloss amongst the different sand grain sizes. 
+The sand grain size in each filter varies. Filter 1, filter 2, and filter 3 contain sand grains that are 25  ${\mu m}$,, 35  ${\mu m}$,, and 45  ${\mu m}$ in diameter, respectively. Each filter is a one-layer StaRS filter. The stream then flows through the filter, and flocs are separated from water. There will be pressure sensors present between the influent and effluent stream for each of the filters. This will be to measure the headloss and note if there will be greater headloss amongst the different sand grain sizes.
 
 The water streams exit their respective filters and then enter effluent turbidimeters. By having 3 separate effluent turbidimeters, the team will be able to compare the turbidity and failure time for each filter. The stream then exits the system.
 
