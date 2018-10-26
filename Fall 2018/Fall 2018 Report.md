@@ -2,10 +2,6 @@
 #### Barbara Oramah, Lainey Reed, Emily Spiek
 ##### September 28th, 2018
 
-[CEO: Hello StaRS Filter Theory! I will add my comments and suggested edits in with square brackets like this comments!]
-
-[Overall this draft is in a pretty good place! It's very clear what you are working on and what your plan for the semester is. Just work on cleaning up the first person pronouns and you' be good to go. Looking forward to your next draft!]
-
 ### Abstract
 
 Stacked Rapid Sand Filtration is the last stage in an AguaClara treatment plant. It is used to further reduce the turbidity of water to match EPA standards of 0.3 NTU or less. In this report, the StaRS team will be researching the effects of different sizes of sand grains as well as ranges of coagulant dosage. By experimenting with the previously stated variables, this will enhance our understanding of the ability of flocs to bind to the surface of the sand grains. The team's goal for this semester is to find out the volume of flocs caught within the pores of the sand grains as well as formulating a mathematical model for calculating the depth of the active zone.
@@ -32,9 +28,9 @@ The results of these experiments could hold major significance for filtration me
 
 ### Literature Review
 
-The literature review was focused on finding other research involving changing the grain size and coagulant dosage. Many models of filters include reentrainment, the process by which precipitated aggregate materials get unstuck from pores and move elsewhere (Tien et al., 1979, Przekop & Gradon, 2016). The team will not be taking into account resuspension, and instead will be assuming that particles either permanently bind to sand particles or completely pass through the system. This perspective was suggested by Monroe. The team will be searching to see the impact of neglecting resuspension in our experiment throughout the semester.
+The literature review was focused on finding other research involving changing the grain size and coagulant dosage. Many models of filters include reentrainment, the process by which precipitated aggregate materials get unstuck from pores due to shear force from water and move through the filter, eventually sticking elsewhere (Tien et al., 1979, Przekop & Gradon, 2016). The team will not be taking into account reentrainment, and instead will be assuming that particles either permanently bind to sand particles or completely pass through the system. This perspective was suggested by Monroe. The team will be searching to see the impact of neglecting resuspension in our experiment throughout the semester.
 
-The team will be changing sand grain size to see how it affects ripening time and failure time. Pore size has an effect on ripening time, with smaller pores leading to longer ripening times (Przekop & Gradon, 2016).
+The team will be changing sand grain size to see how it affects ripening time and failure time. Pore size has an effect on ripening time, with smaller pores leading to longer ripening times (Przekop & Gradon, 2016). Physical properties within the filter can affect its efficiency.
 
 Investigations into grain sizes of glass beads have found that they have less of an effect compared to changes in coagulant doses (Chuang & Li, 1997). Larger doses of coagulant have a shorter ripening time, but also clog pores at a faster rate, and increase the shear force in unclogged pores. However, grain size can have effects based on the flocculant dosage. Larger grains in addition to higher flocculant dosage reduce the rate of pore clogging, because larger aggregates are able to pass through for the glass beads. The team will be varying both coagulant dosage and grain size, as in this study. However, sand will be used as a filter material, as is used in AguaClara plants.
 
@@ -42,9 +38,9 @@ Investigations into grain sizes of glass beads have found that they have less of
 
 ### Previous Works
 
-The previous models proposed by StaRS Filter Theory teams was focused on combining information and results from experiments from the previous sand bed research and link the effect of microscopic level physics and macrosopic filter performance. The visual model of constrictions found between the sand grains in the filter was developed by previous StaRS Filter Theory teams from the conclusions of several experimental runs until system failure. Filter failure was defined as the moment when effluent turbidity increases sharply. Kuan-mu Yao (1971) stated that the effectiveness of the filter depended on the size of the flocs. Thus, between experimental runs, the coagulant dosage was varied. Varying coagulant dosage changes the size/volume of flocs, which was theorized to affect filter performance.
+The previous models proposed by StaRS Filter Theory teams was focused on combining information and results from experiments from the previous sand bed research and link the effect of microscopic level physics and macroscopic filter performance. The visual model of constrictions found between the sand grains in the filter was developed by previous StaRS Filter Theory teams from the conclusions of several experimental runs until system failure. Filter failure was defined as the moment when effluent turbidity increases sharply. Kuan-mu Yao (1971) stated that the effectiveness of the filter depended on the size of the flocs. Thus, between experimental runs, the coagulant dosage was varied. Varying coagulant dosage changes the size/volume of flocs, which was theorized to affect filter performance.
 
-The Spring 2018 team focused primarily on changing the density of the particle as well as looking at coagulant dosages. By varying the coagulant dosage this in turn increased the size of the floc particles flowing into the filters. In order to see the effects of the varying constrictions, the Spring 2018 team put red dye in order to visualise the floc sizes flowing into the filter. By measuring the different floc sizes, the team was able to deduce that the size of flocs did effect the performance of the filter. Large coagulant dosages proved to make the performance worse.
+The Spring 2018 team focused primarily on changing the density of the particle as well as looking at coagulant dosages. By varying the coagulant dosage this in turn increased the size of the floc particles flowing into the filters. In order to see the effects of the varying constrictions, the Spring 2018 team put red dye in order to visualize the floc sizes flowing into the filter. By measuring the different floc sizes, the team was able to deduce that the size of flocs did effect the performance of the filter. Large coagulant dosages proved to make the performance worse.
 
 To further understand the effect of coagulant dosages, the Fall 2017 team systematically varied dosages in filter runs to determine the effect of coagulant dose on filter performance and failure time. The team ran the set of experiments twice. The first set was done by gradually increasing PACl dosage, labeled ‘step up’. The second set was obtained by decreasing the PACl dosages, labeled ‘step down’. They also found out that backwashing the filter between filter runs for 20 minutes allowed more consistent results. It was concluded from these experiments that at lower coagulant dosages, failure time was prolonged than that for higher coagulant dosages.
 
@@ -52,14 +48,13 @@ The findings of the previous teams are important as the results allow us to choo
 
 ### Methods
 
-methods methods methods
 
 #### Experimental Apparatus
 
 ##### Schematic
 The schematic below shows the apparatus used by the StaRS Filter Theory Team during Fall 2018.
 
-<img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/Apparatus%20Design%20Fall%202018.jpg" heights=540 width=960>
+<img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/Apparatus%20Design.jpg" heights=540 width=960>
 **Figure 2:** The schematic used by the StaRS Filter Theory Team during Spring 2018.
 
 
@@ -67,33 +62,33 @@ Clean water enters the system and is then mixed with a clay-water solution. This
 
 The stream then enters the contact chamber, where it comes into first contact with the PaCl (coagulant) solution. This is when flocs begin to form. The stream then enters the flocculator, where flocs grow in size. The stream then splits into 3 separate streams, and each stream enters a filter.
 
-The sand grain size in each filter varies. Filter 1, filter 2, and filter 3 contain sand grains that are 25  ${\mu m}$,, 35  ${\mu m}$,, and 45  ${\mu m}$ in diameter, respectively. Each filter is a one-layer StaRS filter. The stream then flows through the filter, and flocs are separated from water.
+The sand grain size in each filter varies. Filter 1, filter 2, and filter 3 contain sand grains that are 25  ${\mu m}$,, 35  ${\mu m}$,, and 45  ${\mu m}$ in diameter, respectively. Each filter is a one-layer StaRS filter. The stream then flows through the filter, and flocs are separated from water. There will be pressure sensors present between the influent and effluent stream for each of the filters. This will be to measure the headloss and note if there will be greater headloss amongst the different sand grain sizes. 
 
 The water streams exit their respective filters and then enter effluent turbidimeters. By having 3 separate effluent turbidimeters, the team will be able to compare the turbidity and failure time for each filter. The stream then exits the system.
 
 There is a backwash system that pushes water up through the filters and out the top to remove the filters of flocs.
 
-### Manual
-This semester, the StaRS team focused on fabricating three new filters. The filters will hold varying sand grain sizes from 25 ${\mu m}$ , 35 ${\mu m}$  and 45 ${\mu m}$.
 
-The team will also be attaching a pump after the three filter streams in order to ensure a downward flow. The main challenge the teamis how to maintain the three effluent flows through one pump so that they will all flow through their respective turbidimeter.
+### Manual
+This semester, the StaRS team focused on fabricating three new filters. The filters will hold varying sand grain sizes from 25 ${\mu m}$, 35 ${\mu m}$  and 45 ${\mu m}$.
+
+The team will also be attaching a pump after the three filter streams in order to ensure a downward flow. The main challenge the team is how to maintain the three effluent flows through one pump so that they will all flow through their respective turbidimeter.
 
 
 ###### Materials
 
 - Sand sieved to three sizes: 25 ${\mu m}$, 35 ${\mu m}$, and 45 ${\mu m}$
+- Three turbidimeters
+- Three pressure sensors
 
+###### Obtaining Sand
 
+The StaRS team is in the process of obtaining sieved sand. The team first reached out to Standard Sand and Silica Co., a company that AguaClara has obtained sand from previously. The company would not be capable of providing sand sieved to .25 ${\mu m}$. The team has been in contact with Philip Carubia from the Cornell Center for Materials Research to discuss the possibility of sieving sand either using a Sonic Sifter on campus or purchasing hand-sieves. The team will decide which sieving method to use within the next week.
 
-- Explain the purpose and hypothesis of experiments.
-- Provides a materials list that details the materials needed to build and operate the apparatus.
-- Provides a detailed diagram of the apparatus setup.
-- Clearly details steps of the procedure such that future teams can replicate the experiments.
 
 #### Procedure
-**we will include detailed fabrication methods here**
 
-
+StaRS team has undergone further fabrication training in order to have a holistic and safe understanding of the power tools when building the filters. The length of each filter will be dependent on backwash expansion. The team will note what the height of the stabilised sand bed will be and add 0.6 times that to calculate optimum height of the filters.
 
 
 ### Works Cited
