@@ -62,7 +62,7 @@ Clean water enters the system and is then mixed with a clay-water solution. This
 
 The stream then enters the contact chamber, where it comes into first contact with the PaCl (coagulant) solution. This is when flocs begin to form. The stream then enters the flocculator, where flocs grow in size. The stream then splits into 3 separate streams, and each stream enters a filter.
 
-The sand grain size in each filter varies. Filter 1, filter 2, and filter 3 contain sand grains that are 25  ${\mu m}$,, 35  ${\mu m}$,, and 45  ${\mu m}$ in diameter, respectively. Each filter is a one-layer StaRS filter. The stream then flows through the filter, and flocs are separated from water. There will be pressure sensors present between the influent and effluent stream for each of the filters. This will be to measure the headloss and note if there will be greater headloss amongst the different sand grain sizes.
+The sand grain size in each filter varies. Filter 1, filter 2, and filter 3 contain sand grains that are 25 micrometers, 35 micrometers, and 45 micrometers in diameter, respectively. Each filter is a one-layer StaRS filter. The stream then flows through the filter, and flocs are separated from water. There will be pressure sensors present between the influent and effluent stream for each of the filters. This will be to measure the headloss and note if there will be greater headloss amongst the different sand grain sizes.
 
 The water streams exit their respective filters and then enter effluent turbidimeters. By having 3 separate effluent turbidimeters, the team will be able to compare the turbidity and failure time for each filter. The stream then exits the system.
 
@@ -70,20 +70,20 @@ There is a backwash system that pushes water up through the filters and out the 
 
 
 ### Manual
-This semester, the StaRS team focused on fabricating three new filters. The filters will hold varying sand grain sizes from 25 ${\mu m}$, 35 ${\mu m}$  and 45 ${\mu m}$.
+This semester, the StaRS team focused on fabricating three new filters. The filters will hold varying sand grain sizes from 25, 35 and 45 micrometers.
 
 The team will also be attaching a pump after the three filter streams in order to ensure a downward flow. The main challenge the team is how to maintain the three effluent flows through one pump so that they will all flow through their respective turbidimeter.
 
 
 ###### Materials
 
-- Sand sieved to three sizes: 25 ${\mu m}$, 35 ${\mu m}$, and 45 ${\mu m}$
+- Sand sieved to three sizes: 25, 35 and 45 micrometers.
 - Three turbidimeters
 - Three pressure sensors
 
 ###### Obtaining Sand
 
-The StaRS team is in the process of obtaining sieved sand. The team first reached out to Standard Sand and Silica Co., a company that AguaClara has obtained sand from previously. The company would not be capable of providing sand sieved to .25 ${\mu m}$. The team has been in contact with Philip Carubia from the Cornell Center for Materials Research to discuss the possibility of sieving sand either using a Sonic Sifter on campus or purchasing hand-sieves. The team will decide which sieving method to use within the next week.
+The StaRS team is in the process of obtaining sieved sand. The team first reached out to Standard Sand and Silica Co., a company that AguaClara has obtained sand from previously. The company would not be capable of providing sand sieved to 25 micrometers. The team has been in contact with Philip Carubia from the Cornell Center for Materials Research to discuss the possibility of sieving sand either using a Sonic Sifter on campus or purchasing hand-sieves. The team will decide which sieving method to use within the next week.
 
 
 #### Procedure
