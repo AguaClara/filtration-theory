@@ -36,10 +36,15 @@ The results of these experiments could hold major significance for filtration me
 
 ### Literature Review
 
+<<<<<<< HEAD
 Many pieces of literature contain models of filters that consider resuspension. This is the process by which precipitated aggregate materials unstick from pores due to shear force of water and move through the filter, eventually sticking elsewhere (Tien et al., 1979, Przekop & Gradon, 2016). The team will not be taking into account resuspension, and instead will be assuming that particles either permanently bind to sand particles or completely pass through the system. The team will be searching to see the impact of neglecting resuspension in our experiment throughout the semester.
+=======
+Many models of filters include reentrainment, the process by which precipitated aggregate materials get unstuck from pores due to shear force from water and move through the filter, eventually sticking elsewhere (Tien et al., 1979, Przekop & Gradon, 2016). The team will not be taking into account reentrainment, and instead will be assuming that particles either permanently bind to sand particles or completely pass through the system. The team will be searching to see the impact of neglecting reentrainment in our experiment throughout the semester.
+>>>>>>> 63bd86142074fc6d173aaabaeaaa846f3ec1a881
 
-[EM: No need to say what the literature will be focused on - this is assumed. How does resuspension fit into this paragraph about reentrainment? Also, those outside AguaClara will not be familar with Monroe and why he's important in this paper - consider just stating the assumptions what were made.]
+The team will be changing sand grain size to see how it affects ripening time and failure time. Ripening time is the time is takes for the filter to reach maximum particle removal efficiency. Failure time is the time it takes for the filter to fail, measured by an increase in effluent turbidity. Pore size has an effect on ripening time, with smaller pores leading to longer ripening times (Przekop & Gradon, 2016). Physical properties within the filter can affect its efficiency.
 
+<<<<<<< HEAD
 The team will be changing sand grain size to see how it affects failure time and ripening time. Ripening time is the time taken for the filter to reach its maximum particle removal efficiency. Pore size has an effect on ripening time, with smaller pores leading to longer ripening times (Przekop & Gradon, 2016). Physical properties within the filter can affect its efficiency.
 
 [EM: What is ripening time?]
@@ -51,6 +56,9 @@ Investigations into grain sizes of glass beads have found that changes in grain 
 [EM: What is flocculant dosage? Is this different than the coagulant dosage?] !
 
 [EM: Fix grammatical and spelling mistakes.]
+=======
+Investigations into grain sizes of glass beads have found that they have less of an effect compared to changes in coagulant doses (Chuang & Li, 1997). Larger doses of coagulant lead to a shorter ripening time, but also clog pores at a faster rate, and increase the shear force in unclogged pores. However, grain size can have effects based on the coagulant and flocculant dosages. Larger grains in addition to higher flocculant and coagulant dosages reduce the rate of pore clogging. This is because larger aggregates are able to pass through the glass beads. The team will be varying both coagulant dosage and grain size, as in this study. However, sand will be used as a filter material, as is used in AguaClara plants. Also, AguaClara plants only use PaCl, a coagulant, not both a coagulant and a flocculant.
+>>>>>>> 63bd86142074fc6d173aaabaeaaa846f3ec1a881
 
 
 ### Previous Works
@@ -83,7 +91,7 @@ Clean water enters the system and is then mixed with a clay-water solution. This
 
 The stream then enters the contact chamber, where it comes into first contact with the PaCl (coagulant) solution. This is when flocs begin to form. The stream then enters the flocculator, where flocs grow in size. The stream then splits into 3 separate streams, and each stream enters a filter.
 
-The sand grain size in each filter varies. Filter 1, filter 2, and filter 3 contain sand grains that are 25 micrometers, 35 micrometers, and 45 micrometers in diameter, respectively. Each filter is a one-layer StaRS filter. The stream then flows through the filter, and flocs are separated from water. There will be pressure sensors present between the influent and effluent stream for each of the filters. This will be to measure the headloss and note if there will be greater headloss amongst the different sand grain sizes.
+The sand grain size in each filter varies. Filter 1, filter 2, and filter 3 contain sand grains that are in the ranges of .354-.5 mm, .5-.707 mm, and .707-1 mm in diameter, respectively. Each filter is a one-layer StaRS filter. The stream then flows through the filter, and flocs are separated from water. There will be pressure sensors present between the influent and effluent stream for each of the filters. This will be to measure the headloss and note if there will be greater headloss amongst the different sand grain sizes.
 
 The water streams exit their respective filters and then enter effluent turbidimeters. By having 3 separate effluent turbidimeters, the team will be able to compare the turbidity and failure time for each filter. The stream then exits the system.
 
@@ -93,14 +101,14 @@ There is a backwash system that pushes water up through the filters and out the 
 
 
 ### Manual
-This semester, the StaRS team focused on fabricating three new filters. The filters will hold varying sand grain sizes from 25, 35 and 45 micrometers.
+This semester, the StaRS team focused on fabricating three new filters. The filters will hold varying sand grain sizes from .354-.5 mm, .5-.707 mm, and .707-1 mm in diameter.
 
 The team will also be attaching a pump after the three filter streams in order to ensure a downward flow. The main challenge the team is how to maintain the three effluent flows through one pump so that they will all flow through their respective turbidimeter.
 
 
 ###### Materials
 
-- Sand sieved to three sizes: 25, 35 and 45 micrometers.
+- Sand sieved to three size ranges: .354-.5 mm (between  35-45 mesh size), .5-.707 mm (25-35 mesh size), and .707-1 mm (18-25 mesh size) in diameter.
 - Three turbidimeters
 - Three pressure sensors
 
