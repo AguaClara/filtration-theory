@@ -36,21 +36,11 @@ The results of these experiments could hold major significance for filtration me
 
 ### Literature Review
 
-The literature review was focused on finding other research involving changing the grain size and coagulant dosage. Many models of filters include reentrainment, the process by which precipitated aggregate materials get unstuck from pores due to shear force from water and move through the filter, eventually sticking elsewhere (Tien et al., 1979, Przekop & Gradon, 2016). The team will not be taking into account reentrainment, and instead will be assuming that particles either permanently bind to sand particles or completely pass through the system. This perspective was suggested by Monroe. The team will be searching to see the impact of neglecting resuspension in our experiment throughout the semester.
+Many models of filters include reentrainment, the process by which precipitated aggregate materials get unstuck from pores due to shear force from water and move through the filter, eventually sticking elsewhere (Tien et al., 1979, Przekop & Gradon, 2016). The team will not be taking into account reentrainment, and instead will be assuming that particles either permanently bind to sand particles or completely pass through the system. The team will be searching to see the impact of neglecting reentrainment in our experiment throughout the semester.
 
-[EM: No need to say what the literature will be focused on - this is assumed. How does resuspension fit into this paragraph about reentrainment? Also, those outside AguaClara will not be familar with Monroe and why he's important in this paper - consider just stating the assumptions what were made.]
+The team will be changing sand grain size to see how it affects ripening time and failure time. Ripening time is the time is takes for the filter to reach maximum particle removal efficiency. Failure time is the time it takes for the filter to fail, measured by an increase in effluent turbidity. Pore size has an effect on ripening time, with smaller pores leading to longer ripening times (Przekop & Gradon, 2016). Physical properties within the filter can affect its efficiency.
 
-The team will be changing sand grain size to see how it affects ripening time and failure time. Pore size has an effect on ripening time, with smaller pores leading to longer ripening times (Przekop & Gradon, 2016). Physical properties within the filter can affect its efficiency.
-
-[EM: What is ripening time?]
-
-Investigations into grain sizes of glass beads have found that they have less of an effect compared to changes in coagulant doses (Chuang & Li, 1997). Larger doses of coagulant have a shorter ripening time, but also clog pores at a faster rate, and increase the shear force in unclogged pores. However, grain size can have effects based on the flocculant dosage. Larger grains in addition to higher flocculant dosage reduce the rate of pore clogging, because larger aggregates are able to pass through for the glass beads. The team will be varying both coagulant dosage and grain size, as in this study. However, sand will be used as a filter material, as is used in AguaClara plants.
-
-[EM: Be more clear in the first sentence. I know the "they" you are referring to grain size, but make sure to make that clear.]
-
-[EM: What is flocculant dosage? Is this different than the coagulant dosage?]
-
-[EM: Fix grammatical and spelling mistakes.]
+Investigations into grain sizes of glass beads have found that they have less of an effect compared to changes in coagulant doses (Chuang & Li, 1997). Larger doses of coagulant lead to a shorter ripening time, but also clog pores at a faster rate, and increase the shear force in unclogged pores. However, grain size can have effects based on the coagulant and flocculant dosages. Larger grains in addition to higher flocculant and coagulant dosages reduce the rate of pore clogging. This is because larger aggregates are able to pass through the glass beads. The team will be varying both coagulant dosage and grain size, as in this study. However, sand will be used as a filter material, as is used in AguaClara plants. Also, AguaClara plants only use coagulants, not both a coagulant and a flocculant.
 
 
 ### Previous Works
