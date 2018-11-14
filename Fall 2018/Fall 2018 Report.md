@@ -73,7 +73,7 @@ Clean water enters the system and is then mixed with a clay-water solution. This
 
 The stream then enters the contact chamber, where it comes into first contact with the PaCl (coagulant) solution. This is when flocs begin to form. The stream then enters the flocculator, where flocs grow in size. The stream then splits into 3 separate streams, and each stream enters a filter.
 
-The sand grain size in each filter varies. Filter 1, filter 2, and filter 3 contain sand grains that are 25 micrometers, 35 micrometers, and 45 micrometers in diameter, respectively. Each filter is a one-layer StaRS filter. The stream then flows through the filter, and flocs are separated from water. There will be pressure sensors present between the influent and effluent stream for each of the filters. This will be to measure the headloss and note if there will be greater headloss amongst the different sand grain sizes.
+The sand grain size in each filter varies. Filter 1, filter 2, and filter 3 contain sand grains that are in the ranges of .354-.5 mm, .5-.707 mm, and .707-1 mm in diameter, respectively. Each filter is a one-layer StaRS filter. The stream then flows through the filter, and flocs are separated from water. There will be pressure sensors present between the influent and effluent stream for each of the filters. This will be to measure the headloss and note if there will be greater headloss amongst the different sand grain sizes.
 
 The water streams exit their respective filters and then enter effluent turbidimeters. By having 3 separate effluent turbidimeters, the team will be able to compare the turbidity and failure time for each filter. The stream then exits the system.
 
@@ -83,14 +83,14 @@ There is a backwash system that pushes water up through the filters and out the 
 
 
 ### Manual
-This semester, the StaRS team focused on fabricating three new filters. The filters will hold varying sand grain sizes from 25, 35 and 45 micrometers.
+This semester, the StaRS team focused on fabricating three new filters. The filters will hold varying sand grain sizes from .354-.5 mm, .5-.707 mm, and .707-1 mm in diameter.
 
 The team will also be attaching a pump after the three filter streams in order to ensure a downward flow. The main challenge the team is how to maintain the three effluent flows through one pump so that they will all flow through their respective turbidimeter.
 
 
 ###### Materials
 
-- Sand sieved to three sizes: 25, 35 and 45 micrometers.
+- Sand sieved to three size ranges: .354-.5 mm (between  35-45 mesh size), .5-.707 mm (25-35 mesh size), and .707-1 mm (18-25 mesh size) in diameter.
 - Three turbidimeters
 - Three pressure sensors
 
