@@ -36,29 +36,11 @@ The results of these experiments could hold major significance for filtration me
 
 ### Literature Review
 
-<<<<<<< HEAD
-Many pieces of literature contain models of filters that consider resuspension. This is the process by which precipitated aggregate materials unstick from pores due to shear force of water and move through the filter, eventually sticking elsewhere (Tien et al., 1979, Przekop & Gradon, 2016). The team will not be taking into account resuspension, and instead will be assuming that particles either permanently bind to sand particles or completely pass through the system. The team will be searching to see the impact of neglecting resuspension in our experiment throughout the semester.
-=======
 Many models of filters include reentrainment, the process by which precipitated aggregate materials get unstuck from pores due to shear force from water and move through the filter, eventually sticking elsewhere (Tien et al., 1979, Przekop & Gradon, 2016). The team will not be taking into account reentrainment, and instead will be assuming that particles either permanently bind to sand particles or completely pass through the system. The team will be searching to see the impact of neglecting reentrainment in our experiment throughout the semester.
->>>>>>> 63bd86142074fc6d173aaabaeaaa846f3ec1a881
 
 The team will be changing sand grain size to see how it affects ripening time and failure time. Ripening time is the time is takes for the filter to reach maximum particle removal efficiency. Failure time is the time it takes for the filter to fail, measured by an increase in effluent turbidity. Pore size has an effect on ripening time, with smaller pores leading to longer ripening times (Przekop & Gradon, 2016). Physical properties within the filter can affect its efficiency.
 
-<<<<<<< HEAD
-The team will be changing sand grain size to see how it affects failure time and ripening time. Ripening time is the time taken for the filter to reach its maximum particle removal efficiency. Pore size has an effect on ripening time, with smaller pores leading to longer ripening times (Przekop & Gradon, 2016). Physical properties within the filter can affect its efficiency.
-
-[EM: What is ripening time?]
-
-Investigations into grain sizes of glass beads have found that changes in grain size have less of an effect on filtration efficiency compared to changes in coagulant doses (Chuang & Li, 1997). Having larger coagulant dosages leads to a shorter ripening time, a shorter failure time, and an increase in the shear force between unclogged pores. However, grain size can have effects based on the flocculant dosage. Larger grains in addition to higher flocculant dosage reduce the rate of pore clogging, because larger aggregates are able to pass through for the glass beads. The team will be varying both coagulant dosage and grain size, as in this study. However, sand will be used as a filter material, as is used in AguaClara plants.
-
-[EM: Be more clear in the first sentence. I know the "they" you are referring to grain size, but make sure to make that clear.]
-
-[EM: What is flocculant dosage? Is this different than the coagulant dosage?] !
-
-[EM: Fix grammatical and spelling mistakes.]
-=======
 Investigations into grain sizes of glass beads have found that they have less of an effect compared to changes in coagulant doses (Chuang & Li, 1997). Larger doses of coagulant lead to a shorter ripening time, but also clog pores at a faster rate, and increase the shear force in unclogged pores. However, grain size can have effects based on the coagulant and flocculant dosages. Larger grains in addition to higher flocculant and coagulant dosages reduce the rate of pore clogging. This is because larger aggregates are able to pass through the glass beads. The team will be varying both coagulant dosage and grain size, as in this study. However, sand will be used as a filter material, as is used in AguaClara plants. Also, AguaClara plants only use PaCl, a coagulant, not both a coagulant and a flocculant.
->>>>>>> 63bd86142074fc6d173aaabaeaaa846f3ec1a881
 
 
 ### Previous Works
