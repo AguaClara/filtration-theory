@@ -50,6 +50,8 @@ $$ \frac{Area \, of \,orifice }{Area \,of\, sandbed}=\frac{Area\, of \,inlet}{Ar
 
 **Equation 1** The relationship used to determine orifice area
 
+The Fall 2018 will be centering its calculations from previous teams and scaling them down to be compatible with smaller filters.
+
 The previous models proposed by StaRS Filter Theory teams were focused on combining information from the previous sand bed research and link the effects of microscopic level physics and macroscopic filter performance. A visual model of constrictions found between the sand grains in the filter was developed by previous StaRS Filter Theory teams from the conclusions of several experimental runs until system failure. Filter failure is defined as the moment when effluent turbidity increases sharply. Kuan-mu Yao (1971) stated that the effectiveness of the filter depended on the size of the flocs. Thus, between experimental runs, the coagulant dosage was varied. Varying coagulant dosage changes the size/volume of flocs, which was theorized to affect filter performance.
 
 To further understand the effect of coagulant dosages, the Fall 2017 team systematically varied dosages in filter runs to determine the effect of coagulant dose on filter performance and failure time. The team ran the set of experiments twice. The first set was done by gradually increasing PACl dosage, labeled ‘step up’. The second set was obtained by decreasing the PACl dosages, labeled ‘step down’. They also found out that backwashing the filter between filter runs for 20 minutes allowed for more consistent results. It was concluded from these experiments that at lower coagulant dosages, failure time was prolonged than that for higher coagulant dosages.
