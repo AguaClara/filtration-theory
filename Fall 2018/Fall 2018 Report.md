@@ -112,7 +112,7 @@ StaRS team has undergone further fabrication training in order to have a holisti
 2. Drilled hole for inlet pipe using pillar drilling machine. The bottom of the hole is approximately 21 cm from bottom of PVC pipe. The drill bit used was 9/16 inch. We then used a ⅜ inch tap.
 3. Attached white caps to bottom of each filter using cement glue. Wait for glue to dry before drilling hole for outlet pipe.
 4. Step 2 is repeated but drilled at the bottom of the PVC pipe where white cap is attached. The outlet hole is the same diameter as the inlet diameter.
-5. Find brass (or copper) piping to fabricate the inlet and outlet pipe. The inlet pipe should be cut to have an orifice of area: 1.8 centimeters cubed. Contact CEE Machine Shop for that to be done.
+5. Find brass (or copper) piping to fabricate the inlet and outlet pipe. The inlet pipe should be cut to have an orifice of area: 1.8 centimeters cubed. Contact CEE Machine Shop for that to be done. **[perhaps we can include an image of what the orifice should look like in this step]**
 
 
 
