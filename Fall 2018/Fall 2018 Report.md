@@ -38,7 +38,7 @@ Investigations into grain sizes of glass beads have found that they have less of
 ### Previous Works
 The main goal for Fall 2018 has been undergoing major reconstruction of apparatus set-up. This has required the team to look at early teams, such as Fall 2015, for fabrication and calculations to help the team create three new one layer sand filters, as well as fabricating the brass inlet and outlet pipes. The prior filter used by StaRs subteam was a two layer sand filter. The sand bed column was 40 cm in length, and there was an extra 30% included to account for the fluidization of the bed during backwash. The length of the entire filter resulted to be 60 cm in length and it had one inlet and two outlet streams. The inlet stream had an rectangular orifice of a calculated area for water to infuse within the filter whilst the outlet streams were from equidistant from the the inlet located above and below. The Fall 2013 was the first team to implement this design for the filter and it has not been drastically modelled until this semester.
 
-$\frac{Area \, of \,orifice }{Area \,of\, sandbed}$=$\frac{Area\, of \,inlet}{Area\, of\, filter}$
+<img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/orifice%20eqn.jpg?raw=true">
 
 **Equation 1** The relationship used to determine orifice area
 
