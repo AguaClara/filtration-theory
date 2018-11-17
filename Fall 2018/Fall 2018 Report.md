@@ -2,10 +2,6 @@
 #### Barbara Oramah, Lainey Reed, Emily Spiek
 ##### September 28th, 2018
 
-
-[EM: Hi StaRS! I will be writing my comments in brackets under the paragraph in which I am referring to. Thanks!]
-
-
 ### Abstract
 
 Stacked Rapid Sand Filtration is the last stage in an AguaClara treatment plant. It is used to further reduce the turbidity of water to match EPA standards of 0.3 NTU or less. In this report, the StaRS team will be researching the effects of different sizes of sand grains as well as ranges of coagulant dosage. By experimenting with the previously stated variables, this will enhance our understanding of the ability of flocs to bind to the surface of the sand grains. The team's goal for this semester is to find out the volume of flocs caught within the pores of the sand grains as well as formulating a mathematical model for calculating the depth of the active zone.
@@ -14,8 +10,6 @@ Stacked Rapid Sand Filtration is the last stage in an AguaClara treatment plant.
 ### Introduction
 Sand filtration has been used since ancient times. In AguaClara water treatment plants, a common type of sand filtration is used - rapid (gravity) sand filtration. This filtration method requires the use of a chemical coagulant, polyaluminum chloride (PaCl), to aggregate small particles (flocs) to increase the ease of particle filtration. This filter design has proven to reduce turbidity below 0.3 NTU, meeting the EPA standards. This can be found from experimentation performed on the model sand filter and sand filters in the water treatment plants built in Honduras.
 
-[EM: State the common name for PaCl.]
-
 The goal of the Stacked Rapid Sand (StaRS) Filtration Theory sub-team is to develop a mathematical model describing the filter performance. To do so, the relevant filtration parameters must be determined. After the parameters are determined, the filter performance can be optimized to establish low effluent turbidity and long filtration duration. Some examples of filter parameters considered in previous years were coagulant dosage, influent flow rate, influent turbidity, backwash duration, and floc size. The Fall 2018 team will continue research on optimal coagulant dosage and begin experimentation to determine the effects of sand grain size on filter performance.
 
 The Spring 2018 team determined the optimal coagulant dosage varied between 0.02 and 0.10 mg/L of PaCl. The Fall 2018 team will conduct experiments varying the coagulant dosage within this range. Knowing how the coagulant dosage impacts filter performance will lead to a well-developed mathematical model for StaRs filters.
@@ -23,8 +17,6 @@ The Spring 2018 team determined the optimal coagulant dosage varied between 0.02
 The main goal of the Fall 2018 team is to investigate variation in sand grain size and create a corresponding mathematical model. The team will build 3 new StaRs filters, each of which will contain 1 layer of sand. The sand grain size within each filter will differ. After construction, the filters will be tested and performance will be analyzed.
 
 The team hypothesizes that the filter with the largest sand grains will have the shortest failure time. Failure time corresponds to the time taken for the filter performance efficiency to decrease drastically. The team expects that flocs will be deposited along the sand pores at the same rate in every filter because the rate of the influent stream will be held constant. However, the volume of the filter will be held constant, so when sand grain size increases, the amount of sand grain pores in the filter decreases. Ultimately, this means that for a filter filled with larger sand grains, there will be less fewer sand pores active at one time. This is demonstrated in Figure 1. This is predicted to cause the active filtration zone to move through the filter faster. The team expects the filter to fail faster than for a filter filled with smaller sand grains.
-
-[EM: Fix grammatical mistakes. Make sure to proof-read a few times before submission.]
 
 
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/sand%20grain%20diagram.jpg" heights=720 width=1260>
@@ -38,9 +30,9 @@ The results of these experiments could hold major significance for filtration me
 
 Many models of filters include reentrainment, the process by which precipitated aggregate materials get unstuck from pores due to shear force from water and move through the filter, eventually sticking elsewhere (Tien et al., 1979, Przekop & Gradon, 2016). The team will not be taking into account reentrainment, and instead will be assuming that particles either permanently bind to sand particles or completely pass through the system. The team will be searching to see the impact of neglecting reentrainment in our experiment throughout the semester.
 
-The team will be changing sand grain size to see how it affects ripening time and failure time. Ripening time is the time is takes for the filter to reach maximum particle removal efficiency. Failure time is the time it takes for the filter to fail, measured by an increase in effluent turbidity. Pore size has an effect on ripening time, with smaller pores leading to longer ripening times (Przekop & Gradon, 2016). Physical properties within the filter can affect its efficiency.
+The team will be varying sand grain size to see how it affects ripening time and failure time. Ripening time is the time is takes for the filter to reach maximum particle removal efficiency. Failure time is the time it takes for the filter to fail, measured by a dramatic increase in effluent turbidity. Pore size has an effect on ripening time, with smaller pores leading to longer ripening times (Przekop & Gradon, 2016). Physical properties within the filter can affect its efficiency. In the case of this experiment, property that will be changed is the sand grain size.
 
-Investigations into grain sizes of glass beads have found that they have less of an effect compared to changes in coagulant doses (Chuang & Li, 1997). Larger doses of coagulant lead to a shorter ripening time, but also clog pores at a faster rate, and increase the shear force in unclogged pores. However, grain size can have effects based on the coagulant and flocculant dosages. Larger grains in addition to higher flocculant and coagulant dosages reduce the rate of pore clogging. This is because larger aggregates are able to pass through the glass beads. The team will be varying both coagulant dosage and grain size, as in this study. However, sand will be used as a filter material, as is used in AguaClara plants. Also, AguaClara plants only use PaCl, a coagulant, not both a coagulant and a flocculant.
+Investigations into grain sizes of glass beads have found that they have less of an effect compared to changes in coagulant doses (Chuang & Li, 1997). Larger doses of coagulant lead to a shorter ripening time, but also clogged pores at a faster rate, and increased the shear force in unclogged pores. However, grain size can have effects based on the coagulant and flocculant dosages. In this study, a flocculant, separate from the coagulant was used to further increase flocculation. They found that larger grains in addition flocculant and higher coagulant dosages reduced the rate of pore clogging. This is because larger aggregates are able to pass through the larger glass beads. The team will be varying both coagulant dosage and grain size, as in this study. However, sand will be used as a filter material, as is used in AguaClara plants. Also, AguaClara plants only use PaCl, a coagulant, not both a coagulant and a flocculant. The flocculant increased the extent to which the effect was observed within the study. The team would expect to see less of a reduction as was seen in this study.
 
 
 ### Previous Works
@@ -83,39 +75,67 @@ The water streams exit their respective filters and then enter effluent turbidim
 
 There is a backwash system that pushes water up through the filters and out the top to remove the filters of flocs.
 
-[EM: How is backwash initiated?]
-
 
 ### Manual
-This semester, the StaRS team focused on fabricating three new filters. The filters will hold varying sand grain sizes from .354-.5 mm, .5-.707 mm, and .707-1 mm in diameter.
-
-The team will also be attaching a pump after the three filter streams in order to ensure a downward flow. The main challenge the team is how to maintain the three effluent flows through one pump so that they will all flow through their respective turbidimeter.
-
-
-###### Materials
-
-- Sand sieved to three size ranges: .354-.5 mm (between  35-45 mesh size), .5-.707 mm (25-35 mesh size), and .707-1 mm (18-25 mesh size) in diameter.
-- Three turbidimeters
-- Three pressure sensors
+This semester, the StaRS team focused on fabricating three new filters. The filters will hold varying sand grain sizes from .354-.5 mm, .5-.707 mm, and .707-1 mm in diameter. The team will also be attaching a pump after the three filter streams in order to ensure a downward flow.
 
 
 ###### Obtaining Sand
 
-The StaRS team is in the process of obtaining sieved sand. The team first reached out to Standard Sand and Silica Co., a company that AguaClara has obtained sand from previously. The company would not be capable of providing sand sieved to 25 micrometers. The team has been in contact with Philip Carubia from the Cornell Center for Materials Research to discuss the possibility of sieving sand either using a Sonic Sifter on campus or purchasing hand-sieves. The team will decide which sieving method to use within the next week.
+The StaRs Team obtained sand sieved to the desired diameters. Due to confusion over the classification for diameter sizes and mesh sizes, the team had difficulty obtaining sand of the right size. Initially, the team members confused mesh size 35 for being equivalent to 0.35 microns in diameter. The team realized the mistake and decided what range of sand grain size would be appropriate . The team decided to sieve sand found in the lab, rather than buy pre-sieved sand. The team met with Philip Carubia of the Cornell Center for Materials Research to sift sand to the three size ranges (18-25, 25-35, and 35-45 mesh sizes). The team used a combination of hand sieves from the Bovay Lab to sieve the sand into the proper sizes. Future teams looking to sieve sand should contact James Strait of the Bovay Lab for sieve use.
+
+
+###### Fabrication Details
+
+The StaRS team has undergone further fabrication training in order to have a holistic and safe understanding of the power tools when fabricating the three new filters. Each filter will be constructed identically, with one influent stream and one effluent stream. In previous years, the team’s filter was composed of two stacked filter layers (total sand depth was 40 cm), but the team this year decided that one layer (total sand depth 20 cm) would be equally effective for the purposes of our research.
+
+When determining the height of the new filters, backwash expansion was considered. During backwash, the sand in a StaRs filter is pushed up and it expands throughout the column. Previous teams determined the sand rises to about 1.5 times its original height.
+
+(height of sand) * 1.5 = (height of sand during backwash expansion)
+
+As a result, the team determined it was necessary that the height of the new filters be at least 30 cm. To stay on the safe side, the team planned to construct filters of heights 40 cm.
+
+
+###### Materials
+- Transparent PVC pipe of inner diameter 1 in. and >120 cm in length (Obtained from AgauClara Lab)
+- 3 PVC Pipe caps of inner diameter 1.32 in. (Obtained from AguaClara Lab)
+- Brass or copper pipe of outer diameter 0.50 in., inner diameter 0.436 in., and length >120 cm. (Obtained from McMaster-Carr)
+- Sand sieved to three size ranges: .354-.5 mm (between  35-45 mesh size), .5-.707 mm (25-35 mesh size), and .707-1 mm (18-25 mesh size) in diameter. (Obtained from AguaClara Lab and Sieved in Cornell Center for Materials Research)
+- Three turbidimeters (Obtained from the AguaClara lab
+- Three pressure sensors (Obtained from the AguaClara Lab)
+
+
+##### Tool List
+- Sawzall or Band Saw
+- Drill Press
+- 9/16 in. drill bit
+- 3/8 in. tap
 
 
 #### Procedure
+1. Using the Sawzall or band saw, the team cut the PVC pipe into approximately three 40 cm long pieces. These pieces will become the three filters.
+2. The team drilled a hole for the inlet pipe using the drill press and the 9/16 in. drill bit. The bottom of the hole was approximately 21 cm from the bottom of the PVC pipe. The team then used a ⅜ inch tap to tap the holes.
+3. To create closed containers, the team attached the PVC caps to the bottom of each filter using primer and cement glue. The glue was left to dry for several days.
+4. The team repeated step 2 and drilled holes for the outlet pipes at the bottom of the filters. The center of the outlet hole is located about 1.5 cm from the bottom of the filter. The hole was drilled on the opposite side of the filter from the hole constructed in step 2.
 
-StaRS team has undergone further fabrication training in order to have a holistic and safe understanding of the power tools when building the filters. The length of each filter will be dependent on backwash expansion. The team will note what the height of the stabilised sand bed will be and add 0.6 times that to calculate optimum height of the filters.
+<img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/filter%20models.jpg?raw=true" heights=270 width=480>
+**Figure 3** illustrates the appearance of 1 filter.
 
-1. Obtained a long PVC pipe of inlet diameter 26 mm. This matches the inlet diameter of the previous filter.
-2. Drilled hole for inlet pipe using pillar drilling machine. The bottom of the hole is approximately 21 cm from bottom of PVC pipe. The drill bit used was 9/16 inch. We then used a ⅜ inch tap.
-3. Attached white caps to bottom of each filter using cement glue. Wait for glue to dry before drilling hole for outlet pipe.
-4. Step 2 is repeated but drilled at the bottom of the PVC pipe where white cap is attached. The outlet hole is the same diameter as the inlet diameter.
-5. Find brass (or copper) piping to fabricate the inlet and outlet pipe. The inlet pipe should be cut to have an orifice of area: 1.8 centimeters cubed. Contact CEE Machine Shop for that to be done. **[perhaps we can include an image of what the orifice should look like in this step]**
+5. The team began construction on the three inlet pipes. Each inlet pipe will be 10 cm in length. They will be cut to have a rectangular orifice located 0.2 cm from the end of the pipe. The end of the pipe nearest the hold will be capped with metal - most likely copper or brass. The width of the hole will be 0.8 cm and the length 2.25 cm. These values are the same as the ones from the apparatus from previous years. This hole is meant to mimic the shape of the inlet pipes in the AguaClara plants in Honduras.
+
+<img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/inlet%20pipe%20model%20(2).jpg?raw=true" heights=155 width=464>
+**Figure 4** illustrates the appearance of the inlet pipe.
+
+6. The team also began construction on the outlet pipes. The outlet pipes will be 10 cm long and should have fine mesh soldered to it to. This will prevent sand from leaving the filter column. The team has contacted the CEE machine shop to get three inlet and three outlet pipes constructed.
 
 
+### Future Work
 
+The team plans on conducting porosity tests to further understand the material properties of the different sizes of sand. Once the team has obtained the filter inlet and outlet pipes, the fabrication will be almost finished. The tops of the filters still need to be constructed, and then the apparatus will need to be set up. This will include setting up 2 new effluent turbidimeters and attaching a pump to the system.
+
+The team will need to write new ProCoDa methods for the new apparatus. The new apparatus differs from the old in the pumps and turbidimeters. The new apparatus will have a pump for backwash with three heads, instead of one, and it will have three effluent turbidimeters, which will act as variables in the new code. ProCoDa testing will not be able to begin until the new apparatus is complete.
+
+At this point, the team will begin to run experiments.
 
 ### Works Cited
 
