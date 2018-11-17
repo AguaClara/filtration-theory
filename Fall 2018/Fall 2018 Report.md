@@ -80,12 +80,12 @@ There is a backwash system that pushes water up through the filters and out the 
 This semester, the StaRS team focused on fabricating three new filters. The filters will hold varying sand grain sizes from .354-.5 mm, .5-.707 mm, and .707-1 mm in diameter. The team will also be attaching a pump after the three filter streams in order to ensure a downward flow.
 
 
-###### Obtaining Sand
+#### Obtaining Sand
 
 The StaRs Team obtained sand sieved to the desired diameters. Due to confusion over the classification for diameter sizes and mesh sizes, the team had difficulty obtaining sand of the right size. Initially, the team members confused mesh size 35 for being equivalent to 0.35 microns in diameter. The team realized the mistake and decided what range of sand grain size would be appropriate . The team decided to sieve sand found in the lab, rather than buy pre-sieved sand. The team met with Philip Carubia of the Cornell Center for Materials Research to sift sand to the three size ranges (18-25, 25-35, and 35-45 mesh sizes). The team used a combination of hand sieves from the Bovay Lab to sieve the sand into the proper sizes. Future teams looking to sieve sand should contact James Strait of the Bovay Lab for sieve use.
 
 
-###### Fabrication Details
+#### Fabrication Details
 
 The StaRS team has undergone further fabrication training in order to have a holistic and safe understanding of the power tools when fabricating the three new filters. Each filter will be constructed identically, with one influent stream and one effluent stream. In previous years, the team’s filter was composed of two stacked filter layers (total sand depth was 40 cm), but the team this year decided that one layer (total sand depth 20 cm) would be equally effective for the purposes of our research.
 
@@ -96,7 +96,7 @@ When determining the height of the new filters, backwash expansion was considere
 As a result, the team determined it was necessary that the height of the new filters be at least 30 cm. To stay on the safe side, the team planned to construct filters of heights 40 cm.
 
 
-###### Materials
+#### Materials
 - Transparent PVC pipe of inner diameter 1 in. and >120 cm in length (Obtained from AgauClara Lab)
 - 3 PVC Pipe caps of inner diameter 1.32 in. (Obtained from AguaClara Lab)
 - Brass or copper pipe of outer diameter 0.50 in., inner diameter 0.436 in., and length >120 cm. (Obtained from McMaster-Carr)
@@ -105,7 +105,7 @@ As a result, the team determined it was necessary that the height of the new fil
 - Three pressure sensors (Obtained from the AguaClara Lab)
 
 
-##### Tool List
+#### Tool List
 - Sawzall or Band Saw
 - Drill Press
 - 9/16 in. drill bit
