@@ -98,6 +98,7 @@ The team will also be attaching a pump after the three filter streams in order t
 - Three turbidimeters
 - Three pressure sensors
 
+
 ###### Obtaining Sand
 
 The StaRS team is in the process of obtaining sieved sand. The team first reached out to Standard Sand and Silica Co., a company that AguaClara has obtained sand from previously. The company would not be capable of providing sand sieved to 25 micrometers. The team has been in contact with Philip Carubia from the Cornell Center for Materials Research to discuss the possibility of sieving sand either using a Sonic Sifter on campus or purchasing hand-sieves. The team will decide which sieving method to use within the next week.
@@ -106,6 +107,14 @@ The StaRS team is in the process of obtaining sieved sand. The team first reache
 #### Procedure
 
 StaRS team has undergone further fabrication training in order to have a holistic and safe understanding of the power tools when building the filters. The length of each filter will be dependent on backwash expansion. The team will note what the height of the stabilised sand bed will be and add 0.6 times that to calculate optimum height of the filters.
+
+1. Obtained a long PVC pipe of inlet diameter 26 mm. This matches the inlet diameter of the previous filter.
+2. Drilled hole for inlet pipe using pillar drilling machine. The bottom of the hole is approximately 21 cm from bottom of PVC pipe. The drill bit used was 9/16 inch. We then used a ⅜ inch tap.
+3. Attached white caps to bottom of each filter using cement glue. Wait for glue to dry before drilling hole for outlet pipe.
+4. Step 2 is repeated but drilled at the bottom of the PVC pipe where white cap is attached. The outlet hole is the same diameter as the inlet diameter.
+5. Find brass (or copper) piping to fabricate the inlet and outlet pipe. The inlet pipe should be cut to have an orifice of area: 1.8 centimeters cubed. Contact CEE Machine Shop for that to be done.
+
+
 
 
 ### Works Cited
