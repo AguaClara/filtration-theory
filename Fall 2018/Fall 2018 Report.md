@@ -119,12 +119,12 @@ As a result, the team determined it was necessary that the height of the new fil
 4. The team repeated step 2 and drilled holes for the outlet pipes at the bottom of the filters. The center of the outlet hole is located about 1.5 cm from the bottom of the filter. The hole was drilled on the opposite side of the filter from the hole constructed in step 2.
 
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/filter%20models.jpg?raw=true" heights=540 width=960>
-**Figure 3** illustrates the appearance of 1 filter.
+**Figure 3:** illustrates the appearance of 1 filter.
 
 5. The team began construction on the three inlet pipes. Each inlet pipe will be 10 cm in length. They will be cut to have a rectangular orifice located 0.2 cm from the end of the pipe. The end of the pipe nearest the hold will be capped with metal - most likely copper or brass. The width of the hole will be 0.8 cm and the length 2.25 cm. These values are the same as the ones from the apparatus from previous years. This hole is meant to mimic the shape of the inlet pipes in the AguaClara plants in Honduras.
 
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/in%20pipe%20model.jpg?raw=true" heights=310 width=927>
-**Figure 4** illustrates the appearance of the inlet pipe.
+**Figure 4:** illustrates the appearance of the inlet pipe.
 
 6. The team also began construction on the outlet pipes. The outlet pipes will be 10 cm long and should have fine mesh soldered to it to. This will prevent sand from leaving the filter column. The team has contacted the CEE machine shop to get three inlet and three outlet pipes constructed.
 
