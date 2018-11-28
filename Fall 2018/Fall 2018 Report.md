@@ -97,7 +97,7 @@ As a result, the team determined it was necessary that the height of the new fil
 
 
 #### Materials
-- Transparent PVC pipe of inner diameter 1 in. and >120 cm in length (Obtained from AgauClara Lab)
+- Transparent PVC pipe of inner diameter 1 in. and >120 cm in length (Obtained from AguaClara Lab)
 - 3 PVC Pipe caps of inner diameter 1.32 in. (Obtained from AguaClara Lab)
 - Brass or copper pipe of outer diameter 0.50 in., inner diameter 0.436 in., and length >120 cm. (Obtained from McMaster-Carr)
 - 6 Push-to-connect reducers, 1/2" to 3/8"
@@ -141,7 +141,7 @@ Note: The team contacted the CEE machine shop to assist in the construction of t
 
 7. To fit the inlet and outlet pipes onto threaded fittings, the team drilled into the threaded fittings. The team first disassembled the fitting into its pieces so that it could be drilled into. The team then had help from the CEE machine shop in opening the fittings using a .5" drill bit followed by a .505" ream to widen the hole slightly. The reassembled fittings were then slid onto the inlet and outlet pipes. On the opposite end of the pipes, we slid on push-to-connect reducers.
 
-8. The team constructed the top of the filter, modeling it after the filter top from the previous team's filter. The team placed the "1 inch LASCOtite Adapter MPT x Gasket, Part Number: 21305" part at the top of the PVC pipe, and then
+8. The team constructed the top of the filter, modeling it after the filter top from the previous team's filter. The team placed the "1 inch LASCOtite Adapter MPT x Gasket, Part Number: 21305" part at the top of the PVC pipe, and then ....
 
 
 
