@@ -4,7 +4,7 @@
 
 ### Abstract
 
-Stacked Rapid Sand Filtration is the last stage in an AguaClara treatment plant. It is used to further reduce the turbidity of water to match EPA standards of 0.3 NTU or less. In this report, the StaRS team will be researching the effects of different sizes of sand grains as well as ranges of coagulant dosage. By experimenting with the previously stated variables, this will enhance our understanding of the ability of flocs to bind to the surface of the sand grains. The team's goal for this semester is to find out the volume of flocs caught within the pores of the sand grains as well as formulating a mathematical model for calculating the depth of the active zone.
+Stacked Rapid Sand Filtration is the last stage in an AguaClara treatment plant. It is used to further reduce the turbidity of water to match EPA standards of 0.3 NTU or less. In this report, the StaRS team will be researching the effects of different sizes of sand grains as well as ranges of coagulant dosage. By experimenting with the previously stated variables, this will enhance AguaClara's understanding of the ability of flocs to bind to the surface of the sand grains. The team spent the semester constructing three new filters and compiling a manual so that future StaRS teams can investigate pore sizes and further understand how stacked filters work.
 
 
 ### Introduction
@@ -36,7 +36,7 @@ Investigations into grain sizes of glass beads have found that they have less of
 
 
 ### Previous Works
-The main goal for Fall 2018 has been undergoing major reconstruction of apparatus set-up. This has required the team to look at early teams, such as Fall 2015, for fabrication and calculations to help the team create three new one layer sand filters, as well as fabricating the brass inlet and outlet pipes. The prior filter used by StaRs subteam was a two layer sand filter. The sand bed column was 40 cm in length, and there was an extra 30% included to account for the fluidization of the bed during backwash. The length of the entire filter resulted to be 60 cm in length and it had one inlet and two outlet streams. The inlet stream had an rectangular orifice of a calculated area for water to infuse within the filter whilst the outlet streams were from equidistant from the the inlet located above and below. The Fall 2013 was the first team to implement this design for the filter and it has not been drastically modelled until this semester.
+The main goal for Fall 2018 has been undergoing major reconstruction of apparatus set-up. This has required the team to look at early teams, such as Fall 2015, for fabrication and calculations to help the team create three new one layer sand filters, as well as fabricating the brass inlet and outlet pipes. The prior filter used by StaRs subteam was a two layer sand filter. The sand bed column was 40 cm in length, and there was an extra 30% included to account for the fluidization of the bed during backwash. The length of the entire filter resulted to be 60 cm in length and it had one inlet and two outlet streams. The inlet stream had a rectangular orifice of a calculated area for water to infuse within the filter whilst the outlet streams were from equidistant from the the inlet located above and below. The Fall 2013 was the first team to implement this design for the filter and it has not been drastically modelled until this semester.
 
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/orifice%20eqn.jpg?raw=true" heights=70 width=418>
 
@@ -100,9 +100,17 @@ As a result, the team determined it was necessary that the height of the new fil
 - Transparent PVC pipe of inner diameter 1 in. and >120 cm in length (Obtained from AgauClara Lab)
 - 3 PVC Pipe caps of inner diameter 1.32 in. (Obtained from AguaClara Lab)
 - Brass or copper pipe of outer diameter 0.50 in., inner diameter 0.436 in., and length >120 cm. (Obtained from McMaster-Carr)
+- 6 Push-to-connect reducers, 1/2" to 3/8"
 - Sand sieved to three size ranges: .354-.5 mm (between  35-45 mesh size), .5-.707 mm (25-35 mesh size), and .707-1 mm (18-25 mesh size) in diameter. (Obtained from AguaClara Lab and Sieved in Cornell Center for Materials Research)
-- Three turbidimeters (Obtained from the AguaClara lab
+- Three turbidimeters (Obtained from the AguaClara lab)
 - Three pressure sensors (Obtained from the AguaClara Lab)
+- Teflon Tape
+
+##### Materials for Top of Filter (x3 each)
+- 1" LASCOtite Adapter MPT x Gasket, Part Number: 21305
+- LASCO Sch80 Reducer Bushing (Flush Style) MPT x FPT, Part Number: 839128
+- 2" McMaster-Carr Straight Adaptor with Hex Body, Part Number: 4596K57
+- Push-to-Connect Fitting for Drinking Water, Straight Adapter, for 1/4" Tube OD x 1/8 BSPT Male, Part Number: 5104K15
 
 
 #### Tool List
@@ -116,28 +124,49 @@ As a result, the team determined it was necessary that the height of the new fil
 1. Using the Sawzall or band saw, the team cut the PVC pipe into approximately three 40 cm long pieces. These pieces will become the three filters.
 2. The team drilled a hole for the inlet pipe using the drill press and the 9/16 in. drill bit. The bottom of the hole was approximately 21 cm from the bottom of the PVC pipe. The team then used a ⅜ inch tap to tap the holes.
 3. To create closed containers, the team attached the PVC caps to the bottom of each filter using primer and cement glue. The glue was left to dry for several days.
+
 4. The team repeated step 2 and drilled holes for the outlet pipes at the bottom of the filters. The center of the outlet hole is located about 1.5 cm from the bottom of the filter. The hole was drilled on the opposite side of the filter from the hole constructed in step 2.
 
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/filter%20models.jpg?raw=true" heights=540 width=960>
 **Figure 3:** illustrates the appearance of 1 filter.
 
-5. The team began construction on the three inlet pipes. Each inlet pipe will be 10 cm in length. They will be cut to have a rectangular orifice located 0.2 cm from the end of the pipe. The end of the pipe nearest the hold will be capped with metal - most likely copper or brass. The width of the hole will be 0.8 cm and the length 2.25 cm. These values are the same as the ones from the apparatus from previous years. This hole is meant to mimic the shape of the inlet pipes in the AguaClara plants in Honduras.
+5. The team constructed the three inlet pipes. Each inlet pipe is 10 cm in length. They were cut to have a rectangular orifice located 0.2 cm from the end of the pipe. The end of the pipe nearest the hold is be capped with metal - either copper or brass is acceptable. The width of the hole will be 0.8 cm and the length 2.25 cm. These values are the same as the ones from the apparatus from previous years. This hole is meant to mimic the shape of the inlet pipes in the AguaClara plants in Honduras.
 
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/in%20pipe%20model.jpg?raw=true" heights=310 width=927>
 **Figure 4:** illustrates the appearance of the inlet pipe.
 
-6. The team also began construction on the outlet pipes. The outlet pipes will be 10 cm long and should have fine mesh soldered to it to. This will prevent sand from leaving the filter column. The team has contacted the CEE machine shop to get three inlet and three outlet pipes constructed.
+6. The team also constructed the outlet pipes. The outlet pipes are 10 cm long and have fine mesh soldered on the end within the filter stack. This prevents sand from leaving the filter column.
 
+Note: The team contacted the CEE machine shop to assist in the construction of the three inlet and three outlet pipes.
+
+7. To fit the inlet and outlet pipes onto threaded fittings, the team drilled into the threaded fittings. The team first disassembled the fitting into its pieces so that it could be drilled into. The team then had help from the CEE machine shop in opening the fittings using a .5" drill bit followed by a .505" ream to widen the hole slightly. The reassembled fittings were then slid onto the inlet and outlet pipes. On the opposite end of the pipes, we slid on push-to-connect reducers.
+
+8. The team constructed the top of the filter, modeling it after the filter top from the previous team's filter. The team placed the "1 inch LASCOtite Adapter MPT x Gasket, Part Number: 21305" part at the top of the PVC pipe, and then
+
+
+
+### Conclusion
+***Explain what you have learned and how that influences your next steps. Why does what you discovered matter to AguaClara? Make sure that you defend your conclusions with facts and results***
+
+The Fall 2018 StaRS team has learn a significant amount about fabrication.
+How the filter works, as well as obtaining sand.
 
 ### Future Work
+***describe your plan of action for the next several weeks of research. Detail the next steps for this team. How can AguaClara use what you discovered for future projects? Your suggestions for challenges for future teams are most welcome. Should research in this area continue?***
 
-The team plans on conducting porosity tests to further understand the material properties of the different sizes of sand. Once the team has obtained the filter inlet and outlet pipes, the fabrication will be almost finished. The tops of the filters still need to be constructed, and then the apparatus will need to be set up. This will include setting up 2 new effluent turbidimeters and attaching a pump to the system.
+The Fall 2018 StaRS team has spent their time predominately focused on fabrication of the new apparatus. The team is eager to continue the research for StaRS in the future.
+
+The future works for the team are to finish connecting the tubings within the apparatus to accommodate  for three filters as opposed to one. This task will require the team to find three different 3-point connects to account for the inflow, and two outflows of waste and the outflow stream to the effluent pump. Moreover, two effluent turbidimeters and another pump is needed for the apparatus set-up to be complete.
+
+The team has conducted a porosity test. This allowed the team to understand the material properties of the sand. In addition the calculation for finding the the porosity will be used to calculate the flow rate that will be used for the experiment.
 
 The team will need to write new ProCoDa methods for the new apparatus. The new apparatus differs from the old in the pumps and turbidimeters. The new apparatus will have a pump for backwash with three heads, instead of one, and it will have three effluent turbidimeters, which will act as variables in the new code. ProCoDa testing will not be able to begin until the new apparatus is complete.
 
-At this point, the team will begin to run experiments.
+The challenges the Fall 2018 team foresee for future teams is ensuring that ProCoDa operates smoothly when the three filters are connected. Additionally, fixing leaks within the apparatus is another concern the team has.  
 
-### Works Cited
+The research of this team is necessary for the development for AguaClara's filter as the results will show ways filters in Honduras can be adapted to be more efficient.
+
+### Bibliography
 
 Chuang, C.-J., & Li, K.-Y. (1997). Effect of coagulant dosage and grain size on the performance of direct filtration. Separation and Purification Technology, 12(3), 229–241. https://doi.org/10.1016/S1383-5866(97)00048-8
 
