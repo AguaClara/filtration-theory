@@ -1,6 +1,6 @@
 # StaRS Filter Theory, Fall 2018
 #### Barbara Oramah, Lainey Reed, Emily Spiek
-##### September 28th, 2018
+##### November 30th, 2018
 
 ### Abstract
 
@@ -148,8 +148,9 @@ Note: The team contacted the CEE machine shop to assist in the construction of t
 ### Conclusion
 ***Explain what you have learned and how that influences your next steps. Why does what you discovered matter to AguaClara? Make sure that you defend your conclusions with facts and results***
 
-The Fall 2018 StaRS team has learn a significant amount about fabrication.
-How the filter works, as well as obtaining sand.
+To conclude the work done by the Fall 2018 StaRS team, the team has made significant advances in the fabrication of the new apparatus design. In doing so, the team was able to write a detailed manual that highlights clearly how we obtained the differet sand grain sizes as well as manufacturing the brass inlet and outlet pipes.
+
+
 
 ### Future Work
 ***describe your plan of action for the next several weeks of research. Detail the next steps for this team. How can AguaClara use what you discovered for future projects? Your suggestions for challenges for future teams are most welcome. Should research in this area continue?***
