@@ -93,6 +93,7 @@ The team conducted porosity tests on the different sand grain sizes (Table 1). T
 | 0.707-1 | 0.37  |
 | 0.50-0.707 |  0.33 |
 | 0.354-0.5 | 0.33 |
+
 **Table 1** The calculated porosity of each sand grain size.
 
 The team faced an issue with air bubbles when conducting the porosity tests. When the water was poured into the column with the smallest sand grain size, air bubbles began to form in the middle of the column. These air bubbles most likely affected the accuracy of the calculated values. The formation of air bubbles in the sand column may be an issue future teams face in conducting experiments with smaller sand grain sizes.
