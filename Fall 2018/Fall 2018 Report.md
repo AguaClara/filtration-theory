@@ -89,7 +89,7 @@ The team conducted porosity tests on the different sand grain sizes (Table 1). T
 
 
 | Sand Grain Size (mm)  | Average Porosity  |
-| --- | --- | --- | --- |
+| --- | --- |
 | 0.707-1 | 0.37  |
 | 0.50-0.707 |  0.33 |
 | 0.354-0.5 | 0.33 |
@@ -180,7 +180,7 @@ The team will need to write new ProCoDa methods for the new apparatus set-up, ta
 
 Future teams will be conducting experiments varying the coagulant dosage. between 0.02 and 0.10 mg/L of PaCl. As the Fall 2018 team was unable to conduct any experiments, the team recommends that future teams should vary the coagulant dosage between 0.02 and 0.10 mg/L of PaCl, which is the range that optimizes filter performance as determined by the Spring 2018 team. Knowing how the coagulant dosage impacts filter performance within the three filters will lead to a well-developed mathematical model for StaRS filters in general.
 
-The challenges the Fall 2018 team foresees for future teams is ensuring that ProCoDa operates smoothly when the three filters are connected. Additionally, the team expects there to be water leaks when the apparatus is initially set up. The team also believes that air bubbles may form in the sand column, affecting experimental results. 
+The challenges the Fall 2018 team foresees for future teams is ensuring that ProCoDa operates smoothly when the three filters are connected. Additionally, the team expects there to be water leaks when the apparatus is initially set up. The team also believes that air bubbles may form in the sand column, affecting experimental results.
 
 ### Bibliography
 
