@@ -126,6 +126,7 @@ The team also needed to determine the orifice size for the inlet pipes into the 
 - 3x LASCO Sch80 Reducer Bushing (Flush Style) MPT x FPT, Part Number: 839128
 - 3x 2" McMaster-Carr Straight Adaptor with Hex Body, Part Number: 4596K57
 - 3x Push-to-Connect Fitting for Drinking Water, Straight Adapter, for 1/4" Tube OD x 1/8 BSPT Male, Part Number: 5104K15
+- Wire mesh
 
 
 #### Tool List
@@ -148,13 +149,11 @@ The team also needed to determine the orifice size for the inlet pipes into the 
 4. The team repeated step 2 and drilled holes for the outlet pipes at the bottom of the filters. The center of the outlet hole is located about 1.5 cm from the bottom of the filter. The hole was drilled on the opposite side of the filter from the hole constructed in step 2.
 
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/filter%20models.jpg?raw=true" heights=540 width=960>
-
 **Figure 3:** illustrates the appearance of 1 filter.
 
 5. The team constructed the three inlet pipes out of brass. Each inlet pipe is 10 cm in length. The team cut a rectangular orifice located 0.2 cm from the end of the pipe. The width of the hole is 0.8 cm and the length 2.25 cm. These values are the same as the ones from the apparatus from previous years. This hole is meant to mimic the shape of the inlet pipes in the AguaClara plants in Honduras. The team soldered brass to the end of the pipe that is submerged in the filter (the end nearer to the orifice).
 
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/in%20pipe%20model.jpg?raw=true" heights=310 width=927>
-
 **Figure 4:** illustrates the appearance of the inlet pipe.
 
 6. The team also constructed the outlet pipes out of brass. The outlet pipes are 10 cm long and have fine mesh soldered on one end. The team attached the mesh to prevent sand from leaving the filter column with the effluent stream.
@@ -165,7 +164,7 @@ Note: The team contacted the CEE machine shop to assist in the construction of t
 
 8. The team then slid the reassembled fittings onto the inlet and outlet pipes on the side of the pipe that would extend into the filter. For the inlet pipes, this is the end with the rectangular orifice. The fitting was pushed far enough back for the rectangular orifice to be mostly visible, which allows for the orifice to extend into the filter column when the inlet pipe is attached to it. The fitting should also be pushed enough so the inlet pipe, when screwed in, is close to the opposite side of the pipe. The inlet pipes, when screwed in, also need to face downwards. For the outlet pipes, the team attached the fitting to the end of the pipe with the soldered mesh. The team wrapped the threaded fittings on both the inlet and outlet pipes with Teflon tape to water-proof the system and prevent leaks. On the opposite end of all 6 pipes, the team slid on push-to-connect reducers. The reducers connect the brass pipes to the water tubing.
 
-9. The team constructed the tops of the filters, modeling them after the filter top from the previous team's filter. Before attaching any of the parts, the team wrapped the threaded pieces in Teflon tape to prevent water leaks. The team placed the Adapter MPT x Gasket part to the top of the filter PVC pipe and then attached the Straight Adaptor with Hex Body part. The team then attached the Reducer Bushing (Flush Style) MPT x FPT part to the top of the Straight Adaptor and attached the push-to-connect fitting at the top. The top of the filter is necessary, as it will connect the filter to the outlet stream for backwash.
+9. The team constructed the tops of the filters, modeling them after the filter top from the previous team's filter. Before attaching any of the parts, the team wrapped the threaded pieces in Teflon tape to prevent water leaks. The team placed wire mesh inside the Adapter MPT x Gasket part to prevent sand from leaving the filter during backwash. The team then placed this part on the top of the filter and then attached the Straight Adaptor with Hex Body part. The team then attached the Reducer Bushing (Flush Style) MPT x FPT part to the top of the Straight Adaptor and attached the push-to-connect fitting at the top. The top of the filter is necessary, as it will connect the filter to the outlet stream for backwash.
 
 [put picture in of filter top.]
 
