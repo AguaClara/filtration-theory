@@ -167,6 +167,7 @@ Note: The team contacted the CEE machine shop to assist in the construction of t
 9. The team constructed the tops of the filters, modeling them after the filter top from the previous team's filter. Before attaching any of the parts, the team wrapped the threaded pieces in Teflon tape to prevent water leaks. The team placed wire mesh inside the Adapter MPT x Gasket part to prevent sand from leaving the filter during backwash. The team then placed this part on the top of the filter and then attached the Straight Adaptor with Hex Body part. The team then attached the Reducer Bushing (Flush Style) MPT x FPT part to the top of the Straight Adaptor and attached the push-to-connect fitting at the top. The top of the filter is necessary, as it will connect the filter to the outlet stream for backwash.
 
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/top%20of%20filter.JPG?raw=true" heights=336 width=448>
+**Figure 5:** The top of the filter. There is wire mesh inside the part to prevent sand from leaving the filter.
 
 
 ### Conclusion
