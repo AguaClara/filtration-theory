@@ -4,7 +4,7 @@
 
 ### Abstract
 
-Stacked Rapid Sand Filtration is the last stage in an AguaClara treatment plant. The filters are used to further reduce the turbidity of water to meet EPA standards of 0.3 NTU or less. This semester, the Stacked Rapid Sand (StaRS) Filter Theory team constructed 3 StaRS filters with sand of varying sizes. These filters will be used in future experiments to analyze how specific parameters, including sand grain size and coagulant dosage, affect filter performance. The StaRS team has spent the semester compiling a manual so that future teams can run experiments and reconstruct experimental filters if necessary.
+Stacked Rapid Sand Filtration is the last stage in an AguaClara treatment plant. The filters are used to further reduce the turbidity of water to meet EPA standards of 0.3 NTU or less. This semester, the Stacked Rapid Sand (StaRS) Filter Theory team constructed 3 StaRS filters with sand of varying sizes. These filters will be used in future experiments to analyze how specific parameters, including sand grain size and coagulant dosage, affect filter performance. The StaRS Filter Theory team has spent the semester compiling a manual so that future teams can run experiments and reconstruct experimental filters if necessary.
 
 
 ### Table of Contents
@@ -33,7 +33,7 @@ Although the team focused the entire semester on fabrication and did not conduct
 
 
 <p align="center">
-<img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/sand%20grain%20diagram.jpg?raw=true" heights=720 width=1260>
+<img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/sand.jpg?raw=true" heights=720 width=1260>
 </p>
 
 <p align="center">
@@ -116,18 +116,18 @@ The StaRs Team sieved sand to the desired diameters. The team decided to sieve s
 
 The team conducted porosity tests on the different sand grain sizes (Table 1). To conduct this test, the team filled a graduated cylinder with sand and measured the volume of the sand column. The team then poured water into the graduated cylinder. The water distributed itself in the sand pores. The team stopped pouring water when it began to pool at the top. The porosity was calculated using the relationship Porosity = (Volume water added)/(Total volume of sand column). The team conducted 2 trials for each sand grain size and averaged the calculated porosity values together. Knowing porosity will help the team in the future to understand the material properties of the sand. These values will also be used in future calculations for water flow rate in the filters.
 
-<p align="center">
+
 
 | Sand Grain Size (mm)  | Average Porosity  |
 | --- | --- |
 | 0.707-1 | 0.37  |
 | 0.50-0.707 |  0.33 |
 | 0.354-0.5 | 0.33 |
-</p>
 
-<p align="center">
+
+
 <b>Table 1:</b> The calculated porosity of each sand grain size.
-</p>
+
 
 
 
@@ -191,7 +191,8 @@ The team also needed to determine the orifice size for the inlet pipes into the 
 
 4. The team repeated step 2 and drilled holes for the outlet pipes at the bottom of the filters. The center of the outlet hole is located about 1.5 cm from the bottom of the filter. The hole was drilled on the opposite side of the filter from the hole constructed in step 2.
 
-<p align="center"><img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/filter%20models.jpg?raw=true" heights=540 width=960>
+<p align="center">
+<img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/filter%20models.jpg?raw=true" heights=540 width=960>
 </p>
 
 <p align="center">
