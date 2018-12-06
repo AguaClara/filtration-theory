@@ -10,18 +10,18 @@ Stacked Rapid Sand Filtration is the last stage in an AguaClara treatment plant.
 ### Table of Contents
 
 - [Introduction](#Introduction)
-- [Literature Review](#LiteratureReview)
-- [Previous Works](#PreviousWorks)
-- [Experimental Apparatus](#ExperimentalApparatus)
+- [Literature Review](#Literature_Review)
+- [Previous Works](#Previous_Works)
+- [Experimental Apparatus](#Experimental_Apparatus)
 - [Manual](#Manual)
-  - [Obtaining Sand](#ObtainingSand)
-  - [Conducting Porosity Test](#ConductingPorosityTest)
-  - [Fabrication Details](#FabricationDetails)
+  - [Obtaining Sand](#Obtaining_Sand)
+  - [Conducting Porosity Test](#Conducting_Porosity_Test)
+  - [Fabrication Details](#Fabrication_Details)
   - [Materials](#Materials)
-  - [Tool List](#ToolList)
+  - [Tool List](#Tool_List)
   - [Procedure](#Procedure)
 - [Conclusion](#Conclusion)
-- [Future Work](#FutureWork)
+- [Future Work](#Future_Work)
 - [Bibliography](#Bibliography)
 
 ### Introduction
@@ -59,7 +59,7 @@ The main goal for Fall 2018 was to reconstruct the apparatus for future experime
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/orifice%20eqn.jpg?raw=true" heights=70 width=418>
 <p style="text-align: center;">
-<b>Equation 1 </b>: The relationship used to determine orifice area
+<b>Equation 1</b>: The relationship used to determine orifice area
 </p>
 
 
@@ -136,7 +136,7 @@ When determining the height of the new filters, the backwash expansion needed to
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/sand%20expansion%20equation.png?raw=true" heights=120 width = 200>
 </p>
 <p style="text-align: center;">
-<b>Equation 2 </b>: The height of the sand bed during backwash expansion.
+<b>Equation 2</b>: The height of the sand bed during backwash expansion.
 </p>
 
 
