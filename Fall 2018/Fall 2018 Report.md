@@ -1,6 +1,6 @@
 # StaRS Filter Theory, Fall 2018
 #### Barbara Oramah, Lainey Reed, Emily Spiek
-##### November 30th, 2018
+##### December 6th, 2018
 
 ### Abstract
 
@@ -114,20 +114,26 @@ The StaRs Team sieved sand to the desired diameters. The team decided to sieve s
 
 #### Conducting Porosity Tests
 
-The team conducted porosity tests on the different sand grain sizes (Table 1). To conduct this test, the team filled a graduated cylinder with sand and measured the volume of the sand column. The team then poured water into the graduated cylinder. The water distributed itself in the sand pores. The team stopped pouring water when it began to pool at the top. The porosity was calculated using the relationship Porosity = (Volume water added)/(Total volume of sand column). The team conducted 2 trials for each sand grain size and averaged the calculated porosity values together. Knowing porosity will help the team in the future to understand the material properties of the sand. These values will also be used in future calculations for water flow rate in the filters.
+The team conducted porosity tests on the different sand grain sizes (Table 1). To conduct this test, the team filled a graduated cylinder with sand and measured the volume of the sand column. The team then poured water into the graduated cylinder. The water distributed itself in the sand pores. The team stopped pouring water when it began to pool at the top. The porosity was calculated using the relationship in equation 2.
+
+<p align="center">
+<img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/sand%20porosity%20equation.png?raw=true" heights=100, width=350>
+</p>
+
+<p align="center">
+<b>Equation 2</b>: Porosity is a ratio of pore volume to total volume.
+</p>
+
+The team conducted 2 trials for each sand grain size and averaged the calculated porosity values together. Knowing porosity will help the team in the future to understand the material properties of the sand. These values will also be used in future calculations for water flow rate in the filters.
 
 
-
-| Sand Grain Size (mm)  | Average Porosity  |
+| Sand Grain Size (mm)  | Average Porosity |
 | --- | --- |
 | 0.707-1 | 0.37  |
 | 0.50-0.707 |  0.33 |
 | 0.354-0.5 | 0.33 |
 
-
-
 <b>Table 1:</b> The calculated porosity of each sand grain size.
-
 
 
 
@@ -138,14 +144,14 @@ The team faced an issue with air bubbles when conducting the porosity tests. Whe
 
 The StaRS team received fabrication training in order to have a holistic and safe understanding of the power tools when fabricating the three new filters. Each filter was constructed identically, with one influent stream and one effluent stream. In previous years, the team’s filter was composed of two stacked filter layers (total sand depth was 40 cm), but the team this year decided that one layer (total sand depth 20 cm) would be equally effective for the purposes of the research.
 
-When determining the height of the new filters, the backwash expansion needed to considered. During backwash, the sand in a StaRS filter is pushed up by the water and it expands throughout the column. Equation 2 was used by previous teams to determine the height of the sand bed during backwash expansion.
+When determining the height of the new filters, the backwash expansion needed to considered. During backwash, the sand in a StaRS filter is pushed up by the water and it expands throughout the column. Equation 3 was used by previous teams to determine the height of the sand bed during backwash expansion.
 
 <p align="center">
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/sand%20expansion%20equation.png?raw=true" heights=120 width = 200>
 </p>
 
 <p align="center">
-<b>Equation 2</b>: The height of the sand bed during backwash expansion.
+<b>Equation 3</b>: The height of the sand bed during backwash expansion.
 </p>
 
 
