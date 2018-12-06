@@ -6,18 +6,28 @@
 
 Stacked Rapid Sand Filtration is the last stage in an AguaClara treatment plant. The filters are used to further reduce the turbidity of water to meet EPA standards of 0.3 NTU or less. This semester, the Stacked Rapid Sand (StaRS) Filter Theory team constructed 3 StaRS filters with sand of varying sizes. These filters will be used in future experiments to analyze how specific parameters, including sand grain size and coagulant dosage, affect filter performance. The StaRS team has spent the semester compiling a manual so that future teams can run experiments and reconstruct experimental filters if necessary.
 
+[**Jonathan: Very nice abstract! Also, please include a Table of Contents. I started it for you below**]
+### Table of Contents
+
+- [Introduction](#Introduction)
 
 ### Introduction
 Sand filtration has been used since ancient times. In AguaClara water treatment plants, a common type of sand filtration is used - rapid (gravity) sand filtration. This filtration method requires the use of a chemical coagulant, polyaluminum chloride (PaCl), to aggregate small particles (flocs) to increase the ease of particle filtration. This filter design has proven to reduce turbidity below 0.3 NTU, which meets the EPA standards. Experimentation performed on the model sand filter in the lab and the sand filters in the water treatment plants built in Honduras have proved the effectiveness of StaRS filters.
 
-The goal of the StaRS sub-team is to develop a mathematical model describing the filter performance. To do so, the relevant filtration parameters must be determined through experimentation. These parameters can then be used to optimize filter performance for minimum effluent turbidity and maximum failure time. The filter parameters that were investigated in previous years include coagulant dosage, influent flow rate, influent turbidity, backwash duration and floc size. The Fall 2018 team built 3 new StaRs filters, each of which contains 1 layer of sand. The sand grain size within each filter differs. Next semester, the team will test the filters and analyze performance. The main goal of the future teams will be to investigate the effects of variation in sand grain size and to create a corresponding mathematical model.
+The goal of the StaRS [**Filter Theory**] sub-team is to develop a mathematical model describing the filter performance. To do so, the relevant filtration parameters must be determined through experimentation. These parameters can then be used to optimize filter performance for minimum effluent turbidity and maximum failure time. The filter parameters that were investigated in previous years include coagulant dosage, influent flow rate, influent turbidity, backwash duration and floc size. The Fall 2018 team built 3 new StaRs filters, each of which contains 1 layer of sand. The sand grain size within each filter differs. Next semester, the team will test the filters and analyze performance. The main goal of the future teams will be to investigate the effects of variation in sand grain size and to create a corresponding mathematical model.
 
-Although the team focused the entire semester on fabrication and did not conduct experiments, the team developed a hypothesis for how sand grain size affects filter performance. The team hypothesized that the filter with the largest sand grains will have the shortest failure time. Failure time corresponds to the time taken for the filter performance efficiency to decrease drastically. The team expects that flocs will be deposited along the sand pores at the same rate in every filter because the rate of the influent stream will be held constant. However, the volume of the filter will be held constant, so when sand grain size increases, the amount of sand grain pores in the filter decreases. Ultimately, this means that for a filter filled with larger sand grains, there will be fewer sand pores active at one time. This is demonstrated in Figure 1. This is predicted to cause the active filtration zone to move through the filter faster.
+Although the team focused the entire semester on fabrication and did not conduct experiments, the team developed a hypothesis for how sand grain size affects filter performance. The team hypothesized that the filter with the largest sand grains ~~will~~ [**would**] have the shortest failure time. Failure time corresponds to the time taken for the filter performance efficiency to decrease drastically. The team expects that flocs will be deposited along the sand pores at the same rate in every filter because the rate of the influent stream will be held constant. However, the volume of the filter will be held constant, so when sand grain size increases, the amount [**number, maybe?**] of sand grain pores in the filter decreases. Ultimately, this means that for a filter filled with larger sand grains, there will be fewer sand pores active at one time. This is demonstrated in Figure 1. This is predicted to cause the active filtration zone to move through the filter faster.
 
-
+[**Jonathan: Before**]
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/sand%20grain%20diagram.jpg" heights=720 width=1260>
 
-**Figure 1** demonstrates that when sand grain sizes are larger, there are fewer pores in the filter.
+[**After**]
+<p style="text-align: center;">
+<img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/sand%20grain%20diagram.jpg?raw=true" heights=720 width=1260>
+<b>Figure 1 </b>: demonstrates that when sand grain sizes are larger, there are fewer pores in the filter.
+</p>
+
+[**Jonathan: I could not see Figure 1. I corrected the mistake for you guys this time; please correct them for the rest of the figures. Make sure to copy 'image address' which adds the extra end after .jpg**]
 
 The results of these experiments could hold major significance for filtration methods of AguaClara and other water filtration plants. If it is discovered that sand grain size does impact filter performance, the team will be able to determine the sand grain size that optimizes effluent turbidity and failure time. This parameter could potentially hold major significance when creating a mathematical model that accurately describes StaRS filters. Moreover, using the optimum size of sand in future filters could increase filter duration; filters would need to be backwashed less often, saving the AguaClara plants both time and resources.
 
@@ -28,7 +38,7 @@ The team conducted a thorough literature review to understand the existing resea
 
 Many models of filtration include reentrainment, the process by which precipitated aggregate materials get unstuck from pores due to shear force from water and move through the filter, eventually sticking elsewhere ([Przekop & Gradon, 2016](https://doi.org/10.1515/cpe-2016-0033), [Tien et al., 1979](https://doi.org/10.1002/aic.690250302), [Yao et al., 1971](https://doi.org/10.1021/es60058a005)). The team will not be taking into account reentrainment, and instead will be assuming that particles either permanently bind to sand particles or completely pass through the system. Once experimentation begins, the team will be searching to see the impact of neglecting reentrainment in our experiment throughout the semester.
 
-One of the team's goals in varying sand grain size is to understand how the grain size influences ripening time and failure time. Ripening time is the time is takes for the filter to reach maximum particle removal efficiency. Failure time is the time it takes for the filter to fail, measured by a dramatic increase in effluent turbidity. Other studies have found that pore size has an effect on ripening time, with smaller pores on a filter leading to longer ripening times ([Przekop & Gradon, 2016](https://doi.org/10.1515/cpe-2016-0033)). This study has shown that physical properties within the filter can affect its efficiency. In future semesters, the property that the team will change is sand grain size.
+One of the team's goals in varying sand grain size is to understand how the grain size influences ripening time and failure time. Ripening time ~~is~~ [**it**] the time is takes for the filter to reach maximum particle removal efficiency. Failure time is the time it takes for the filter to fail, measured by a dramatic increase in effluent turbidity. Other studies have found that pore size has an effect on ripening time, with smaller pores on a filter leading to longer ripening times ([Przekop & Gradon, 2016](https://doi.org/10.1515/cpe-2016-0033)). This study has shown that physical properties within the filter can affect its efficiency. In future semesters, the property that the team will change is sand grain size.
 
 Investigations into grain sizes of glass beads have found that they have less of an effect compared to changes in coagulant doses ([Chuang & Li, 1997](https://doi.org/10.1016/S1383-5866(97)00048-8)). Larger doses of coagulant lead to a shorter ripening time, but also clogged pores at a faster rate and increased the shear force in unclogged pores. However, grain size can have effects based on the coagulant and flocculant dosages. In this study, a flocculant, separate from the coagulant was used to further increase flocculation. The researchers found that larger grains in addition to flocculant and higher coagulant dosages reduced the rate of pore clogging. They hypothesized that it was because larger aggregates were able to pass through the pores between the larger glass beads. In the future, the team will be varying both coagulant dosage and grain size, as in this study. However, sand will be used as a filter material, as is used in AguaClara plants. Furthermore, AguaClara plants only use PaCl, a coagulant, not both a coagulant and a flocculant. The flocculant increased the extent to which the effect was observed within the study. The team would expect to see less of the reduction in clogging that was seen in this study.
 
@@ -38,7 +48,10 @@ The main goal for Fall 2018 was to reconstruct the apparatus for future experime
 
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/orifice%20eqn.jpg?raw=true" heights=70 width=418>
 
-**Equation 1** The relationship used to determine orifice area
+$$ \frac{A_{hole}}{A_{column}} = \frac{A_{inlet \space system}}{A_{filter}} $$
+**Equation 1:** The relationship used to determine orifice area
+
+[**Jonathan: It may be better to just write out this equation in LaTeX form. Since this is your only equation, I just wrote it out for you. You can decide which way you like better. Also I suggest centering this image and caption. If you use my equation, you may want to add to the paragraph about  what $A_{hole}$ means and so on to make it easy for readers to follow along.**]
 
 The Fall 2018 used calculations from previous teams' reports, scaling the values down to be compatible with the new 1-layer filters.
 
@@ -62,6 +75,8 @@ The schematic below shows the apparatus used by the StaRS Filter Theory Team dur
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/Apparatus%20Design.jpg" heights=540 width=960>
 
 **Figure 2:** The schematic used by the StaRS Filter Theory Team during Spring 2018.
+
+[**Jonathan: Again, cannot see this image**]
 
 Clean water enters the system and is then mixed with a clay-water solution. This mixture enters the influent turbidimeter, where the turbidity is set in ProCoDa to be 5 NTU. This turbidity is meant to mimic the turbidity of the sedimentation effluent stream before it enters filtration in an AguaClara plant.
 
@@ -94,7 +109,7 @@ The team conducted porosity tests on the different sand grain sizes (Table 1). T
 | 0.50-0.707 |  0.33 |
 | 0.354-0.5 | 0.33 |
 
-**Table 1** The calculated porosity of each sand grain size.
+**Table 1:** The calculated porosity of each sand grain size.
 
 The team faced an issue with air bubbles when conducting the porosity tests. When the water was poured into the column with the smallest sand grain size, air bubbles began to form in the middle of the column. These air bubbles most likely affected the accuracy of the calculated values. The formation of air bubbles in the sand column may be an issue future teams face in conducting experiments with smaller sand grain sizes.
 
@@ -103,9 +118,11 @@ The team faced an issue with air bubbles when conducting the porosity tests. Whe
 
 The StaRS team received fabrication training in order to have a holistic and safe understanding of the power tools when fabricating the three new filters. Each filter was constructed identically, with one influent stream and one effluent stream. In previous years, the team’s filter was composed of two stacked filter layers (total sand depth was 40 cm), but the team this year decided that one layer (total sand depth 20 cm) would be equally effective for the purposes of the research.
 
-When determining the height of the new filters, the backwash expansion needed to considered. During backwash, the sand in a StaRS filter is pushed up by the water and it expands throughout the column. Previous teams determined the sand rises to about 1.5 times its original height.
+When determining the height of the new filters, the backwash expansion needed to considered. During backwash, the sand in a StaRS filter is pushed up by the water and it expands throughout the column. Previous teams determined the sand rises to about 1.5 times its original height. [**Jonathan: Introduce this equation. Like "The following equation ___"**]
 
 (height of sand column) * 1.5 = (height of sand during backwash expansion)
+
+[**Jonathan: please write this out as an equation. See Eq 1 for an example. You may want to call them like $h_{sand}$ and $h_{expansion}$ or something like that.**]
 
 As a result, the team determined it was necessary that the height of the new filters be at least 30 cm. To stay on the safe side, the team  constructed the three filters at a height of 40cm.
 
@@ -113,7 +130,7 @@ The team also needed to determine the orifice size for the inlet pipes into the 
 
 
 #### Materials
-- Transparent PVC pipe of inner diameter 1 in. and >=120 cm in length (Obtained from AguaClara Lab)
+- Transparent PVC pipe of inner diameter 1 in. and $\geq$120 cm in length (Obtained from AguaClara Lab)
 - 3x PVC Pipe caps of inner diameter 1.32 in. (Obtained from AguaClara Lab)
 - Brass (or copper) pipe of outer diameter 0.50 in., inner diameter 0.436 in., and length >120 cm. The team used brass for the apparatus, obtained from McMaster-Carr, Part Number: 5157K133.
 - 3x unthreaded push-to-connect reducers, 1/2" to 3/8"
@@ -169,7 +186,7 @@ Note: The team contacted the CEE machine shop to assist in the construction of t
 <p align="center">
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/top%20of%20filter.JPG?raw=true" heights=336 width=448>
  </p>
- 
+
 **Figure 5:** The top of the filter. There is wire mesh inside the part to prevent sand from leaving the filter.
 
 
