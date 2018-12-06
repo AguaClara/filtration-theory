@@ -15,7 +15,7 @@ Stacked Rapid Sand Filtration is the last stage in an AguaClara treatment plant.
 - [Experimental Apparatus](#Experimental-Apparatus)
 - [Manual](#Manual)
   - [Obtaining Sand](#Obtaining-Sand)
-  - [Conducting Porosity Test](#Conducting-Porosity-Test)
+  - [Conducting Porosity Tests](#Conducting-Porosity-Tests)
   - [Fabrication Details](#Fabrication-Details)
   - [Materials](#Materials)
   - [Tool List](#Tool-List)
@@ -32,11 +32,11 @@ The goal of the StaRS Filter Theory sub-team is to develop a mathematical model 
 Although the team focused the entire semester on fabrication and did not conduct experiments, the team developed a hypothesis for how sand grain size affects filter performance. The team hypothesized that the filter with the largest sand grains would have the shortest failure time. Failure time corresponds to the time taken for the filter performance efficiency to decrease drastically. The team expects that flocs will be deposited along the sand pores at the same rate in every filter because the rate of the influent stream will be held constant. However, the volume of the filter will be held constant, so when sand grain size increases, the number of sand grain pores in the filter decreases. Ultimately, this means that for a filter filled with larger sand grains, there will be fewer sand pores active at one time. This is demonstrated in Figure 1. This is predicted to cause the active filtration zone to move through the filter faster.
 
 
-<p style="text-align: center;">
+<p align="center">
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/sand%20grain%20diagram.jpg?raw=true" heights=720 width=1260>
 </p>
 
-<p style="text-align: center;">
+<p align="center">
 <b>Figure 1 </b>: demonstrates that when sand grain sizes are larger, there are fewer pores in the filter.
 </p>
 
@@ -59,11 +59,11 @@ Investigations into grain sizes of glass beads have found that they have less of
 The main goal for Fall 2018 was to reconstruct the apparatus for future experimentation. The team analyzed StaRS reports from pasts years, such as Fall 2015, for fabrication methods and calculations used. The team constructed three 1-layer sand filters and fabricated brass inlet and outlet pipes. The prior filter used by the StaRS subteam was a 2-layer sand filter, and the height of the sand bed column was 40 cm. There was an extra 30% included to account for the fluidization of the sand bed during backwash. The height of the entire filter was then about 60 cm, and it had one inlet stream and two outlet streams. The inlet stream had a rectangular orifice for water to infuse within the filter. The area of the orifice was determined using Equation 1. The outlet streams were located equidistantly above and below the inlet. The Fall 2013 StaRS team was the first team to implement this design for the filter and it has not been drastically remodeled until this semester.
 
 
-<p style="text-align: center;">
+<p align="center">
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/orifice%20eqn.jpg?raw=true" heights=70 width=418>
 </p>
 
-<p style="text-align: center;">
+<p align="center">
 <b>Equation 1</b>: The relationship used to determine orifice area
 </p>
 
@@ -84,11 +84,11 @@ The findings of the previous StaRS teams are crucial for understanding filter pe
 
 The schematic below shows the apparatus used by the StaRS Filter Theory Team during Fall 2018.
 
-<p style="text-align: center;">
+<p align="center">
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/Apparatus%20Design.jpg?raw=true" heights=540 width=960>
 </p>
 
-<p style="text-align: center;">
+<p align="center">
 <b>Figure 2</b>: The schematic used by the StaRS Filter Theory Team during Spring 2018.
 </p>
 
@@ -116,7 +116,7 @@ The StaRs Team sieved sand to the desired diameters. The team decided to sieve s
 
 The team conducted porosity tests on the different sand grain sizes (Table 1). To conduct this test, the team filled a graduated cylinder with sand and measured the volume of the sand column. The team then poured water into the graduated cylinder. The water distributed itself in the sand pores. The team stopped pouring water when it began to pool at the top. The porosity was calculated using the relationship Porosity = (Volume water added)/(Total volume of sand column). The team conducted 2 trials for each sand grain size and averaged the calculated porosity values together. Knowing porosity will help the team in the future to understand the material properties of the sand. These values will also be used in future calculations for water flow rate in the filters.
 
-<p style="text-align: center;">
+<p align="center">
 
 | Sand Grain Size (mm)  | Average Porosity  |
 | --- | --- |
@@ -125,7 +125,7 @@ The team conducted porosity tests on the different sand grain sizes (Table 1). T
 | 0.354-0.5 | 0.33 |
 </p>
 
-<p style="text-align: center;">
+<p align="center">
 <b>Table 1:</b> The calculated porosity of each sand grain size.
 </p>
 
@@ -140,11 +140,11 @@ The StaRS team received fabrication training in order to have a holistic and saf
 
 When determining the height of the new filters, the backwash expansion needed to considered. During backwash, the sand in a StaRS filter is pushed up by the water and it expands throughout the column. Equation 2 was used by previous teams to determine the height of the sand bed during backwash expansion.
 
-<p style="text-align: center;">
+<p align="center">
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/sand%20expansion%20equation.png?raw=true" heights=120 width = 200>
 </p>
 
-<p style="text-align: center;">
+<p align="center">
 <b>Equation 2</b>: The height of the sand bed during backwash expansion.
 </p>
 
@@ -191,19 +191,18 @@ The team also needed to determine the orifice size for the inlet pipes into the 
 
 4. The team repeated step 2 and drilled holes for the outlet pipes at the bottom of the filters. The center of the outlet hole is located about 1.5 cm from the bottom of the filter. The hole was drilled on the opposite side of the filter from the hole constructed in step 2.
 
-<p style="text-align: center;">
-<img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/filter%20models.jpg?raw=true" heights=540 width=960>
+<p align="center"><img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/filter%20models.jpg?raw=true" heights=540 width=960>
 </p>
 
-<p style="text-align: center;">
+<p align="center">
 <b>Figure 3</b>: Illustrates the appearance of 1 filter.
 </p>
 
 5. The team constructed the three inlet pipes out of brass. Each inlet pipe is 10 cm in length. The team cut a rectangular orifice located 0.2 cm from the end of the pipe. The width of the hole is 0.8 cm and the length 2.25 cm. These values are the same as the ones from the apparatus from previous years. This hole is meant to mimic the shape of the inlet pipes in the AguaClara plants in Honduras. The team soldered brass to the end of the pipe that is submerged in the filter (the end nearer to the orifice).
 
-<p style="text-align: center;"> <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/in%20pipe%20model.jpg?raw=true" heights=310 width=927> </p>
+<p align="center"> <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/in%20pipe%20model.jpg?raw=true" heights=310 width=927> </p>
 
-<p style="text-align: center;"> <b>Figure 4</b>: Illustrates the appearance of the inlet pipe. </p>
+<p align="center"> <b>Figure 4</b>: Illustrates the appearance of the inlet pipe. </p>
 
 6. The team also constructed the outlet pipes out of brass. The outlet pipes are 10 cm long and have fine mesh soldered on one end. The team attached the mesh to prevent sand from leaving the filter column with the effluent stream.
 
@@ -215,10 +214,10 @@ Note: The team contacted the CEE machine shop to assist in the construction of t
 
 9. The team constructed the tops of the filters, modeling them after the filter top from the previous team's filter. Before attaching any of the parts, the team wrapped the threaded pieces in Teflon tape to prevent water leaks. The team placed wire mesh inside the Adapter MPT x Gasket part to prevent sand from leaving the filter during backwash. The team then placed this part on the top of the filter and then attached the Straight Adaptor with Hex Body part. The team then attached the Reducer Bushing (Flush Style) MPT x FPT part to the top of the Straight Adaptor and attached the push-to-connect fitting at the top. The top of the filter is necessary, as it will connect the filter to the outlet stream for backwash.
 
-<p style="text-align: center;">
+<p align="center">
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/top%20of%20filter.JPG?raw=true" heights=336 width=448>
 </p>
-<p style="text-align: center;">
+<p align="center">
 <b>Figure 5</b>: The top of the filter. There is wire mesh inside the part to prevent sand from leaving the filter.
 </p>
 
