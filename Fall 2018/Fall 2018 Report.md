@@ -37,7 +37,7 @@ Although the team focused the entire semester on fabrication and did not conduct
 </p>
 
 <p align="center">
-<b>Figure 1 </b>: demonstrates that when sand grain sizes are larger, there are fewer pores in the filter.
+<b>Figure 1 </b>: Demonstrates that when sand grain sizes are larger, there are fewer pores in the filter.
 </p>
 
 
