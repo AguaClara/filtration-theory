@@ -10,18 +10,18 @@ Stacked Rapid Sand Filtration is the last stage in an AguaClara treatment plant.
 ### Table of Contents
 
 - [Introduction](#Introduction)
-- [Literature Review](#Literature)
-- [Previous Works](#Previous_Works)
-- [Experimental Apparatus](#Experimental_Apparatus)
+- [Literature Review](#literature-review)
+- [Previous Works](#Previous-Works)
+- [Experimental Apparatus](#Experimental-Apparatus)
 - [Manual](#Manual)
-  - [Obtaining Sand](#Obtaining_Sand)
-  - [Conducting Porosity Test](#Conducting_Porosity_Test)
-  - [Fabrication Details](#Fabrication_Details)
+  - [Obtaining Sand](#Obtaining-Sand)
+  - [Conducting Porosity Test](#Conducting-Porosity-Test)
+  - [Fabrication Details](#Fabrication-Details)
   - [Materials](#Materials)
-  - [Tool List](#Tool_List)
+  - [Tool List](#Tool-List)
   - [Procedure](#Procedure)
 - [Conclusion](#Conclusion)
-- [Future Work](#Future_Work)
+- [Future Work](#Future-Work)
 - [Bibliography](#Bibliography)
 
 ### Introduction
@@ -61,6 +61,8 @@ The main goal for Fall 2018 was to reconstruct the apparatus for future experime
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/orifice%20eqn.jpg?raw=true" heights=70 width=418>
+</p>
+
 <p style="text-align: center;">
 <b>Equation 1</b>: The relationship used to determine orifice area
 </p>
@@ -84,6 +86,9 @@ The schematic below shows the apparatus used by the StaRS Filter Theory Team dur
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/Apparatus%20Design.jpg?raw=true" heights=540 width=960>
+</p>
+
+<p style="text-align: center;">
 <b>Figure 2</b>: The schematic used by the StaRS Filter Theory Team during Spring 2018.
 </p>
 
@@ -138,6 +143,7 @@ When determining the height of the new filters, the backwash expansion needed to
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/sand%20expansion%20equation.png?raw=true" heights=120 width = 200>
 </p>
+
 <p style="text-align: center;">
 <b>Equation 2</b>: The height of the sand bed during backwash expansion.
 </p>
@@ -187,15 +193,17 @@ The team also needed to determine the orifice size for the inlet pipes into the 
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/filter%20models.jpg?raw=true" heights=540 width=960>
+</p>
+
+<p style="text-align: center;">
 <b>Figure 3</b>: Illustrates the appearance of 1 filter.
 </p>
 
 5. The team constructed the three inlet pipes out of brass. Each inlet pipe is 10 cm in length. The team cut a rectangular orifice located 0.2 cm from the end of the pipe. The width of the hole is 0.8 cm and the length 2.25 cm. These values are the same as the ones from the apparatus from previous years. This hole is meant to mimic the shape of the inlet pipes in the AguaClara plants in Honduras. The team soldered brass to the end of the pipe that is submerged in the filter (the end nearer to the orifice).
 
-<p style="text-align: center;">
-<img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/in%20pipe%20model.jpg?raw=true" heights=310 width=927>
-<b>Figure 4</b>: Illustrates the appearance of the inlet pipe.
-</p>
+<p style="text-align: center;"> <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/in%20pipe%20model.jpg?raw=true" heights=310 width=927> </p>
+
+<p style="text-align: center;"> <b>Figure 4</b>: Illustrates the appearance of the inlet pipe. </p>
 
 6. The team also constructed the outlet pipes out of brass. The outlet pipes are 10 cm long and have fine mesh soldered on one end. The team attached the mesh to prevent sand from leaving the filter column with the effluent stream.
 
