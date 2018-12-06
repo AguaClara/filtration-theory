@@ -10,7 +10,7 @@ Stacked Rapid Sand Filtration is the last stage in an AguaClara treatment plant.
 ### Table of Contents
 
 - [Introduction](#Introduction)
-- [Literature Review](#Literature_Review)
+- [Literature Review](#Literature)
 - [Previous Works](#Previous_Works)
 - [Experimental Apparatus](#Experimental_Apparatus)
 - [Manual](#Manual)
@@ -34,6 +34,9 @@ Although the team focused the entire semester on fabrication and did not conduct
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/sand%20grain%20diagram.jpg?raw=true" heights=720 width=1260>
+</p>
+
+<p style="text-align: center;">
 <b>Figure 1 </b>: demonstrates that when sand grain sizes are larger, there are fewer pores in the filter.
 </p>
 
