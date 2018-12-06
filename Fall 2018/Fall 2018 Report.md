@@ -191,7 +191,7 @@ The team also needed to determine the orifice size for the inlet pipes into the 
 #### Procedure
 1. Using the Sawzall and band saw, the team cut the PVC pipe into three 40 cm long pieces. These pieces became the three filters.
 
-2. The team drilled a hole for the inlet pipe using the drill press and the 9/16 in. drill bit. The bottom of the hole was approximately 21 cm from the bottom of the PVC pipe. The team then used a 3/8 inch tap to tap the holes.
+2. The team drilled a hole for the inlet pipe using the drill press and the 1/2 in. drill bit followed by the 9/16 in. drill bit (using both to avoid putting too much pressure on the PVC pipe). The bottom of the hole was approximately 21 cm from the bottom of the PVC pipe. The team then used a 3/8 inch tap to tap the holes.
 
 3. To create closed containers, the team attached the PVC caps to the bottom of each filter using primer and cement glue. The glue was left to dry for several days.
 
