@@ -23,4 +23,4 @@ Understand the physics of filtration and the failure mechanism in Stacked Rapid 
 
 [Fall 2018 Final Presentation Video](https://www.youtube.com/watch?v=zpjpnF5EVf4&index=26&t=0s&list=PLhsGtpY8ipdZTn2HPI6C2uH44ADmc0Ra6)
 
-[Fall 2018 Final Presentation Slides](https://docs.google.com/presentation/d/1RA1j8bx2q4Zaum2ENHA4NJnpMPuIc6aqdIUozRuFQeg/edit#slide=id.g4628303d5c_2_64)
+[Fall 2018 Final Presentation Slides](https://docs.google.com/presentation/d/1RA1j8bx2q4Zaum2ENHA4NJnpMPuIc6aqdIUozRuFQeg/edit?usp=sharing)
