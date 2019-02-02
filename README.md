@@ -5,7 +5,7 @@ Repository for Stacked Rapid Sand (StaRS) Filter Theory sub-team.
 
 Jonathan Harris: jdh345@cornell.edu
 
-##Current Team Members
+## Current Team Members
 Barbara Oramah:  bio4@cornell.edu, 607-882-5795
 
 Lainey Reed: ekr42@cornell.edu,   301-346-9905
