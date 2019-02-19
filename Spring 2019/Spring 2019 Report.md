@@ -53,3 +53,5 @@ The main goal of the Spring 2019 Team was to construct the apparatus for future 
 The 2-layered sand filters were first used by the team from Fall 2013 and they had not been changed until Fall 2018 changed the design. The height of the bed sand was 4 cm, due to the fluidization of the sand bed however, an additional 30% of the height was needed, making the final height of the filter 60 cm. The filter had one inlet stream that infused within the filter through a rectangular orifice and two outlets.
 
 In contrast, the 1-layered filter that Fall 2018 started to build had a sand bed of 20 cm. Calculations showed that a 30 cm total height of the filter would just satisfy the requirements for backwash. In order to be on the safety side, the final height of the filtered decided was 40 cm.
+
+hi
