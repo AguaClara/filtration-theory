@@ -4,7 +4,7 @@
 
 ### Abstract
 
-Stacked Rapid Sand Filtration is the last stage in an AguaClara treatment plant. The filters are used to further reduce the turbidity of water to meet EPA standards of 0.3 NTU or less. This semester, the Stacked Rapid Sand (StaRS) Filter Theory team will be running experiments with the three newly constructed StaRS filters with varying sand grain sizes. This research will show the extent to which sand grain size has an affect on filter performance.
+Stacked Rapid Sand (StaRS) Filtration is the last stage in an AguaClara treatment plant. The filters are used to further reduce the turbidity of water to meet EPA standards of 0.3 NTU or less. As a whole, the StaRS subteam is working to develop a mathematical model to describe sand filtration. This semester, the Stacked Rapid Sand (StaRS) Filter Theory team will be running experiments with the three newly constructed StaRS filters with varying sand grain sizes. This research will show the extent to which sand grain size has an affect on filter performance.
 
 
 ### Table of Contents
@@ -14,7 +14,8 @@ Stacked Rapid Sand Filtration is the last stage in an AguaClara treatment plant.
 - [Previous Works](#Previous-Works)
 - [Bibliography](#Bibliography)
 - [Experimental Apparatus](#Experimental-Apparatus)
-- [Method](#Method)
+- [Future Work](#Future-Work)
+- [Appendix](#Appendix)
 
 
 ### Introduction
@@ -77,17 +78,22 @@ The findings of the previous StaRS teams are crucial for understanding filter pe
 ### Experimental Apparatus
 
 <p align="center">
-<img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Spring%202019/Apparatus%20Design%20Spring%202019.jpg?raw=true" heights=720 width=1260>
+<img src="https://raw.githubusercontent.com/AguaClara/stars_filter_theory/master/Spring%202019/Apparatus%20Design%20Spring%202019.png" heights=720 width=1260>
 </p>
 
 <p align="center">
 <b>Figure 4 </b>: The schematic for the Spring 2019 experimental filter apparatus.
 </p>
 
-The team slightly altered the design from last semester. The two pumps from the Fall 2018 apparatus which were on the backwash line (light blue) and before the effluent turbidimeters **(Fig. 3)** were combined into one pump which is located on the exit line **(Fig. 4)**. The pump that was at the water inlet was considered redundant and removed.
+The team slightly altered the design from last semester. The two pumps from the Fall 2018 apparatus which were on the backwash line (light blue) and before the effluent turbidimeters **(Fig. 3)** were combined into one pump which is located on the exit line, labelled 13 on the diagram **(Fig. 4)**. The team opted to place the necessary pump after the effluent turbidimeters instead of before in order to prevent the pump from altering the turbidimeter readings from the effluent flow. By removing this pump, the team intends to improve the efficiency of the apparatus, and prevent pumps from essentially competing with each other. The pump that was at the water inlet was considered redundant and removed. Therefore, the only pump needed for the water flow in the apparatus is near the exit. This design change has been effective for initial tests with only water, but the design will continue to be observed in future tests with fully functional sand filters to determine efficacy.
 
+### Future Work
 
-### Method
+The team is currently working towards fixing the leaks of the experiment apparatus. Several fittings and one of the filters have been leaking, which needs to be stopped before experiments can be run on the apparatus. After the leaks have been stopped, the team is planning on fabricating a new flocculator. This flocculator will be designed centered around the fact that there are three filters as opposed to one.
+
+Additionally, the StaRS Spring 2019 team will be filling the filters with the varying sand grain sizes as well as determining the coagulant dosage that the system will start with when running experiments. Methods for the team's experiments will need to be drafted into a manual.
+
+A crucial part of running experiments with the three filters will be drafting new ProCoDa methods. The rules and set points within ProCoDa will be edited accordingly to accommodate for the three filters. The rules will be the same as the system with one filter column, but the set points will change to account for changes in pressure that the system with three filters will have. Nevertheless, the team intends on following the rules of past teams when creating new rules within ProCoDa.
 
 ### Bibliography
 
@@ -96,3 +102,40 @@ Chuang, C.J., & Li, K.-Y. (1997). Effect of coagulant dosage and grain size on t
 Przekop, R., & Gradoń, L. (2016). Dynamics of particle loading in deep-bed filter. Transport, deposition and reentrainment. Chemical and Process Engineering, 37(3), 405–417. https://doi.org/10.1515/cpe-2016-0033
 
 Kuan-Mu Yao, Mohammad T. Habibian, and Charles R. O'Melia (1971). Water and waste water filtration. Concepts and applications. ACS publications, 5 (11), 1105-1112 https://doi.org/10.1021/es60058a005.
+
+
+### Appendix
+
+
+##### StaRS Filter Theory Experimental Documentation
+-------
+
+```python
+import aguaclara
+import aguaclara.core.physchem as pc
+from aguaclara.core.units import unit_registry as u
+import numpy as np
+
+inletpipe_ID = 0.25 * u.inch
+filter_D= 1 * u.inch
+pipe_A=pc.area_circle(inletpipe_ID)
+
+backwash_v=11 * u.mm / u.s
+Length= 100 * u.cm
+velocity = backwash_v/6
+flow_rate=(velocity*filter_A).to(u.ml / u.sec)
+
+help(pc.headloss)
+
+print(flow_rate)
+temp=20 * u.degC
+
+Nu=pc.viscosity_kinematic(temp)
+PipeRough=0 * u.mm
+KMinor= 1
+
+
+head_loss=pc.headloss(flow_rate, inletpipe_ID, Length, Nu, PipeRough, KMinor)
+print(head_loss)
+
+```
