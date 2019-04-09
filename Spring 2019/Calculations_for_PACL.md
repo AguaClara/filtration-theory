@@ -13,5 +13,6 @@ final_concentration=2 *u.mg/u.l
 final_volume=1* u.l
 stock_volume=(final_concentration*final_volume/stock_concentration).to(u.microl)
 print(stock_volume)
+#Value is: 28.46 microliters
 
 ```
