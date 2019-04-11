@@ -27,7 +27,7 @@ Stacked Rapid Sand (StaRS) Filtration is the last stage in an AguaClara treatmen
 ### Introduction
 Sand filtration has been used since ancient times. In AguaClara water treatment plants, a common type of sand filtration is used - rapid (gravity) sand filtration. This filtration method requires the use of a chemical coagulant, polyaluminum chloride (PACl **[We write PACl]**), to aggregate small particles (flocs) to increase the ease of particle filtration. This filter design has proven to reduce turbidity below 0.3 NTU, which meets the EPA standards. Experimentation performed on the model sand filter in the lab and the sand filters in the water treatment plants built in Honduras have proved the effectiveness of StaRS filters.
 
-The goal of the StaRS Filter Theory sub-team is to develop a mathematical model describing the filter performance. To do so, the relevant filtration parameters must be determined through experimentation. These parameters can then be used to optimize filter performance for minimum effluent turbidity and maximum failure time. The filter parameters that were investigated by previous sub-teams included coagulant dosage, influent flow rate, influent turbidity, backwash duration (e.g. the time needed for the system to clean itself between runs) and floc size. The Spring 2019 team would consist  **[Try to use consistent past tense]** on running experiments and analyzing the performance with the 3 new StaRS filters that were built by the previous team. Each of the filters contains a layer of sand, differing in their sand grain size.
+The goal of the StaRS Filter Theory sub-team is to develop a mathematical model describing the filter performance. To do so, the relevant filtration parameters must be determined through experimentation. These parameters can then be used to optimize filter performance for minimum effluent turbidity and maximum failure time. The filter parameters that were investigated by previous sub-teams included coagulant dosage, influent flow rate, influent turbidity, backwash duration (e.g. the time needed for the system to clean itself between runs) and floc size. The Spring 2019 team work consisted  **[Try to use consistent past tense]** on running experiments and analyzing the performance with the 3 new StaRS filters that were built by the previous team. Each of the filters contained a layer of sand, differing in their sand grain size.
 
 Last semester, while focusing on fabricating three new filters, the team developed a hypothesis for how sand grain size affects filter performance. The team hypothesized that the filter with the largest sand grains would have the shortest failure time. This hypothesis has not changed within the Spring 2019 team. Failure time corresponds to the time taken for the filter performance efficiency to decrease drastically. The team expects that flocs will be deposited along the sand pores at the same rate in every filter because the rate of the influent stream will be held constant. However, the volume of the filter will be held constant, so when sand grain size increases, the number of sand grain pores in the filter decreases. Ultimately, this means that for a filter filled with larger sand grains, there will be fewer sand pores active at one time. This is demonstrated in Figure 1. This decrease in pore number may cause the active filtration zone to move through the filter faster, leading to a quicker failure time.
 
@@ -98,7 +98,7 @@ The team slightly altered the design from last semester **[Refer to figures here
 
 The apparatus was designed to work in the following way. When the filter performed under normal circumstances, the water entered the system and got mixed with the clay. The turbidity was then measured in the influent turbidimeter. After that, it was mixed with PACl in the contact chamber. As the water run through the flocculator, flocs start to form before they reach the filters. The water flowed down through each of the filters into the effluent turbidimeters, and was then pumped out of the system. There was also a pressure sensor before each of the filters.
 
-During backwash, water flowed from the inlet directly to end. It reaches the turbidemeters below the sand and went up to the upper exit and then it was headed to the exit.
+During backwash, water flowed from the inlet directly to end. It reaches the turbidimeters below the sand and went up to the upper exit and then it was headed to the exit.
 
 <p align="center">
 <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Spring%202019/Backwash%20Apparatus%20Design.PNG?raw=true" heights=720 width=1260>
@@ -120,15 +120,13 @@ Figure 5 is an image of the current apparatus set-up for the Spring 2019 StaRS F
 </p>
 
 
-
-
 ### Future Work
 
 The team is currently working towards preparing a system to add the clay into the apparatus to ensure a desirable influent turbidity. We would also require to have a mixing system to prevent the clay from settling down.
 
-Additionally, the StaRS Spring 2019 team will be filling the filters with the varying sand grain sizes as well as determining the coagulant dosage that the system will start with when running experiments. Methods for the team's experiments will need to be drafted into a manual.
+The StaRS Spring 2019 team will be filling the filters with the varying sand grain sizes as well as determining the coagulant dosage that the system will start with when running experiments. The code for determining the coagulant concentration can be found in the appendix. Methods for the team's experiments will need to be drafted into a manual.
 
-Finally, the team needs to finish with ProCoDa. Most of the methods and rules are defined
+Finally, the team needs to finish editing the ProCoDa method file.
 
 ### Bibliography
 
@@ -141,9 +139,9 @@ Kuan-Mu Yao, Mohammad T. Habibian, and Charles R. O'Melia (1971). Water and wast
 
 ### Manual
 
-##### Connecting Four Turbidimeters to ProCo
+##### Connecting Four Turbidimeters to ProCoDa
 
-To account for the 3 StaRS Filter, The Spring 2019 team requires 4 Turbidimeters in the experimental apparatus. The ProCoDa control box has limited inputs and outputs. Therefore, the team utilised a feature of the MicroTOL 4 Turbidimeter. The team was able to connect all the four turbidimeters so they all can be measured from one input.
+To account for the 3 StaRS Filter, The Spring 2019 team requires 4 Turbidimeters in the experimental apparatus. The ProCoDa control box has limited inputs and outputs. Therefore, the team utilized a feature of the MicroTOL 4 Turbidimeter. The team was able to connect all the four turbidimeters so they all can be measured from one input.
 
 The steps to achieve this are the following:
 
