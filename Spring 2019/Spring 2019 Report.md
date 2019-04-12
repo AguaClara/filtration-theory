@@ -21,8 +21,10 @@ Stacked Rapid Sand (StaRS) Filtration is the last stage in an AguaClara treatmen
 - [Bibliography](#Bibliography)
 - [Experimental Apparatus](#Experimental-Apparatus)
 - [Future Work](#Future-Work)
+- [Manual](#Manual)
+  - [Connecting Four Turbidimeters to ProCoDa](#Connecting-Four-Turbidimeters-to-ProCoDa)
 - [Appendix](#Appendix)
-
+  - [StaRS Filter Theory Experimental Python Documentation](#Obtaining-Sand)
 
 ### Introduction
 Sand filtration has been used since ancient times. In AguaClara water treatment plants, a common type of sand filtration is used - rapid (gravity) sand filtration. This filtration method requires the use of a chemical coagulant, polyaluminum chloride (PACl **[We write PACl]**), to aggregate small particles (flocs) to increase the ease of particle filtration. This filter design has proven to reduce turbidity below 0.3 NTU, which meets the EPA standards. Experimentation performed on the model sand filter in the lab and the sand filters in the water treatment plants built in Honduras have proved the effectiveness of StaRS filters.
@@ -158,7 +160,7 @@ The steps to achieve this are the following:
 
 ### Appendix
 
-##### StaRS Filter Theory Experimental Documentation
+##### StaRS Filter Theory Experimental Python Documentation
 -------
 ###### Calculations for Headloss
 ```python
@@ -182,7 +184,7 @@ flow_rate=(velocity*filter_A).to(u.ml / u.sec)
 
 help(pc.headloss)
 
-#More variables are defined. The roughness of PVC pipes was stimated to be zero, the temperature used was 20 ºC and the coefficient for minor losses 1. A function was called to obtain the vicosity based on the temperature.
+#More variables are defined. The roughness of PVC pipes was estimated to be zero, the temperature used was 20 ºC and the coefficient for minor losses 1. A function was called to obtain the viscosity based on the temperature.
 
 print(flow_rate)
 temp=20 * u.degC
@@ -191,7 +193,7 @@ Nu=pc.viscosity_kinematic(temp)
 PipeRough=0 * u.mm
 KMinor= 1
 
-#With all the variables that have been defined, it was possible to obtian the headloss.
+#With all the variables that have been defined, it was possible to obtain the head loss.
 
 head_loss=pc.headloss(flow_rate, inletpipe_ID, Length, Nu, PipeRough, KMinor)
 print(head_loss)
