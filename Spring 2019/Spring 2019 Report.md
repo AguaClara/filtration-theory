@@ -24,7 +24,8 @@ Stacked Rapid Sand (StaRS) Filtration is the last stage in an AguaClara treatmen
 - [Manual](#Manual)
   - [Connecting Four Turbidimeters to ProCoDa](#Connecting-Four-Turbidimeters-to-ProCoDa)
 - [Appendix](#Appendix)
-  - [StaRS Filter Theory Experimental Python Documentation](#Obtaining-Sand)
+  - [StaRS Filter Theory Experimental Python Documentation](#StaRS-Filter-Theory-Experimental-Python-Documentation)
+
 
 ### Introduction
 Sand filtration has been used since ancient times. In AguaClara water treatment plants, a common type of sand filtration is used - rapid (gravity) sand filtration. This filtration method requires the use of a chemical coagulant, polyaluminum chloride (PACl **[We write PACl]**), to aggregate small particles (flocs) to increase the ease of particle filtration. This filter design has proven to reduce turbidity below 0.3 NTU, which meets the EPA standards. Experimentation performed on the model sand filter in the lab and the sand filters in the water treatment plants built in Honduras have proved the effectiveness of StaRS filters.
@@ -94,10 +95,6 @@ The findings of the previous StaRS teams are crucial for understanding filter pe
 <b>Figure 3 </b>: The schematic for the Spring 2019 experimental filter apparatus.
 </p>
 
-The team slightly altered the design from last semester **[Refer to figures here to note that Figure 2 is last semester's design and Figure 3 is this semester's design]**. Figure 2 showed the design that the Team from Fall 2018 had and Figure 3 showed the new design. The two pumps from the Fall 2018 apparatus which were on the backwash line (light blue) and before the effluent turbidimeters (Fig. 2)**(Fig. 3)** were combined into one pump which is located on the exit line, labelled 13 on the diagram (Fig. 3)**(Fig. 4)**. The team opted to place the necessary pump after the effluent turbidimeters instead of before in order to prevent the pump from altering the turbidimeter readings from the effluent flow. By removing this pump, the team intends to improve the efficiency of the apparatus, and prevent pumps from essentially competing with each other. The pump that was at the water inlet was considered redundant and removed. Therefore, the only pump needed for the water flow in the apparatus is near the exit. This design change has been effective for initial tests with only water, but the design will continue to be observed in future tests with fully functional sand filters to determine efficacy.
-
-**[Perhaps walking through the flow process through your apparatus would be worth your time here because the diagram is not super easy on the eyes and can be a bit difficult to understand.]**
-
 The apparatus was designed to work in the following way. When the filter performed under normal circumstances, the water entered the system and got mixed with the clay. The turbidity was then measured in the influent turbidimeter. After that, it was mixed with PACl in the contact chamber. As the water run through the flocculator, flocs start to form before they reach the filters. The water flowed down through each of the filters into the effluent turbidimeters, and was then pumped out of the system. There was also a pressure sensor before each of the filters.
 
 During backwash, water flowed from the inlet directly to end. It reaches the turbidimeters below the sand and went up to the upper exit and then it was headed to the exit.
@@ -110,6 +107,9 @@ During backwash, water flowed from the inlet directly to end. It reaches the tur
 <b>Figure 4</b>: The schematic for the Spring 2019 backwash set-up
 </p>
 
+The Spring 2019 team slightly altered the design from the Fall 2018 team. **[Refer to figures here to note that Figure 2 is last semester's design and Figure 3 is this semester's design]**. Figure 2 shows the design that the Team from Fall 2018 had and Figure 3 shows the new design. The two pumps from the Fall 2018 apparatus, which were on the backwash line (light blue) and before the effluent turbidimeters (Fig. 2),**(Fig. 3)** were combined into one pump which is located on the exit line, labelled 13 on the diagram (Fig. 3)**(Fig. 4)**. The team opted to place the necessary pump after the effluent turbidimeters instead of before in order to prevent the pump from altering the turbidimeter readings from the effluent flow. By removing this pump, the team intends to improve the efficiency of the apparatus, and prevent pumps from essentially competing with each other. The pump that was at the water inlet was considered redundant and removed. Therefore, the only pump needed for the water flow in the apparatus is near the exit. This design change has been effective for initial tests with only water, but the design will continue to be observed in future tests with fully functional sand filters to determine efficacy.
+
+**[Perhaps walking through the flow process through your apparatus would be worth your time here because the diagram is not super easy on the eyes and can be a bit difficult to understand.]**
 
 Figure 5 is an image of the current apparatus set-up for the Spring 2019 StaRS Filter Team. The solenoid valves and pressure sensors are not labeled in the image but are present in the set-up as depicted in Figure 3 and 4.
 
@@ -124,7 +124,7 @@ Figure 5 is an image of the current apparatus set-up for the Spring 2019 StaRS F
 
 ### Future Work
 
-The team is currently working towards preparing a system to add the clay into the apparatus to ensure a desirable influent turbidity. We would also require to have a mixing system to prevent the clay from settling down.
+The team is currently working towards preparing a system to add the clay into the apparatus to ensure a desirable influent turbidity. We would also require to have a mixing system to prevent the clay from settling down, as well as creating a structure to support that addition.
 
 The StaRS Spring 2019 team will be filling the filters with the varying sand grain sizes as well as determining the coagulant dosage that the system will start with when running experiments. The code for determining the coagulant concentration can be found in the appendix. Methods for the team's experiments will need to be drafted into a manual.
 
@@ -147,15 +147,23 @@ To account for the 3 StaRS Filter, The Spring 2019 team requires 4 Turbidimeters
 
 The steps to achieve this are the following:
 
-1. Connect the blue wires of each turbidimeters to form a chain.
+1. Connect the blue wires of each turbidimeters to form a chain. One of the ends needs to connect to the com port on the computer.
 
-2. Press the downwards arrow on the turbidimeter to the "ADDRESS" selection
+2. Press the mode button on the turbidimeter to get to "CONFIG", push the enter button until "ADDRESS" selection comes up.
 
-3. Assign each turbidimeter to a different address (different numbers)
+3. Assign each turbidimeter to a different address (different numbers) using the up and down arrow. Once the number is selected, press the mode button to go back to AUTO.
 
-4. In ProCoDa, set the 4 turbidimeters to different states, saving them each with their respective IDs.
+4. In ProCoDa, open up the edit rules window, go to set points. Set up four states for each respective turbidimeter ID, call these "Turbidimeter X ID" (X being the address). These are all constants and the value should be the address.
 
-5. Create a separate state for turbidity, and import the HF turbidimeter file from the shared ProCoDa files
+5. Create another constant, call it  "turbidity meter com" or something similar. It should be below the ID. Set the value to whatever com port the turbidimeter daisy chain is hooked up to. If you don't know, set it to 1 and continue, step 7 has a way to find out if it's correct.
+
+6. Set up four more states for each turbidimeter, for the actual turbidity data. We called them "Filter 1 Turbidity" etc. They should each be a variable. The units are NTU. Click on the little folder and navigate to this location: "C:
+\ProgramData\ProCoDa\Functions\HF turbidimeter" (or equivalent) and select "HF modbus rtu.vi" as the file. Now, under selected set points, click the corresponding turbidimeter ID, and the turbidity meter com variable from step 5.
+
+(Note: these two states correspond to the two values in the "Required Set Points below" box and their order should be the same in the selected set points as they are in the required set points box. If they aren't, you can't move them, so delete them and recreate them in the proper order. Once they are correct, the green lights will come on)
+
+7. If everything is done correctly, the green light should come up, and the number in the value box in the ProCoDa variable should be the same as the value for the NTU on the actual turbidimeter. If it's not and each one gives a value of -999, keep changing the com port number until it is. If they aren't all -999 and the values simply are wrong, make sure the address is the same as the ID.
+
 
 
 ### Appendix
