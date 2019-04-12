@@ -160,14 +160,32 @@ The steps to achieve this are the following:
 
 ### Appendix
 
-##### StaRS Filter Theory Experimental Python Documentation
+##### StaRS Filter Theory Experimental Documentation
 -------
 ###### Calculations for Headloss
 ```python
+
+#importing aguaclara packages needed for calculations
 import aguaclara
+#pyschem contains useful functions for calculations
 import aguaclara.core.physchem as pc
+#units package helps us convert to useful untis
 from aguaclara.core.units import unit_registry as u
+#math packages
 import numpy as np
+from aide_design.play import*
+
+#Constraints:
+# Filter diameter = 1 inch
+# Backwash Velocity = 11 mm/s
+# Filter Column length = 20 cm (old filters were 40cm)
+# Temperature = 20 degrees Celsius
+# Pipe Roughness = 0
+# KMinor (constant) = 1
+
+#Solving for:
+# Filter Area, Nu (Viscosity Kinematic), Velocity (during filtering), headloss
+# Filter Area and Nu are needed for headloss calculation
 
 #First the geometry of the pipes was defined. inletpipe_ID is the diameter of the pipe and filter_D is the diameter of the filter. With the diameter, the internal area of the pipe was obtained.
 
@@ -182,9 +200,10 @@ Length= 100 * u.cm
 velocity = backwash_v/6
 flow_rate=(velocity*filter_A).to(u.ml / u.sec)
 
+#Using this help function we determined that this function returns total head loss, major and minor
 help(pc.headloss)
 
-#More variables are defined. The roughness of PVC pipes was estimated to be zero, the temperature used was 20 ºC and the coefficient for minor losses 1. A function was called to obtain the viscosity based on the temperature.
+#More variables are defined. The roughness of PVC pipes was stimated to be zero, the temperature used was 20 ºC and the coefficient for minor losses 1. A function was called to obtain the vicosity based on the temperature.
 
 print(flow_rate)
 temp=20 * u.degC
@@ -193,29 +212,39 @@ Nu=pc.viscosity_kinematic(temp)
 PipeRough=0 * u.mm
 KMinor= 1
 
-#With all the variables that have been defined, it was possible to obtain the head loss.
+#With all the variables that have been defined, it was possible to obtian the headloss.
 
 head_loss=pc.headloss(flow_rate, inletpipe_ID, Length, Nu, PipeRough, KMinor)
 print(head_loss)
+#Headloss was negligible
 
 ```
 ###### Calculations for PaCl concentration
 
 ```python
+#importing aguaclara packages needed for calculations
 import aguaclara
+#pyschem contains useful functions for calculations
 import aguaclara.core.physchem as pc
+#units package helps us convert to useful untis
 from aguaclara.core.units import unit_registry as u
+#math packages
 import numpy as np
 from aide_design.play import*
 
+#stock concentration in the lab now, may change as new stock is created
 stock_concentration=70.28 *u.g/u.l
-final_concentration=2 *u.mg/u.l
 #We went with 2 mg/L because that is what was in our ProCoDa
+final_concentration=2 *u.mg/u.l
 final_volume=1* u.l
+#Volume_stock=Volume_Final*Concentration_Final/Concentation_stock
+#We wanted units of microliters
 stock_volume=(final_concentration*final_volume/stock_concentration).to(u.microl)
 print(stock_volume)
-#Value is: 28.46 microliters
+#Volume is: 28.46 microliters
+# Now we can calculate volume needed in the future if the stock concentration changes
 
 ```
+
 
 **[Add comments to your code to explain what is going on.]**
