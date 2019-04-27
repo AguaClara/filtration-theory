@@ -1,6 +1,6 @@
 # StaRS Filter Theory, Spring 2019
 #### Barbara Oramah, Lainey Reed, Pablo Alonso Alguacil and Ronya Strom
-##### 12th April, 2019 **[Update the date]**
+##### 27th May, 2019 **[Update the date]**
 
 **[Sidney: Hey team! I'll be commenting in these bolded square brackets.]**
 
@@ -30,7 +30,7 @@ Stacked Rapid Sand (StaRS) Filtration is the last stage in an AguaClara treatmen
 ### Introduction
 Sand filtration has been used since ancient times. In AguaClara water treatment plants, a common type of sand filtration is used - rapid (gravity) sand filtration. This filtration method requires the use of a chemical coagulant, polyaluminum chloride (PACl **[We write PACl]**), to aggregate small particles (flocs) to increase the ease of particle filtration. This filter design has proven to reduce turbidity below 0.3 NTU, which meets the EPA standards. Experimentation performed on the model sand filter in the lab and the sand filters in the water treatment plants built in Honduras have proved the effectiveness of StaRS filters.
 
-The goal of the StaRS Filter Theory sub-team is to develop a mathematical model describing the filter performance. To do so, the relevant filtration parameters must be determined through experimentation. These parameters can then be used to optimize filter performance for minimum effluent turbidity and maximum failure time. The filter parameters that have been investigated by previous sub-teams include coagulant dosage, influent flow rate, influent turbidity, backwash duration (e.g. the time needed for the system to clean itself between runs) and floc size. The Spring 2019 team will be  **[Try to use consistent past tense]** running experiments and analyzing the performance with the 3 new StaRS filters that were built by the previous team. Each of the filters contain a layer of sand, differing in their sand grain size.
+The goal of the StaRS Filter Theory sub-team is to develop a mathematical model describing the filter performance. To do so, the relevant filtration parameters must be determined through experimentation. These parameters can then be used to optimize filter performance for minimum effluent turbidity and maximum failure time. The filter parameters that have been investigated by previous sub-teams include coagulant dosage, influent flow rate, influent turbidity, backwash duration (e.g. the time needed for the system to clean itself between runs) and floc size. The Spring 2019 team would be  **[Try to use consistent past tense]** running experiments and analyzing the performance with the 3 new StaRS filters that were built by the previous team. Each of the filters contain a layer of sand, differing in their sand grain size.
 
 Last semester, while focusing on fabricating three new filters, the team developed a hypothesis for how sand grain size affects filter performance. The team hypothesized that the filter with the largest sand grains would have the shortest failure time. This hypothesis has not changed within the Spring 2019 team. Failure time corresponds to the time taken for the filter performance efficiency to decrease drastically. The team expects that flocs will be deposited along the sand pores at the same rate in every filter because the rate of the influent stream will be held constant. However, the volume of the filter will be held constant, so when sand grain size increases, the number of sand grain pores in the filter decreases. Ultimately, this means that for a filter filled with larger sand grains, there will be fewer sand pores active at one time. This is demonstrated in Figure 1. This decrease in pore number may cause the active filtration zone to move through the filter faster, leading to a quicker failure time.
 
@@ -121,7 +121,17 @@ During backwash, labelled in red, water flows from the water inlet (1) and throu
 <b>Figure 5</b>: The experiment set-up for the Spring 2019 StaRS Team.
 </p>
 
+### Troubleshooting/Design Changes
 
+The Spring 2019 StaRS Team decided to change major design components as a result to the new experimental set-up of 3 new filter designs.
+
+The different design changes were the removal of the reducer of the pump and a change in the inlets of the pipes.
+
+Due to the addition of two new filters, the pump was unable to achieve the necessary flow rate to fluidize the three sand beds. To fixed this, the team removed the reducer that was attached to the pump in order to obtain a higher velocity. In addition, the tubing that connected the pump to the rest of the apparatus was very old and therefore the team replaced it with newer pipes.
+
+As the team was filling up the filters, a major issue that was discovered was sand back-flowing in the system through the inlet pipe. This was not an issue with the outlet pipe due the mesh. In reference to the Fall 2018 StaRS team, The [Pipe Design Procedure](https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Fall%202018%20Report.md#procedure) shows that mesh was not added to the inlet pipe. This was based on the design from previous teams. The team did not consider that as there are three filters in the new experimental design that undergo the same flows from the same pump this would cause back-flow of sand into the system from all three filters. Therefore the Spring 2019 team decided to modify the design of the inlet pipe by adding fine mesh at the entry.
+
+The design changes have been major setback to the Spring 2019 StaRS team. This has pushed back the team's ability to run experiments this semester.
 
 ### Future Work
 
@@ -129,7 +139,7 @@ The team is currently working towards preparing a system to add the clay into th
 
 The StaRS Spring 2019 team will be filling the filters with the varying sand grain sizes as well as determining the proper coagulant dosage that the system will require when running experiments. The code for determining the coagulant concentration can be found in the appendix. Methods for the team's experiments will need to be drafted into a manual.
 
-Finally, the team needs to finish editing the ProCoDa method file.
+As the apparatus was operating, one major issue that the team found was a considerable amount of air bubbles within the system. Future teams would need to take this into consideration when running experiments to make sure that they do not interfere with the data collected.
 
 ### Bibliography
 
@@ -165,6 +175,18 @@ The steps to achieve this are the following:
 
 7. If everything is done correctly, the green light should come up, and the number in the value box in the ProCoDa variable should be the same as the value for the NTU on the actual turbidimeter. If it's not and each one gives a value of -999, keep changing the com port number until it is. If they aren't all -999 and the values simply are wrong, make sure the address is the same as the ID.
 
+
+##### Change in Inlet Pipe Design
+
+In reference to the Fall 2018 StaRS team procedure for inlet pipe design, the text italicized highlights the design changes made by the Spring 2019 StaRS team.
+
+5. The team constructed the three inlet pipes out of brass. Each inlet pipe is 10 cm in length. The team cut a rectangular orifice located 0.2 cm from the end of the pipe. The width of the hole is 0.8 cm and the length 2.25 cm. These values are the same as the ones from the apparatus from previous years. This hole is meant to mimic the shape of the inlet pipes in the AguaClara plants in Honduras. The team soldered brass to the end of the pipe that is submerged in the filter (the end nearer to the orifice). _The inlet pipes have been soldered with with fine mesh at the entry of the inlet pipe._
+
+<p align="center"> <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/in%20pipe%20model.jpg?raw=true" heights=310 width=927> </p>
+
+<p align="center"> <b>Figure 4</b>: Illustrates the appearance of the inlet pipe. </p>
+
+Note: The team contacted the CEE machine shop to assist in the construction of the three inlet and three outlet pipes.
 
 
 ### Appendix
