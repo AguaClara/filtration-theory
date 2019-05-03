@@ -180,7 +180,7 @@ The steps to achieve this are the following:
 
 In reference to the Fall 2018 StaRS team procedure for inlet pipe design, the text italicized highlights the design changes made by the Spring 2019 StaRS team.
 
-5. The team constructed the three inlet pipes out of brass. Each inlet pipe is 10 cm in length. The team cut a rectangular orifice located 0.2 cm from the end of the pipe. The width of the hole is 0.8 cm and the length 2.25 cm. These values are the same as the ones from the apparatus from previous years. This hole is meant to mimic the shape of the inlet pipes in the AguaClara plants in Honduras. The team soldered brass to the end of the pipe that is submerged in the filter (the end nearer to the orifice). _The inlet pipes have been soldered with with fine mesh at the entry of the inlet pipe._
+5. The team constructed the three inlet pipes out of brass. Each inlet pipe is 10 cm in length. The team cut a rectangular orifice located 0.2 cm from the end of the pipe. The width of the hole is 0.8 cm and the length 2.25 cm. These values are the same as the ones from the apparatus from previous years. This hole is meant to mimic the shape of the inlet pipes in the AguaClara plants in Honduras. The team soldered brass to the end of the pipe that is submerged in the filter (the end nearer to the orifice). _The inlet pipes have been soldered with with fine mesh at the entry of the inlet pipe. This addition is to prevent sand flowing back into the system during backwash._
 
 <p align="center"> <img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Images/in%20pipe%20model.jpg?raw=true" heights=310 width=927> </p>
 
