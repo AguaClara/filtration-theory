@@ -1,6 +1,6 @@
 # StaRS Filter Theory, Spring 2019
 #### Barbara Oramah, Lainey Reed, Pablo Alonso Alguacil and Ronya Strom
-##### 27th May, 2019 **[Update the date]**
+##### 10th May, 2019 **[Update the date]**
 
 **[Sidney: Hey team! I'll be commenting in these bolded square brackets.]**
 
@@ -10,7 +10,7 @@
 
 ### Abstract
 
-Stacked Rapid Sand (StaRS) Filtration is the last stage in an AguaClara treatment plant. The filters are used to further reduce the turbidity of water to meet EPA standards of 0.3 NTU or less. As a whole, the StaRS subteam is working to develop a mathematical model to describe sand filtration. This semester, the StaRS Filter Theory team will be running experiments with the three newly constructed StaRS filters with varying sand grain sizes. This research will show the extent to which sand grain size has an effect **[effect?]** on filter performance.
+Stacked Rapid Sand (StaRS) Filtration is the last stage in an AguaClara treatment plant. The filters are used to further reduce the turbidity of water to meet EPA standards of 0.3 NTU or less. As a whole, the StaRS sub-team is working to develop a mathematical model to describe sand filtration. This semester, the StaRS Filter Theory team will be running experiments with the three newly constructed StaRS filters with varying sand grain sizes. This research will show the extent to which sand grain size has an effect **[effect?]** on filter performance.
 
 
 ### Table of Contents
@@ -23,6 +23,7 @@ Stacked Rapid Sand (StaRS) Filtration is the last stage in an AguaClara treatmen
 - [Future Work](#Future-Work)
 - [Manual](#Manual)
   - [Connecting Four Turbidimeters to ProCoDa](#Connecting-Four-Turbidimeters-to-ProCoDa)
+  - [Turbidimeter Cleaning Procedures](#Turbidimeter-Cleaning-Procedures)
 - [Appendix](#Appendix)
   - [StaRS Filter Theory Experimental Python Documentation](#StaRS-Filter-Theory-Experimental-Python-Documentation)
 
@@ -127,19 +128,25 @@ The Spring 2019 StaRS Team decided to change major design components as a result
 
 The different design changes were the removal of the reducer of the pump and a change in the inlets of the pipes.
 
-Due to the addition of two new filters, the pump was unable to achieve the necessary flow rate to fluidize the three sand beds. To fixed this, the team removed the reducer that was attached to the pump in order to obtain a higher velocity. In addition, the tubing that connected the pump to the rest of the apparatus was very old and therefore the team replaced it with newer pipes.
+Due to the addition of two new filters, the pump was unable to achieve a high enough flow rate to fluidize the three sand beds. To fix this, the team removed the reducer that was attached to the pump in order to obtain a higher velocity. In addition, the tubing that connected the pump to the rest of the apparatus was worn down, possibly causing inefficiency, and therefore the team replaced it with newer pipes.
 
-As the team was filling up the filters, a major issue that was discovered was sand back-flowing in the system through the inlet pipe. This was not an issue with the outlet pipe due the mesh. In reference to the Fall 2018 StaRS team, The [Pipe Design Procedure](https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Fall%202018%20Report.md#procedure) shows that mesh was not added to the inlet pipe. This was based on the design from previous teams. The team did not consider that as there are three filters in the new experimental design that undergo the same flows from the same pump this would cause back-flow of sand into the system from all three filters. Therefore the Spring 2019 team decided to modify the design of the inlet pipe by adding fine mesh at the entry.
+As the team was filling up the filters, a major issue discovered was sand back-flowing in the system through the inlet pipe. This was not an issue with the outlet pipe due to the mesh installed inside the pipe. In reference to the Fall 2018 StaRS team, The [Pipe Design Procedure](https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Fall%202018%20Report.md#procedure) shows that mesh was not added to the inlet pipe. This was based on the design from previous teams. The team did not consider that as there are three filters in the new experimental design that undergo the same flows from the same pump this would cause back-flow of sand into the system from all three filters. Therefore the Spring 2019 team decided to modify the design of the inlet pipe by adding fine mesh at the entry.
+
+After the new pipe inlets were constructed, the apparatus had to be taken apart to wash the sand out of the tubing and to replenish the sand within the filter column. This led to the emergence of more leaks, located at the inlets, which were mostly fixed by teflon tape. There was some leaking still, but the team was unable to fix it.
+
+The team also experienced leaks in the clay stock. The new tubing for the clay was not the right size, as the lab had run out of the proper size, and so was consistently leaking clay. The team ordered the right size of microtubing but it did not arrive at the lab before the end of the semester.
+
+The last setback the team experience happened with the turbidimeters. The team broke a turbidimeter by allowing it to get wet. The team decided to run a test while the turbidimeter was broken, just to collect some data. However, the team learned later that they did not know the proper cleaning procedures for the turbidimeters so the data was unusable. The team warns future StarS teams to consult the cleaning manual established by the 2015 team before running any experiments. Instructions on how to properly clean the cuvettes is also included in this report's manual.
 
 The design changes have been major setback to the Spring 2019 StaRS team. This has pushed back the team's ability to run experiments this semester.
 
 ### Future Work
 
-The team is currently working towards preparing a system to add the clay into the apparatus to ensure a desirable influent turbidity. The team needs to create a mixing system to prevent the clay from settling down with a stirrer, and create a structure to support that addition, as the bench is full.
+Future teams must be cautious of air bubbles entering the system, and determining how to minimize the entrance and effect of the air bubbles. This can be linked to leaks in the system from the inlet tubing of the filters. Additionally, the Spring 2019 team is currently working towards preparing a system to add the clay into the apparatus to ensure a desirable influent turbidity. The microtubing must be connected from the stock tank to the clay pump. This is the last step necessary before experiments can be run.
 
-The StaRS Spring 2019 team will be filling the filters with the varying sand grain sizes as well as determining the proper coagulant dosage that the system will require when running experiments. The code for determining the coagulant concentration can be found in the appendix. Methods for the team's experiments will need to be drafted into a manual.
+Lastly, experiments of all three filters must be run to determine how sand diameter size has an effect on filter efficiency. Varying coagulant dosage is another parameter that should be explored in future experiments. Moreover, future teams must take note of the pressure within all three of the filters and make an analysis using the Karmen-Kozeny equation. The Karmen-Kozeny equation calculates the pressure drop of fluid through a packed bed of solids.
 
-As the apparatus was operating, one major issue that the team found was a considerable amount of air bubbles within the system. Future teams would need to take this into consideration when running experiments to make sure that they do not interfere with the data collected.
+
 
 ### Bibliography
 
@@ -187,6 +194,15 @@ In reference to the Fall 2018 StaRS team procedure for inlet pipe design, the te
 <p align="center"> <b>Figure 4</b>: Illustrates the appearance of the inlet pipe. </p>
 
 Note: The team contacted the CEE machine shop to assist in the construction of the three inlet and three outlet pipes.
+
+##### Turbidimeter Cleaning Procedures
+
+1. Run half backwash state and then start Backwash. According to the Fall 2015 team, this reduces the speed at which the pressure increases within the system. After backwash has been run, turn the filter state to "Off" and close the inlet and outlet flows to the apparatus. The Fall 2015 team, instead of going to off state immediately after backwash, used a state called "Backwash Ending" that gradually reduced the pump speed to turn off backwash.
+2. Remove each of the turbidimeter cuvettes from the turbidimeter, by first removing the entire cuvette attachment and putting it over a container to collect the water, away from the turbidimeter, and unscrewing the cuvette.
+3. Wash the cuvette out with deionized water. Check the cuvette for any impurities on the glass, and clean them with a sponge gently so as to not scratch the glass.
+4. Check the turbidimeter for leaks by looking into the spot where the cuvette was and seeing if there is any water below. If there is water or the pad is wet, unscrew the turbidimeter at the joint below the screen, take the white foam pad out, and dry it in the oven before putting it back in the turbidimeter.
+5. Once the cuvettes are cleaned and the turbidimeter is dry, rescrew the cuvettes back in. Dry and clean them off with kimwipes, to make sure no water or any particles remain on the glass.
+6. Leave the cuvettes outside of the turbidimeters and run the state "Filter No Clay". Make sure no water is leaking out of the cuvettes. As long as they are sealed and dry, reinsert them into the turbidimeters, making sure to wipe down the cuvettes with the kimwipes if you touch them.
 
 
 ### Appendix
@@ -275,6 +291,13 @@ print(stock_volume)
 #Volume is: 28.46 microliters
 # Now we can calculate volume needed in the future if the stock concentration changes
 
+#stock concentration in the lab now, may change as new stock is created
+stock_concentration=70.28 *u.g/u.l
+#total volume of team PACl tank, larger volume than past teams to account for more filters
+tank_volume=2* u.l
+#final desired PACl concentration using ideal failure time from past experiments, may be changed in future experiments
+pacl_concentration=.0004* u.l
+#calculation for
 ```
 
 
