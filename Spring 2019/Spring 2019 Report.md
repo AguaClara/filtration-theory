@@ -114,7 +114,7 @@ The apparatus depicted in Figure 4 was designed to work in the following way in 
 During backwash, labelled in red, water flows from the water inlet (1) and through the now open solenoid B. It runs backwards through the three turbidimeters and filters, entering the filter column through the outlets (11-1,11-2,11-3). Solenoid D was closed during backwash, preventing water from moving into the flocculator and the clay and PACl stocks. Water exited the filters from above, by passing through the now open solenoid valve B, and through the exit. This design is also pictured in Figure 5.
 
 <p align="center">
-<img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Spring%202019/Updated%20Apparatus%20Set-Up.jpg?raw=true" heights=720 width=1260>
+<img src="https://github.com/AguaClara/stars_filter_theory/blob/master/Spring%202019/apparatus%20set-up%202.jpg?raw=true" heights=720 width=1260>
 </p>
 
 <p align="center">
