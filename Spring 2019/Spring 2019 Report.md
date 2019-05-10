@@ -10,7 +10,7 @@
 
 ### Abstract
 
-Stacked Rapid Sand (StaRS) Filtration is the last stage in an AguaClara treatment plant. The filters are used to further reduce the turbidity of water to meet EPA standards of 0.3 NTU or less. As a whole, the StaRS sub-team is working to develop a mathematical model to describe sand filtration. This semester, the StaRS Filter Theory team will be running experiments with the three newly constructed StaRS filters with varying sand grain sizes. This research will show the extent to which sand grain size has an effect **[effect?]** on filter performance.
+Stacked Rapid Sand (StaRS) Filtration is the last stage in an AguaClara treatment plant. The filters are used to further reduce the turbidity of water to meet EPA standards of 0.3 NTU or less. As a whole, the StaRS sub-team is working to develop a mathematical model to describe sand filtration. This semester, the StaRS Filter Theory team worked towards running experiments with the three newly constructed StaRS filters with varying sand grain sizes. This research will show the extent to which sand grain size has an effect **[effect?]** on filter performance.
 
 
 ### Table of Contents
@@ -31,9 +31,9 @@ Stacked Rapid Sand (StaRS) Filtration is the last stage in an AguaClara treatmen
 ### Introduction
 Sand filtration has been used since ancient times. In AguaClara water treatment plants, a common type of sand filtration is used - rapid (gravity) sand filtration. This filtration method requires the use of a chemical coagulant, polyaluminum chloride (PACl **[We write PACl]**), to aggregate small particles (flocs) to increase the ease of particle filtration. This filter design has proven to reduce turbidity below 0.3 NTU, which meets the EPA standards. Experimentation performed on the model sand filter in the lab and the sand filters in the water treatment plants built in Honduras have proved the effectiveness of StaRS filters.
 
-The goal of the StaRS Filter Theory sub-team is to develop a mathematical model describing the filter performance. To do so, the relevant filtration parameters must be determined through experimentation. These parameters can then be used to optimize filter performance for minimum effluent turbidity and maximum failure time. The filter parameters that have been investigated by previous sub-teams include coagulant dosage, influent flow rate, influent turbidity, backwash duration (e.g. the time needed for the system to clean itself between runs) and floc size. The Spring 2019 team would be  **[Try to use consistent past tense]** running experiments and analyzing the performance with the 3 new StaRS filters that were built by the previous team. Each of the filters contain a layer of sand, differing in their sand grain size.
+The goal of the StaRS Filter Theory sub-team is to develop a mathematical model describing the filter performance. To do so, the relevant filtration parameters must be determined through experimentation. These parameters can then be used to optimize filter performance for minimum effluent turbidity and maximum failure time. The filter parameters that have been investigated by previous sub-teams include coagulant dosage, influent flow rate, influent turbidity, backwash duration (e.g. the time needed for the system to clean itself between runs) and floc size. The Spring 2019 team prepared for  **[Try to use consistent past tense]** running experiments with and analyzing the performance of the 3 new StaRS filters that were built by the previous team. Each of the filters contain a layer of sand, differing in their sand grain size.
 
-Last semester, while focusing on fabricating three new filters, the team developed a hypothesis for how sand grain size affects filter performance. The team hypothesized that the filter with the largest sand grains would have the shortest failure time. This hypothesis has not changed within the Spring 2019 team. Failure time corresponds to the time taken for the filter performance efficiency to decrease drastically. The team expects that flocs will be deposited along the sand pores at the same rate in every filter because the rate of the influent stream will be held constant. However, the volume of the filter will be held constant, so when sand grain size increases, the number of sand grain pores in the filter decreases. Ultimately, this means that for a filter filled with larger sand grains, there will be fewer sand pores active at one time. This is demonstrated in Figure 1. This decrease in pore number may cause the active filtration zone to move through the filter faster, leading to a quicker failure time.
+Last semester, while focusing on fabricating three new filters, the team developed a hypothesis for how sand grain size affects filter performance. The team hypothesized that the filter with the largest sand grains would have the shortest failure time. This hypothesis had not changed within the Spring 2019 team. Failure time corresponds to the time taken for the filter performance efficiency to decrease drastically. The team expected that flocs will be deposited along the sand pores at the same rate in every filter because the rate of the influent stream will be held constant. However, the volume of the filter will be held constant, so when sand grain size increases, the number of sand grain pores in the filter decreases. Ultimately, this means that for a filter filled with larger sand grains, there will be fewer sand pores active at one time. This is demonstrated in Figure 1. This decrease in pore number may cause the active filtration zone to move through the filter faster, leading to a quicker failure time.
 
 
 <p align="center">
@@ -58,7 +58,6 @@ One of the team's goals in varying sand grain size is to understand how the grai
 
 Investigations into grain sizes of glass beads have found that grain size has less of an effect compared to changes in coagulant doses ([Chuang & Li, 1997](https://doi.org/10.1016/S1383-5866(97)00048-8)). Larger doses of coagulant lead to a shorter ripening time, but also lead to an increased rate of pore clogging and to an increase in the shear force in unclogged pores. However, grain size can have effects depending on the coagulant and flocculant dosages. In this study, a flocculant, separate from the coagulant, was used to further increase flocculation. The researchers found that larger grains in addition to both flocculant and higher coagulant dosages reduced the rate of pore clogging. They hypothesized that it was because larger aggregates were able to pass through the pores between the larger glass beads. In the future, the team will be varying both coagulant dosage and grain size, as was done in this study. However, sand will be used as a filter material, as is used in AguaClara plants. Furthermore, AguaClara plants only use PaCl, a coagulant, not both a coagulant and a flocculant. The flocculant increased the extent to which the reduction in clogging was observed within the study. The team would expect to see greater clogging than what was seen in this study in the larger sand grains.
 
-As the semester progresses and experiments begin, the team hopes to review more literature to aid with our research.
 
 ### Previous Works
 
@@ -73,7 +72,7 @@ The Spring 2018 team focused primarily on changing the density of floc particles
 </p>
 
 <p align="center">
-<b>Figure 2 </b>: The schematic for the Spring 2018 experimental filter apparatus in filter mode.
+<b>Figure 2 </b>: The schematic for the Fall 2018 experimental filter apparatus in filter mode.
 </p>
 
 **[This is Figure 2 not Figure 3. The following figure numbers are also wrong.]**
@@ -108,7 +107,7 @@ The Spring 2019 team slightly altered the design from the Fall 2018 team. **[Ref
 
 **[Perhaps walking through the flow process through your apparatus would be worth your time here because the diagram is not super easy on the eyes and can be a bit difficult to understand.]**
 
-After setting up the apparatus, more changes were made. Figure 4 is the schematic while Figure 5 is an image of the current iteration of the apparatus for the Spring 2019 StaRS Filter Team. The solenoid valves that were placed after each filter were removed. The backwash line was attached directly to the inlet and the outlet lines, with a solenoid valve to control the direction of flow.
+After setting up the apparatus, more changes were made to the experimental apparatus. Figure 4 is the schematic while Figure 5 is an image of the current implementation of the apparatus for the Spring 2019 StaRS Filter Team. The solenoid valves that were placed after each filter were removed. The backwash line was attached directly to the inlet and the outlet lines, with a solenoid valve to control the direction of flow.
 
 The apparatus depicted in Figure 4 was designed to work in the following way in the filtering state, labelled in green. The water entered the system through the water inlet (1) and mixed with the clay, which has been pumped in from the clay-water solution (3,4). The turbidity was then measured in the influent turbidimeter (5). The PACl was pumped in and mixed with the clay solution in the contact chamber (6,7).  As the water ran through the flocculator, flocs began to form before the water reached the filters (8). A check valve prevented backwards flow (C) and the solenoid valve D was open to allow the passage of water. The water split and flowed into each filter (10-1,10-2,10-3), through an inlet at the top of the sand bed (9-1,9-2,9-3) then out of the respective outlet (11-1,11-2,11-3). The closed solenoid valve B forced the water through the outlets. A pressure sensor was attached to the inlet and outlet of each filter column. The treated water, still in three streams then moved into the effluent turbidimeters (12-1,12-2,12-3), which combined into one stream that was then pumped out of the system (Exit).
 
@@ -124,17 +123,17 @@ During backwash, labelled in red, water flows from the water inlet (1) and throu
 
 ### Troubleshooting/Design Changes
 
-The Spring 2019 StaRS Team decided to change major design components as a result to the new experimental set-up of 3 new filter designs.
+The Spring 2019 StaRS Team decided to change major design components as a result of the new experimental set-up of 3 new filter designs.
 
 The different design changes were the removal of the reducer of the pump and a change in the inlets of the pipes.
 
-Due to the addition of two new filters, the pump was unable to achieve a high enough flow rate to fluidize the three sand beds. To fix this, the team removed the reducer that was attached to the pump in order to obtain a higher velocity. In addition, the tubing that connected the pump to the rest of the apparatus was worn down, possibly causing inefficiency, and therefore the team replaced it with newer pipes.
+Due to the addition of two new filters, the pump was unable to achieve a high enough flow rate to fluidize the three sand beds. To fix this, the team removed the reducer that was attached to the pump in order to obtain a higher velocity. In addition, the tubing that connected the pump to the rest of the apparatus was worn down, possibly causing inefficiency, and therefore the team replaced it with newer tubing.
 
-As the team was filling up the filters, a major issue discovered was sand back-flowing in the system through the inlet pipe. This was not an issue with the outlet pipe due to the mesh installed inside the pipe. In reference to the Fall 2018 StaRS team, The [Pipe Design Procedure](https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Fall%202018%20Report.md#procedure) shows that mesh was not added to the inlet pipe. This was based on the design from previous teams. The team did not consider that as there are three filters in the new experimental design that undergo the same flows from the same pump this would cause back-flow of sand into the system from all three filters. Therefore the Spring 2019 team decided to modify the design of the inlet pipe by adding fine mesh at the entry.
+As the team was filling up the filters, a major issue discovered was sand back-flowing in the system through the inlet pipe. This was not an issue with the outlet pipe due to the mesh installed inside the pipe. In reference to the Fall 2018 StaRS team, the [Pipe Design Procedure](https://github.com/AguaClara/stars_filter_theory/blob/master/Fall%202018/Fall%202018%20Report.md#procedure) shows that mesh was not added to the inlet pipe. This was based on the design from previous teams. The team did not consider that the three filters in the new experimental design undergoing the same flows from the same pump would cause back-flow of sand into the system. The Fall 2015 team actually experienced this as well, and their solution was to disconnect and clean out the tubing before each run. They, however, did not have to worry about different sand sizes potentially getting mixed up. Therefore the Spring 2019 team decided to modify the design of the inlet pipe by adding fine mesh at the entry.
 
 After the new pipe inlets were constructed, the apparatus had to be taken apart to wash the sand out of the tubing and to replenish the sand within the filter column. This led to the emergence of more leaks, located at the inlets, which were mostly fixed by teflon tape. There was some leaking still, but the team was unable to fix it.
 
-The team also experienced leaks in the clay stock. The new tubing for the clay was not the right size, as the lab had run out of the proper size, and so was consistently leaking clay. The team ordered the right size of microtubing but it did not arrive at the lab before the end of the semester.
+The team also experienced leaks in the clay stock inlet. The new tubing for the clay was not the right size, as the lab had run out of the proper size. This caused consistent leaking of clay stock.  The team ordered the right size of microtubing but it did not arrive at the lab before the end of the semester.
 
 The last setback the team experience happened with the turbidimeters. The team broke a turbidimeter by allowing it to get wet. The team decided to run a test while the turbidimeter was broken, just to collect some data. However, the team learned later that they did not know the proper cleaning procedures for the turbidimeters so the data was unusable. The team warns future StarS teams to consult the cleaning manual established by the 2015 team before running any experiments. Instructions on how to properly clean the cuvettes is also included in this report's manual.
 
@@ -142,11 +141,9 @@ The design changes have been major setback to the Spring 2019 StaRS team. This h
 
 ### Future Work
 
-Future teams must be cautious of air bubbles entering the system, and determining how to minimize the entrance and effect of the air bubbles. This can be linked to leaks in the system from the inlet tubing of the filters. Additionally, the Spring 2019 team is currently working towards preparing a system to add the clay into the apparatus to ensure a desirable influent turbidity. The microtubing must be connected from the stock tank to the clay pump. This is the last step necessary before experiments can be run.
+Future teams must be cautious of air bubbles entering the system, and determine how to minimize the entrance and effect of the air bubbles. This could be linked to leaks in the system from the inlet of the filter columns. Additionally, the Spring 2019 team is currently working towards preparing a system to add the clay into the apparatus to ensure a desirable influent turbidity. The microtubing must be connected from the stock tank to the clay pump. This is the last step necessary before experiments can be run.
 
 Lastly, experiments of all three filters must be run to determine how sand diameter size has an effect on filter efficiency. Varying coagulant dosage is another parameter that should be explored in future experiments. Moreover, future teams must take note of the pressure within all three of the filters and make an analysis using the Karmen-Kozeny equation. The Karmen-Kozeny equation calculates the pressure drop of fluid through a packed bed of solids.
-
-
 
 ### Bibliography
 
