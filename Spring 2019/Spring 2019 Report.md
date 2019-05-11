@@ -290,7 +290,7 @@ print(stock_volume)
 
 
 ```
-###### Calculations for PaCl concentration
+###### Calculations for Clay Stock
 
 ```python
 #importing aguaclara packages needed for calculations
