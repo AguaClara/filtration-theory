@@ -6,7 +6,7 @@ Repository for Stacked Rapid Sand (StaRS) Filter Theory sub-team.
 Jonathan Harris: jdh345@cornell.edu
 
 ## Current Team Members
-Claire Kenwood:  @cornell.edu, 
+Claire Kenwood: cek225@cornell.edu, (630)-441-5136
 
 Wenjie Lu: wl424@cornell.edu, (424)-202-2008 
 
