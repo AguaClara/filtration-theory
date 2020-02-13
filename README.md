@@ -25,7 +25,7 @@ Understand the physics of filtration and the failure mechanism in Stacked Rapid 
 
 
 ### Fall 2019
-[Final Report]
+[Final Report](https://github.com/AguaClara/filtration-theory/blob/master/StaRS_Filter_Theory_Fall_2019_Final_Report.ipynb)
 
 [Mid-Semester Symposium](https://docs.google.com/presentation/d/1AiEq2w3LTiTdpFJl42CnEjQ4OfFoerObIgDUJavqZq0/edit#slide=id.g1d8aa0ef8d_0_11)
 
