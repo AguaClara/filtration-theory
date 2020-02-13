@@ -29,7 +29,7 @@ Understand the physics of filtration and the failure mechanism in Stacked Rapid 
 
 [Mid-Semester Symposium](https://docs.google.com/presentation/d/1AiEq2w3LTiTdpFJl42CnEjQ4OfFoerObIgDUJavqZq0/edit#slide=id.g1d8aa0ef8d_0_11)
 
-[Final Presentation Video]
+[Final Presentation Video](https://www.youtube.com/watch?v=qcks0E9nsQY)
 
 [Final Presentation Slides](https://docs.google.com/presentation/d/1wvwBL_6Lntt1EQpTsBn55t1jKjUN-gUFaQEPoEQ6itc/edit#slide=id.g6c2609749b_0_0)
 
