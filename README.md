@@ -31,7 +31,7 @@ Understand the physics of filtration and the failure mechanism in Stacked Rapid 
 
 [Final Presentation Video]
 
-[Final Presentation Slides] (https://docs.google.com/presentation/d/1wvwBL_6Lntt1EQpTsBn55t1jKjUN-gUFaQEPoEQ6itc/edit#slide=id.g6c2609749b_0_0)
+[Final Presentation Slides](https://docs.google.com/presentation/d/1wvwBL_6Lntt1EQpTsBn55t1jKjUN-gUFaQEPoEQ6itc/edit#slide=id.g6c2609749b_0_0)
 
 ### Spring 2019
 [Final Report](https://github.com/AguaClara/stars_filter_theory/blob/master/Spring%202019/Spring%202019%20Report.md)
