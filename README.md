@@ -3,7 +3,7 @@ Repository for Stacked Rapid Sand (StaRS) Filter Theory sub-team.
 
 ## Research Advisor
 
-Emily Spiek: @cornell.edu
+Emily Spiek: eas397@cornell.edu
 
 ## Current Team Members
 Claire Kenwood: cek225@cornell.edu, (630)-441-5136
