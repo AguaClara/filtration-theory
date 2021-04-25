@@ -3,16 +3,15 @@ Repository for Stacked Rapid Sand (StaRS) Filter Theory sub-team.
 
 ## Research Advisor
 
-Emily Spiek: eas397@cornell.edu
+Ada Lian: al894@cornell.edu
 
 ## Current Team Members
-Claire Kenwood: cek225@cornell.edu, (630)-441-5136
+Rachel Lai: rml267@cornell.edu
 
-Wenjie Lu: wl424@cornell.edu, (424)-202-2008 
+Dhruv Misra: dm668@cornell.edu
 
-Kelly Ly: kl883@cornell.edu, (786)-543-1742
+Isabelle Breedveld: ikb22@cornell.edu
 
-Valentina Dai: ld466@cornell.edu, (217)-305-0949
 
 ## Team Goal
 Understand the physics of filtration and the failure mechanism in Stacked Rapid Sand Filters in order to model the performance of the filter in existing AguaClara Plants through observing the interactions between influent turbidity, PACl dosage, and floc size.
@@ -24,13 +23,6 @@ Understand the physics of filtration and the failure mechanism in Stacked Rapid 
 ### Spring 2020
 [Mid-Semester Report](https://colab.research.google.com/drive/1Cng-G74j1DCCZy3ZduBcfbl5Bf_tvdpR#scrollTo=awle31N5ykbr)
 
-[Final Report]
-
-[Mid-Semester Symposium]
-
-[Final Presentation Video]
-
-[Final Presentation Slides]
 
 ### Fall 2019
 [Final Report](https://github.com/AguaClara/filtration-theory/blob/master/StaRS_Filter_Theory_Fall_2019_Final_Report.ipynb)
