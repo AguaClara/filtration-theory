@@ -1,11 +1,11 @@
 # StaRSFilterTheory
 Repository for Stacked Rapid Sand (StaRS) Filter Theory sub-team.
 
-## Research Advisor
+## Past Research Advisor
 
 Ada Lian: al894@cornell.edu
 
-## Current Team Members
+## Past Team Members
 Rachel Lai: rml267@cornell.edu
 
 Dhruv Misra: dm668@cornell.edu
